@@ -202,7 +202,14 @@ Mel to fill out (post 3/10)
 
 AI Prototype (Kai)
 
+https://wokwi.com/projects/425032280169786369
+
 Robotic Prototype/Materials Audit (Cass)
+
+<img width="404" alt="Example Syllabot body" src="https://github.com/user-attachments/assets/560938b2-fff0-4f05-96f1-48dfecd44094" />
+<img width="851" alt="Different interaction flows" src="https://github.com/user-attachments/assets/f1426c34-d06f-4e9d-9a0c-a835707f8431" />
+
+
 
 ## Midterm reflection
 
