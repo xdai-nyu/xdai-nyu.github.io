@@ -1,4 +1,4 @@
-## [PROJECT]: AI-Powered Scenario-Based Entrepreneurship Practice Platform 
+## AI-Powered Scenario-Based Entrepreneurship Practice Platform 
 ## Team Name:
 Monopoly
 ## Project Members: 
