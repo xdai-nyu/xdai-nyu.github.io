@@ -1,4 +1,5 @@
-## Whisper - Personalized Visual and Auditory Environments
+# [PROJECT]: Whisper 
+## Personalized Visual and Auditory Environments
 ![image](https://github.com/user-attachments/assets/bd19c043-ec33-482a-b5c5-82f4c11926da)
 
 ## Project Members:
