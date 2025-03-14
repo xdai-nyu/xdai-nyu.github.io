@@ -1,4 +1,4 @@
-# [PROJECT]: Syllabot 
+## [PROJECT]: Syllabot 
 ### Learning to read through gamified embodied storytelling
 ### Project Members: 
 Melody Hammer, Cass Scheirer, Shengkai (Kai) Xu

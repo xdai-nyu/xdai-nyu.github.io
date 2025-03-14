@@ -1,4 +1,4 @@
-# [PROJECT]: AI-Powered Book Club and Local Bookstore Connector 
+## [PROJECT]: AI-Powered Book Club and Local Bookstore Connector 
 ## ShelfSprout
 ## Qadira Razman, Ranju Krishna 
 ## Project Brief:  

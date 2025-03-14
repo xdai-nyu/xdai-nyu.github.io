@@ -1,4 +1,4 @@
-# [PROJECT]: Cognizance: Your Deep Learning Pal
+## [PROJECT]: Cognizance: Your Deep Learning Pal
 ## Project Members: 
 Danira (Dira) Khatwani, Huishan (Rae) Ruan, Zulsyika (Syika) Nurfaizah
 
