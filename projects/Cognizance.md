@@ -11,35 +11,64 @@ Reading assignments are a fundamental part of college education, yet many studen
 Scaffolding effectively supports students' reading comprehension, particularly when students are guided through progressive levels of engagement with the text (Wood, Bruner, & Ross, 1976). However, traditional methods of scaffolding, such as instructor-led discussions and guided reading exercises, are difficult to scale. Many students are left to navigate complex texts on their own, often struggling to engage with the material at the deeper level expected in college courses.
 
 ## Rationale for AI Assistant
-AI can provide a personalized scaffolding experience that helps college students engage in active, deeper reading of course materials. The AI assistant can work alongside students as they complete reading assignments, offering structured guidance to help them process, analyze, and critically engage with texts. Prior research shows that AI-enhanced reading interventions can improve comprehension, promote metacognition, and foster deeper engagement with academic texts (Graesser et al., 2005; McNamara et al., 2012).
+AI can provide a personalized scaffolding experience that helps college students engage in active, deeper reading of course materials. The AI assistant can work alongside students as they complete reading assignments, offering structured guidance to help them process, analyze, and critically engage with texts. Prior research shows that AI-enhanced reading interventions can improve comprehension, promote metacognition, and foster deeper engagement with academic texts (Graesser et al., 2005; McNamara et al., 2012).  
 
 The AI will provide scaffolded reading support through:
 1. Scaffolding Learning – AI guides students through structured questioning, interactive explanations, and learning progress visualization.
 2. Encouraging Constructive Negotiation – AI challenges students with counterarguments, debate prompts, and opposing viewpoints.
 
-We translated those into several features:
-**Must Have**: 
-1. ✅ Personalized Questioning: Provide a scaffolding based on students’ personal ZPD and needs using the Socratic method and structured breakdown.
+We translated those into several features:  
+### Must Have: 
+1. ✅ Personalized Scaffolding: Provide a scaffolding based on students’ personal ZPD and needs using the Socratic method and structured breakdown.
 2. ✅ Context-Aware Responses: AI grounds responses in course materials (RAG approach).
 Provides citations & links to relevant resources to reduce misinformation.
-3. ✅ Go Deeper/Simplify Option: As part of scaffolding, suggest students prompts/topics to ask the AI.
 
-**Nice to Have**
+### Nice to Have
 1. Notes: A dedicated section for note-taking, to sum up the main points of conversations with AI.
 2. Analytics: Tracking data analytics to improve students' learning performance.
 3. Summary: Informational menu to summarize the conversation, key terms, and additional resources to delve deeper into the concept.
 
 ## Need-Finding Insights
-Our initial project focus is on developing AI add-ons/plugins for LMS, here is our survey form: [Needs Analysis for Cognizance: Your Personalized Learning Pal](https://forms.gle/ueL9fDrshxe9L3Wx6)
+Our initial project focus is on developing AI add-ons/plugins for LMS, here is our survey form: [Needs Analysis for Cognizance: Your Personalized Learning Pal](https://forms.gle/ueL9fDrshxe9L3Wx6)  
 
-### Insights:
-1. Students struggle with information overload (85.7%)
-2. Students struggle with reading scanned PDFs (78.6%)
-3. Difficulty with critical thinking (57.1%)
-4. Remembering information (57.1%)
-5. Difficult navigating LMS (42.9%)
-6. Low engagement (42.9%)
-10. Making connections between texts (35.7%)
+Based on our initial survey questions, we discovered several interesting insights:  
+
+### 1. LMS is not used as a study platform
+![image](https://github.com/user-attachments/assets/8020d960-ceb6-4224-8688-62d6cd1dd56c)
+> [!NOTE]
+> Most respondents view LMS as a tool for receiving instructor feedback, submitting assignments, and accessing learning materials instead of an active study platform. **Respondents prefer offline tools** (document readers) to read and annotate the learning contents. LMS discussion features are perceived as less effective, often used for participation points rather than meaningful discussion, they prefer third-party communication tools like Slack.  
+
+### 2. Clear information and intuitive navigation support comprehension
+![image](https://github.com/user-attachments/assets/4c43f671-e5e4-4b6f-a71d-6166f2f99a2f)
+> [!NOTE]
+> Respondents like clear information (notifications and reminders), content presentation, and easy access to resources in LMS.  
+
+### 3. The biggest challenge for respondents' comprehension is information overload
+![image](https://github.com/user-attachments/assets/1a80d4ec-b28a-4ddd-8018-fd29df7b030f)
+> [!NOTE]
+> The information overload is caused by **too much unstructured content (75%) and lack of visuals or interactive elements (56.3%)**.  
+
+### 4. Respondents struggle with hard-to-read text and remembering information over time
+![image](https://github.com/user-attachments/assets/30e81a0a-66a4-4399-a3ed-e567c4a2b51f)
+> [!NOTE]
+> **68.8%** of respondents struggle with low-quality scanned documents and hard-to-read text, and **62.5%** of respondents struggle with remembering information over time, which could be caused by surface learning because **50%** of the respondents struggle to think critically about the materials.  
+
+### 5. Respondents actively use AI tools and search for more resources to support their comprehension
+![image](https://github.com/user-attachments/assets/18e995ff-c981-4b83-99e1-06e3d60eeeec)
+> [!NOTE]
+> Most of the respondents use AI tools **(81.3%)**, search for more resources **(81.3%)**, and reread the materials **(56.3%)** to deepen their understanding of the learning contents.  
+
+### 6. Further Insights:
+- Common study methods to enhance comprehension include note-taking, task management, and removing distractions.
+- AI tools that respondents often use are ChatGPT, Gemini, Claude.ai, DeepSeek, SciSpace, and NotebookLM to summarize, paraphrase, break down, cross-check, and brainstorm. Immersive Translate and AI Translation Tools to translate reading materials and unfamiliar words in real time.
+- Instead of using AI in LMS, it's better to focus on reading comprehension aid since LMS is mostly used as a repository and task-tracking.
+- Desired features for AI-enhanced learning assistant include **material structuring and organization, generating visuals to complement text-based information, controversy radar and additional resources, built-in translation features, learning roadmaps, and learning analytics**
+- Current user workflow includes a) user downloads learning content from LMS; b) user uses document reader tools (Zotero, Adobe Acrobat, etc.) to read, annotate, and organize materials; c) user jumps to AI tools (ChatGPT, Gemini, Claude.ai, DeepSeek, SciSpace, NotebookLM, etc.) to summarize, paraphrase, break down, cross-check, brainstorm, or translate learning contents.
+
+## Design Implication
+Based on the insights from the need analysis, the design implications of our project are:  
+1. AI tool that adapts to the learner’s prior knowledge, learning level, and pace, offering personalized guidance and content.
+2. AI tool that provides Socratic method questions for users to deepen and widen their understanding of the concept. Ensuring that learners truly grasp the concept across various contexts.  
 
 ## Rapid Prototyping
 We created the three main features of the tools:
