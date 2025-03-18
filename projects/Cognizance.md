@@ -36,7 +36,7 @@ Based on our initial survey questions, we discovered several interesting insight
 ### 1. LMS is not used as a study platform
 ![image](https://github.com/user-attachments/assets/8020d960-ceb6-4224-8688-62d6cd1dd56c)
 > [!NOTE]
-> Most respondents view LMS as a tool for receiving instructor feedback, submitting assignments, and accessing learning materials instead of an active study platform. **Respondents prefer offline tools** (document readers) to read and annotate the learning contents. LMS discussion features are perceived as less effective, often used for participation points rather than meaningful discussion, they prefer third-party communication tools like Slack.  
+> Most respondents view LMS as a tool for receiving instructor feedback, submitting assignments, and accessing learning materials instead of an active study platform. **Respondents prefer offline tools** (document readers) to read and annotate the learning contents. LMS discussion features are perceived as less effective, and often used for participation points rather than meaningful discussion, they prefer third-party communication tools like Slack.  
 
 ### 2. Clear information and intuitive navigation support comprehension
 ![image](https://github.com/user-attachments/assets/4c43f671-e5e4-4b6f-a71d-6166f2f99a2f)
@@ -72,9 +72,8 @@ Based on the insights from the need analysis, the design implications of our pro
 
 ## Rapid Prototyping
 We created the three main features of the tools:
-1. [Personalized Questioning](https://docs.google.com/presentation/d/1WFbNK2ebd417xdE2LZAnpKFHLCr41i2StBAc3RFlx2g/edit?usp=sharing)
-2. [Context-Aware Responses](https://docs.google.com/presentation/d/1TvTVOP62yK9dFGJzMGFjXJEIZtjMMfiiNW6y_tg0CWA/edit?usp=sharing)
-3. [Go Deeper](https://drive.google.com/file/d/1_a6yMc7inEqOfUwZWeBCA_xNYqzwJBQs/view?usp=drive_link)/[Simplify Option](https://drive.google.com/file/d/1iZDgoTibtICvS6cP2o_VLRTZUqMrAT11/view?usp=drive_link)
+1. [UI Prototype](https://docs.google.com/presentation/d/1TvTVOP62yK9dFGJzMGFjXJEIZtjMMfiiNW6y_tg0CWA/edit?usp=sharing)
+3. [Interaction Prototype](https://colab.research.google.com/drive/11VSD-We5alK8JneeI8dcZ4SGC9F0iqqD?usp=sharing)
 
 ## References
 1. Chi, M. T. H. (2009). Active-constructive-interactive: A conceptual framework for differentiating learning activities. Topics in Cognitive Science, 1(1), 73-105.
@@ -82,3 +81,20 @@ We created the three main features of the tools:
 3. McNamara, D. S., Levinstein, I. B., & Boonthum, C. (2012). iSTART: Interactive strategy training for active reading and thinking. Behavior Research Methods, Instruments, & Computers, 36(2), 222-233.
 4. Snow, C. (2002). Reading for understanding: Toward an R&D program in reading comprehension. RAND Corporation.
 5. Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem-solving. Journal of Child Psychology and Psychiatry, 17(2), 89-100.
+
+## AI-Usage Acknowledgement 
+We use ChatGPT to brainstorm possible design directions, Copilot to critique possible features for the tools, and Grammarly for general language structure.
+
+## Team Contribution  
+1. Dira
+   - Formulated survey questions and flow
+   - Created user flow on Miro
+   - Created project development plan
+2. Rae
+   - Finalized survey questions, collected key insights, and helped identify key design implications
+   - Helped shape the project direction based on feedback for rapid prototyping
+   - Found a slide template and drafted the presentation layout
+3. Syika
+   - Helped with survey questions and summary
+   - Created and revised the prototype
+   - Posting project updates on the project site
