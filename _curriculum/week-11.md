@@ -12,7 +12,7 @@ Usability evaluations
 ## Week 11 Readings / explorations
 1. Task 1 (Option 1): Watch this video to explore how Stable Diffusion models work: [https://www.youtube.com/watch?v=hb-KT66rCT8](https://www.youtube.com/watch?v=hb-KT66rCT8) OR
 1. Task 1 (Option 2): Read this blog to explore the inner workings of Diffusion Models: [https://poloclub.github.io/diffusion-explainer/](https://poloclub.github.io/diffusion-explainer/)
-1. Task 2: Explpre this simulation of the Stable Diffusion process to understand how text-to-image generators work: [https://colab.research.google.com/github/touretzkyds/DiffusionDemo/blob/master/demo.ipynb](https://colab.research.google.com/github/touretzkyds/DiffusionDemo/blob/master/demo.ipynb)
+1. Task 2: Explpre this simulation of the Stable Diffusion process to understand how text-to-image generators work: [https://colab.research.google.com/github/touretzkyds/DiffusionDemo/blob/master/demo.ipynb](https://colab.research.google.com/drive/1ZyAqv55xDG7cbkxHiNMnywEZPUb1HcE6?usp=sharing)
 <!-- 1. Evaluating Learning Tools (reading) -->
 
 ## Assignment 3
