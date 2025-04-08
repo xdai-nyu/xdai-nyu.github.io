@@ -10,7 +10,7 @@ Students will dive deeper into current fairness, accountability and transparency
 Students will interact with the Bias Explorer to understand bias in visual AI systems, and how societal stereotypes are represented in AI-generated media. 
 
 ## Week 13 Readings
-1. Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).
-1. Turkle, S. (2024). Who Do We Become When We Talk to Machines?.
+1. [Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922)
+1. [Turkle, S. (2024). Who Do We Become When We Talk to Machines?.](https://mit-genai.pubpub.org/pub/uawlth3j/release/2)
 
 **Reading Reflection: []()** *(due on 04/14, 5:00 PM EST)*

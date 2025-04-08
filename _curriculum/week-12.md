@@ -3,9 +3,20 @@ title: Building with AI - Makeathon!
 week: 12
 date: 2025-04-08
 ---
-Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems.
+
+Students will map features for their projects and share their prototyping progress with peers. They will continue developing their prototypes from last week, refining their designs and functionality. By the end of the session, students will build client-ready apps that include an AI demo component.
+
 
 ## Assignment 4
-Students interact with 2 other peers’ mini interactive learning experience, and comment with their learning experience and feedback. Students review feedback on their own interactive learning experiences. 
+Update your course websites with your prototype progress and your feature maps. View a peer team's project that is assigned to you, and think of yourself as potential users of the product to provide some early feedback. Provide them with the following feedback: 
+
+1. Are the  user/learner/teacher needs well communicated?
+2. Are the design features relating well to the needs that are described? Explain. 
+3. What do you find the most valuable about this design product? 
+4. Are there ethical implications that you are concerned about? 
+
+
+[Peer Feedback Form](https://forms.gle/VUaGX2Ssg98tNdFK8)
+
 
 *No pre-class readings*
