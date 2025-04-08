@@ -6,6 +6,8 @@ date: 2025-04-08
 
 Students will map features for their projects and share their prototyping progress with peers. They will continue developing their prototypes from last week, refining their designs and functionality. By the end of the session, students will build client-ready apps that include an AI demo component.
 
+[Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1_pv2Pq8aHjD0L0VQxEZ1icPykB1trxM3nA6ymSJsO40/edit?usp=sharing)
+
 
 ## Assignment 4
 Update your course websites with your prototype progress and your feature maps. View a peer team's project that is assigned to you, and think of yourself as potential users of the product to provide some early feedback. Provide them with the following feedback: 
