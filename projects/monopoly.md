@@ -41,8 +41,9 @@ Based on the student’s chosen business field, AI can facilitate immersive entr
 ![Persona111](https://github.com/user-attachments/assets/ebdddae8-e50f-4efd-8e35-45118b892526)
 ## User Journey Map
 ![User Journey Map](https://github.com/user-attachments/assets/cbd83a94-b79c-4d2b-8ceb-9b55d5de4a92)
-## Rapid Prototype
-https://drive.google.com/drive/folders/1WIqFAG0wCtqOxWnmHb1JaEr0t2VpjlZS?usp=drive_link
+## Prototype
+Part of Prototype - https://beining-sun.github.io/gemini-chat-frontend-v2/
+Previous Version - https://www.figma.com/proto/3t9PdL6eKVVJI1NrwCtC5o/First-Phase?page-id=266%3A5&node-id=280-487&viewport=172%2C-26%2C0.12&t=pa1HcERlNhlJyQIv-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=280%3A396&show-proto-sidebar=1
 ## Reference
 Bell, R., & Bell, H. (2023). Entrepreneurship education in the era of generative artificial intelligence. Entrepreneurship Education, 6(3), 229-244.
 
