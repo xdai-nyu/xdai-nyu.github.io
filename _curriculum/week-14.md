@@ -15,9 +15,10 @@ Ethical Matrix - students will develop an ethical matrix for their own final pro
 1. [Ehsan, U., Singh, R., Metcalf, J., & Riedl, M. (2022, June). The algorithmic imprint. In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (pp. 1305-1317).](https://dl.acm.org/doi/pdf/10.1145/3531146.3533186)
 1. [Jiang, H. H., Brown, L., Cheng, J., Khan, M., Gupta, A., Workman, D., ... & Gebru, T. (2023, August). AI Art and its Impact on Artists. In Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (pp. 363-374).](https://dl.acm.org/doi/pdf/10.1145/3600211.3604681) 
 
-**Reading Reflection: []()** *(due on 04/21, 5:00 PM EST)*
+**Reading Reflection: [https://forms.gle/Z1yKjZFQ5zqdyhgt9](https://forms.gle/Z1yKjZFQ5zqdyhgt9)** *(due on 04/21, 5:00 PM EST)*
 
 
 ## Project Update 6
-Students will write an ethical implications, and a societal implications section in their report, discussing how their approach may mitigate AI harms. 
-**Project Update Submission: []()** *(due on 04/21, 5:00 PM EST)*
+1. Update your project websites to include an ethical implications, and a societal implications section (1-2 paragraphs). Discuss how your approach in your project may mitigate AI harms. Make sure to add this section on your project site. 
+1. Add slides in your project update with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. You will present these in the next class. 5 minutes presentation time. 
+**Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)*
