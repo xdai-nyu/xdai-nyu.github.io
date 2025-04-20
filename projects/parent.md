@@ -78,6 +78,14 @@ Using models like DeepSeek-R1 ,Openai-o1 with these abilities to facilitate the 
 ![Works With Any Math Resource](https://github.com/user-attachments/assets/63b2dd75-aaad-4caf-9f2b-1457c5d2b5eb)
 ![Seamless AI Integration With Any Learning Method](https://github.com/user-attachments/assets/846d466e-7179-478f-b947-1db5018383e4)
 
+Ethical Implications
+This project involves AI-powered math support tools that engage parents in their children's education. Key ethical concerns include data privacy, algorithmic transparency, and equity of access. Parents expressed hesitations around over-reliance on AI, outdated content, and opaque progress tracking. In addition, discussing data privacy with the child is essential.
 
+To mitigate these harms, the project emphasizes parental agency, not replacement. The system provides coaching, summaries, and conversation prompts—not answers or grades—and intentionally avoids positioning AI as a “tutor.” Parents are informed of how data is generated and how much control they retain in personalizing it. By designing with layered insights and staged help (hints → steps → solutions), the system avoids promoting dependence or over-simplification.
+
+Societal Implications
+At a societal level, AI tools like this have the potential to democratize educational support—especially for working families and non-expert parents who still want to stay engaged. By offering non-instructional support roles (e.g., motivation, check-ins, logistics), these tools could bridge inequities in households lacking tutoring or content mastery. However, risks include deepening the digital divide or reinforcing harmful learning habits (e.g., shallow practice, gaming metrics).
+
+The tool’s adaptive suggestions, integration with certified resources (e.g., Khan Academy, AoPS), and emotional scaffolding (e.g., pre-written message templates) offer low-barrier entry points for families historically excluded from ed-tech benefits. A focus on transparency, control, and grade-level targeting helps ensure AI serves as a partner, not a gatekeeper, in educational support.
 
 
