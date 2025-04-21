@@ -1,4 +1,4 @@
-## AI-Powered Scenario-Based Entrepreneurship Practice Platform 
+## VentureSeed
 ## Team Name:
 Monopoly
 ## Project Members
@@ -6,7 +6,7 @@ Ziying Zhao, Beining Sun, Qinyu Lin
 ## Project Brief
 This AI tool empowers college students by providing immersive, scenario-based learning experiences. It addresses common challenges such as lack of experience, funding, and confidence by simulating real-world business situations. Users can practice key entrepreneurial skills—like idea generation, negotiation, risk assessment, and resource management—through AI-driven interactions with virtual investors, customers, and suppliers. With personalized feedback and dynamic simulations, the tool enhances decision-making, critical thinking, communication, and problem-solving, bridging the gap between theoretical knowledge and practical application.
 ## Target Audience
-Undergraduate and graduate students, early-career researchers, lifelong learners, and career changers who struggle with engaging with dense academic texts or are transitioning from traditional roles to entrepreneurship, as well as for those with entrepreneurial aspirations, including startup founders facing challenges in management, marketing, and financing.
+Undergraduate and graduate students
 
 ## Identified Learning Need
 Entrepreneurship is a **significant challenge** for people who want to start a business. For college students, most of them are interested but delay action, thinking they must finish school first. Other barriers include lack of funding, support, and confidence, along with fear of failure and limited opportunities. Also, students do not understand entrepreneurship well because of their inadequate work experience (Iwu et al., 2020). For startup founders and career changers, they may find it difficult to perform key tasks in the early stage of entrepreneurship, which involves finding and assessing potential business ideas, and securing financial, material, human, and informational resources necessary to start the business (Seibert, Nielsen, & Kraimer, 2021, p. 1224).
@@ -16,9 +16,11 @@ Based on the student’s chosen business field, AI can facilitate immersive entr
 **1. Interactive:**
 - Decision Simulations: Users interact with the AI, make decisions, and see the consequences, which is a form of interactive learning.
 - Negotiation and Communication Practice: Interacting with virtual characters to practice negotiation and communication skills.
+
 **2. Text-based:**
 - Theoretical Learning and Case Studies: Text-based materials are used to provide business theories, success stories, or failure cases, helping users understand the related concepts.
 - Decision Prompts and Feedback: AI provides decision prompts, feedback, and suggestions in written form to help users reflect and improve.
+
 **3. Contextual Learning:**
 - Simulating Real Business Scenarios: Through scenario simulations, users face real business challenges (e.g., funding negotiations, customer needs analysis), helping them apply the knowledge they've learned to practice.
 
@@ -44,6 +46,10 @@ Based on the student’s chosen business field, AI can facilitate immersive entr
 ## Prototype
 Part of Prototype - https://beining-sun.github.io/gemini-chat-frontend-v2/
 Previous Version - https://www.figma.com/proto/3t9PdL6eKVVJI1NrwCtC5o/First-Phase?page-id=266%3A5&node-id=280-487&viewport=172%2C-26%2C0.12&t=pa1HcERlNhlJyQIv-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=280%3A396&show-proto-sidebar=1
+## Ethical Implications
+VentureSeed is designed with ethical considerations. Bias and fairness are addressed by using diverse training datasets to ensure simulations reflect real-world variability, avoiding stereotypes in virtual character interactions (e.g., investors/customers). Privacy and transparency are prioritized, since user data is anonymized, and the tool clearly explains how decisions impact outcomes (e.g., why a negotiation succeeded/failed). To prevent overreliance on AI, the system emphasizes human agency—users receive feedback but retain control over choices. Plagiarism risks are minimized by focusing on skill application (e.g., negotiation tactics) rather than content generation.
+## Societal Implications
+VentureSeed tackles the uneven playing field in entrepreneurial education by offering accessible, real-world simulations, especially benefiting students from under-resourced backgrounds who often miss out on valuable real-world experience. By creating scenarios that reflect actual business challenges, VentureSeed allows talent to shine regardless of financial limitations. This practical, hands-on training in key business skills like decision-making and communication empowers a wider range of future entrepreneurs with the know-how and confidence to succeed in the business world.
 ## Reference
 Bell, R., & Bell, H. (2023). Entrepreneurship education in the era of generative artificial intelligence. Entrepreneurship Education, 6(3), 229-244.
 
