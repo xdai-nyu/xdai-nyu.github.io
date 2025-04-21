@@ -3,9 +3,13 @@
 <img width="787" alt="截屏2025-03-17 12 43 07" src="https://github.com/user-attachments/assets/ceac8233-2f79-4168-ba74-8c2cef766bc2" />
 
 ## Project Members:  
+
 Jessica Masciovecchio, Lucy Castro, Merry Cui, Yu-ri Chang, Ruolin Zhang
 
 ## Project Brief:
+ 
+Research indicates that personalized feedback improves writing accuracy and metacognition (Anwar & Mushtaq, 2024; Sweller, 1988). Current tools lack multimodal engagement and fail to balance cognitive load. Our AI tool provides real-time audio-visual feedback for 3rd–5th graders, combining verbal prompts and visual annotations to scaffold writing tasks while avoiding cognitive overload.
+
 Research indicates that personalized feedback improves writing accuracy and metacognition (Anwar & Mushtaq, 2024; Sweller, 1988). Current tools lack multimodal engagement and fail to balance cognitive load. Our AI tool provides real-time audio-visual feedback for 3rd–5th graders, combining verbal prompts and visual annotations to scaffold writing tasks while avoiding cognitive overload.
 
 ## Target Audience
@@ -26,6 +30,7 @@ Research indicates that personalized feedback improves writing accuracy and meta
 | **Instruction Clarity** | "They memorize acronyms but can't apply them" | 8/10 |
 | **Feedback Latency** | "By revision time, they've forgotten the context" | 7/10 |
 | **Cognitive Overload** | "See the same errors repeated despite corrections" | 9/10 |
+
 
 ## Rationale for AI Assistance
 ### Personalization: 
@@ -99,6 +104,22 @@ The methodology aligns with Vygotsky’s ZPD through adaptive prompts and Swelle
 | Cognitive Load        | Task completion time, self-report surveys| Student data             |  
 | Teacher Acceptance    | Survey ratings (1–5 scale)               | Teacher surveys          |  
 
+## References
+Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). The Power of ZPD: Enhancing Teaching and Learning. Journal of Education and Social Studies, 5, 396-405.
+
+Clark, J.M., & Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3).
+
+Hattie, J., & Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81-112.
+
+Martinez, M.E. (2010). Learning and Cognition: The Design of the Mind. Merrill.
+
+Paivio, A. (1986). Mental Representations: A Dual-Coding Approach. Oxford University Press.
+
+Reiser, B.J., & Tabak, I. (2014). Scaffolding. Cambridge Handbook of Learning Sciences, 2nd Ed.
+
+Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12(2), 257-285.
+
+=======
 
 
 
@@ -271,11 +292,11 @@ Integrate ethical AI education into the curriculum for both educators and studen
 
 
 ## References
-Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). The Power of ZPD: Enhancing Teaching and Learning. Journal of Education and Social Studies, 5, 396-405.
-Clark, J.M., & Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3).
-Hattie, J., & Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81-112.
-Martinez, M.E. (2010). Learning and Cognition: The Design of the Mind. Merrill.
-Paivio, A. (1986). Mental Representations: A Dual-Coding Approach. Oxford University Press.
-Reiser, B.J., & Tabak, I. (2014). Scaffolding. Cambridge Handbook of Learning Sciences, 2nd Ed.
-Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12(2), 257-285.
-Winne, P.H., & Azevedo, R. (2014). Metacognition. Cambridge Handbook of Learning Sciences.
+1. Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). The Power of ZPD: Enhancing Teaching and Learning. Journal of Education and Social Studies, 5, 396-405.
+1. Clark, J.M., & Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3).
+1. Hattie, J., & Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81-112.
+1. Martinez, M.E. (2010). Learning and Cognition: The Design of the Mind. Merrill.
+1. Paivio, A. (1986). Mental Representations: A Dual-Coding Approach. Oxford University Press.
+1. Reiser, B.J., & Tabak, I. (2014). Scaffolding. Cambridge Handbook of Learning Sciences, 2nd Ed.
+1. Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12(2), 257-285.
+1. Winne, P.H., & Azevedo, R. (2014). Metacognition. Cambridge Handbook of Learning Sciences.
