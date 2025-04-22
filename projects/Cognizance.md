@@ -1,4 +1,6 @@
 ## Cognizance: Your Deep Learning Pal
+![COGNIZANCE LOGO](https://github.com/user-attachments/assets/337d1457-b9c3-4417-a2d1-a1ea189a0be3)
+
 ## Project Members: 
 Danira (Dira) Khatwani, Huishan (Rae) Ruan, Zulsyika (Syika) Nurfaizah
 
@@ -35,27 +37,22 @@ Based on our initial survey questions, we discovered several interesting insight
 
 ### 1. LMS is not used as a study platform
 ![image](https://github.com/user-attachments/assets/8020d960-ceb6-4224-8688-62d6cd1dd56c)
-> [!NOTE]
 > Most respondents view LMS as a tool for receiving instructor feedback, submitting assignments, and accessing learning materials instead of an active study platform. **Respondents prefer offline tools** (document readers) to read and annotate the learning contents. LMS discussion features are perceived as less effective, and often used for participation points rather than meaningful discussion, they prefer third-party communication tools like Slack.  
 
 ### 2. Clear information and intuitive navigation support comprehension
 ![image](https://github.com/user-attachments/assets/4c43f671-e5e4-4b6f-a71d-6166f2f99a2f)
-> [!NOTE]
 > Respondents like clear information (notifications and reminders), content presentation, and easy access to resources in LMS.  
 
 ### 3. The biggest challenge for respondents' comprehension is information overload
 ![image](https://github.com/user-attachments/assets/1a80d4ec-b28a-4ddd-8018-fd29df7b030f)
-> [!NOTE]
 > The information overload is caused by **too much unstructured content (75%) and lack of visuals or interactive elements (56.3%)**.  
 
 ### 4. Respondents struggle with hard-to-read text and remembering information over time
 ![image](https://github.com/user-attachments/assets/30e81a0a-66a4-4399-a3ed-e567c4a2b51f)
-> [!NOTE]
 > **68.8%** of respondents struggle with low-quality scanned documents and hard-to-read text, and **62.5%** of respondents struggle with remembering information over time, which could be caused by surface learning because **50%** of the respondents struggle to think critically about the materials.  
 
 ### 5. Respondents actively use AI tools and search for more resources to support their comprehension
 ![image](https://github.com/user-attachments/assets/18e995ff-c981-4b83-99e1-06e3d60eeeec)
-> [!NOTE]
 > Most of the respondents use AI tools **(81.3%)**, search for more resources **(81.3%)**, and reread the materials **(56.3%)** to deepen their understanding of the learning contents.  
 
 ### 6. Further Insights:
@@ -74,6 +71,21 @@ Based on the insights from the need analysis, the design implications of our pro
 We created the three main features of the tools:
 1. [UI Prototype](https://docs.google.com/presentation/d/1TvTVOP62yK9dFGJzMGFjXJEIZtjMMfiiNW6y_tg0CWA/edit?usp=sharing)
 3. [Interaction Prototype](https://colab.research.google.com/drive/11VSD-We5alK8JneeI8dcZ4SGC9F0iqqD?usp=sharing)
+
+## User Flow
+![image](https://github.com/user-attachments/assets/5655a7ad-acb9-4c7e-aac4-31cf49e4fd26)
+This is the user flow of Cognizance. Open our [Miro document](https://miro.com/app/board/uXjVIQQ4Nl0=/) for a clearer and zoomable view.
+
+## Ethical and Societal Implications
+At Cognizance, we believe using AI in education should be as thoughtful and responsible as it is innovative. One key concern we’re addressing is the risk of narrowing learners’ perspectives or oversimplifying complex ideas. To support deeper understanding, our tool includes Socratic questioning and “Go Deeper” features that invite users to think beyond what’s written, asking what perspectives might be missing or how a concept could be challenged. These features encourage active, reflective reading rather than passive consumption.
+
+Since our AI pulls from both course materials and relevant external sources, we’re especially mindful of transparency. Every response includes citations so students can see where the information comes from and assess its credibility for themselves. This not only reduces the risk of misinformation but also supports the development of research and evaluation skills. We’re also exploring ways to surface the AI’s reasoning—for example, explaining why a certain question or suggestion was made—so learners can better trust and critique the tool's logic.
+
+Another area we’ve been careful about is language accessibility. For students who aren’t native English speakers or are reading outside their comfort zone, we don’t want translation to be a blunt tool. Instead of offering just a basic translation, we’re working toward features that also suggest synonyms or definitions to give users a richer, more contextualized understanding of terms. Inspired by tools like Grammarly, this approach gives learners choices and deepens comprehension rather than flattening meaning.
+Finally, we’re committed to protecting student privacy. If features like note-taking or learning analytics are added, we’ll clearly communicate what data is collected, keep it anonymized, and ensure that participation is fully optional. Our design is grounded in respect for learners’ autonomy, diversity, and trust, because building AI for education isn’t just about improving performance; it’s about supporting meaningful, equitable, and empowering learning experiences.
+
+#Current Prototype
+You can access our prototype through this [Google Colab](https://colab.research.google.com/drive/1yxpv-fcxeDwtS5jPfws8E9OzxzrSh_cV?usp=sharing) file. Currently, we are trying to create a better UI for the tool. Please look forward to the development of Cognizance!
 
 ## References
 1. Chi, M. T. H. (2009). Active-constructive-interactive: A conceptual framework for differentiating learning activities. Topics in Cognitive Science, 1(1), 73-105.
