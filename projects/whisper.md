@@ -62,6 +62,8 @@ This project builds upon prior research in cognitive science, artificial intelli
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;➡️Click image to watch
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[➡️ Click here to try the prototype](https://whisper.georgewx.com/website/home.html)
+
 ## 📝 Research and Methodology
 
 **_Key terms identification_**
@@ -88,7 +90,7 @@ Research Room Layout
 4. How do different types of music (white noise, music, white noise + music) impact learners’ focus, relaxation, and learning efficiency in AI-generated study environments?
 5. How does the combination of personalized visuals (wallpapers) and AI-generated audio impact learners’ overall learning experience, emotional state, and cognitive performance compared to using either element alone?
 
-## _Methodology_
+**_Methodology_**
 
 | Variable                                    | Research Question | Data Collection                                           | Data Analysis                               | Coding Scheme                                |
 | ------------------------------------------- | ----------------- | --------------------------------------------------------- | ------------------------------------------- | -------------------------------------------- |
@@ -97,6 +99,20 @@ Research Room Layout
 | **Freshness of Music (Novel/Familiar)**     | RQ3               | FER, Eye-tracking, Cognitive Load Survey, Quiz, Interview | ANOVA, Cognitive Load Analysis              | Cognitive load, Focus, Perception of novelty |
 | **Music Type (White noise/Music/Both)**     | RQ4               | FER, Eye-tracking, Survey, Quiz, Interview                | t-tests, Quiz Score Comparison              | Audio preference, Emotional state, Focus     |
 | **Overall Experiences (Visual/Audio/Both)** | RQ5               | FER, Eye-tracking, Survey, Quiz, Interview                | Mixed ANOVA, FER & Eye-tracking Correlation | Learning experience, Emotional regulation    |
+
+## 🛡️ Ethical and Societal Considerations
+
+**_Ethical Implications_**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Whisper is built with a strong focus on **ethical responsibility**, especially when using AI in learning environments. A significant concern is **user privacy**, especially when it comes to collecting personal information, such as emotional states, preferences, or behavior. To protect users, Whisper uses a **transparent** and **consent-based** approach. Before using the system, users are introduced to our **“Generative AI Terms of Use”**, which explains how the AI works and how data is handled. No data is collected without permission. If users choose, their inputs can be stored locally to reduce privacy risks. Whisper’s AI tools are always **user-initiated**, meaning the system does not make automatic decisions or change things without the user’s choice. This design ensures that learners remain in control of their environment.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Whisper avoids emotional manipulation by not using hidden mood detection or behavior tracking. Instead, it offers tools to support **emotional regulation**. By giving users control over when and how they use AI features, Whisper respects **human agency**. The goal is not to replace a learner’s decisions, but to help them make better ones with less stress. This approach helps reduce possible harms from AI and builds **trust** between the user and the system.
+
+**_Societal Implications_**
+
+&nbsp;&nbsp;&nbsp;&nbsp;Whisper supports learners who often struggle with **focus** and **motivation**, especially those who study alone or in noisy, uncomfortable spaces. Many students try to improve their study environment by searching for the right ASMR videos, white noise playlists, or relaxing images online. Whisper reduces this burden by using AI to generate **personalized music and images** based on users' preferences. It helps learners get into a **calm and focused state** without wasting time searching. For learners who are neurodivergent, easily distracted, or have limited access to ideal study spaces, this can make a big difference.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Whisper also helps reduce **digital inequality**. It is designed to be **lightweight and accessible**, even for those with limited resources. By providing **personalized study support** at no cost, Whisper creates a more **inclusive** and **supportive** learning environment. It shows how AI, when used **responsibly**, can make education more **fair** and **effective** for everyone.
 
 ## References
 
