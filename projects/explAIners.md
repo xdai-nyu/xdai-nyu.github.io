@@ -1,41 +1,76 @@
-# ExplAIners - AI-Feedback Buddy 
+# Feedback Buddy 
 ### Enhance learning by providing personalized feedback on reading responses through AI-driven verbal/visual scaffolds
-<img width="787" alt="截屏2025-03-17 12 43 07" src="https://github.com/user-attachments/assets/ceac8233-2f79-4168-ba74-8c2cef766bc2" />
 
-## Project Members:  
 
-Jessica Masciovecchio, Lucy Castro, Merry Cui, Yu-ri Chang, Ruolin Zhang
 
-## Project Brief:
- 
-Research indicates that personalized feedback improves writing accuracy and metacognition (Anwar & Mushtaq, 2024; Sweller, 1988). Current tools lack multimodal engagement and fail to balance cognitive load. Our AI tool provides real-time audio-visual feedback for 3rd–5th graders, combining verbal prompts and visual annotations to scaffold writing tasks while avoiding cognitive overload.
+---
 
-Research indicates that personalized feedback improves writing accuracy and metacognition (Anwar & Mushtaq, 2024; Sweller, 1988). Current tools lack multimodal engagement and fail to balance cognitive load. Our AI tool provides real-time audio-visual feedback for 3rd–5th graders, combining verbal prompts and visual annotations to scaffold writing tasks while avoiding cognitive overload.
+<details>
+<summary><strong>👩‍🏫 Project Members</strong></summary>
 
-## Target Audience
+Jessica Masciovecchio, Lucy Castro, Merry Cui, Yu-ri Chang, Ruolin Zhang  
+
+</details>
+
+---
+
+<details>
+<summary><strong>📝 Project Brief</strong></summary>
+
+Research indicates that personalized feedback improves writing accuracy and metacognition (Anwar & Mushtaq, 2024; Sweller, 1988). Current tools lack multimodal engagement and fail to balance cognitive load.  
+
+Our AI tool provides real-time audio-visual feedback for 3rd–5th graders, combining verbal prompts and visual annotations to scaffold writing tasks while avoiding cognitive overload.
+
+</details>
+
+---
+
+<details>
+<summary><strong>🎯 Target Audience</strong></summary>
+
 3rd–5th graders developing text-response skills and teachers seeking automated progress tracking.
 
-## Need Finding
-### Methodology
-- **Survey**: Collected feedback from 10 elementary teachers (3rd-5th grade)
-- **Affinity Mapping**: Identified core patterns from data points
-- **Key Pain Points**:
-  1. 78% teachers report weekly feedback cycles insufficient for skill retention
-  2. 62% students struggle with RACCE framework implementation
-  3. Average 12-minute delay per student for personalized feedback
+</details>
 
-### Key Findings
+---
+
+<details>
+<summary><strong>🔍 Need Finding</strong></summary>
+
+### Methodology  
+- **Survey**: Collected feedback from 10 elementary teachers (3rd–5th grade)  
+- **Affinity Mapping**: Identified core patterns from data points  
+- **Key Pain Points**:  
+  1. 78% teachers report weekly feedback cycles insufficient for skill retention  
+  2. 62% students struggle with RACCE framework implementation  
+  3. Average 12-minute delay per student for personalized feedback  
+
+### Key Findings  
+
 | Category | Teacher Quotes | Frequency |
 |----------|----------------|-----------|
 | **Instruction Clarity** | "They memorize acronyms but can't apply them" | 8/10 |
 | **Feedback Latency** | "By revision time, they've forgotten the context" | 7/10 |
 | **Cognitive Overload** | "See the same errors repeated despite corrections" | 9/10 |
 
+</details>
 
-## Rationale for AI Assistance
-### Personalization: 
-- Generates 3-tiered prompts based on individual error patterns
-- Adapts feedback depth (basic reminders ↔ metacognitive questions)
+---
+
+<details>
+<summary><strong>🤖 Rationale for AI Assistance</strong></summary>
+
+### Personalization:  
+- Generates 3-tiered prompts based on individual error patterns  
+- Adapts feedback depth (basic reminders ↔ metacognitive questions)  
+
+### Efficiency:  
+- Reduces teacher feedback time by 63% (pilot data)  
+- Auto-aligns with district writing rubrics  
+
+### Adaptive Scaffolding:  
+- Progressively removes supports as mastery increases  
+- Flags persistent errors for teacher intervention  
 
 ### Efficiency: 
 - Reduces teacher feedback time by 63% (pilot data)
@@ -45,86 +80,137 @@ Research indicates that personalized feedback improves writing accuracy and meta
 - Progressively removes supports as mastery increases
 - Flags persistent errors for teacher intervention
 
-## Modalities
-### Visual
+</details>
+
+---
+
+
+<details>
+<summary><strong>🧠 Modalities</strong></summary>
+
+### Visual  
 Personalized visual cues emphasize key elements like missing evidence or formatting errors, helping learners focus on critical writing components.
-### Auditory
+
+### Auditory  
 Optional voice narration for reading passages to support struggling readers and reinforce comprehension.
-### Interactive
+
+### Interactive  
 Clickable suggestions and adaptive prompts enable students to refine responses iteratively. Real-time text input with auto-save ensures seamless writing practice.
 
-## Secondary Research
-### Theoretical Foundations
-1. **Zone of Proximal Development** (Vygotsky via Anwar & Mushtaq, 2024)
-   - Error-specific scaffolding bridges skill gaps
+</details>
 
-2. **Cognitive Load Theory** (Sweller, 1988)
-   - Chunked feedback prevents working memory overload
+---
 
-3. **Dual Coding** (Paivio, 1986; Clark & Paivio, 1991)
-   - Combined verbal/visual processing enhances retention
+<details>
+<summary><strong>🔬 Secondary Research</strong></summary>
 
-4. **Feedback Cycles** (Hattie & Timperley, 2007)
+### Theoretical Foundations  
+1. **Zone of Proximal Development** (Vygotsky via Anwar & Mushtaq, 2024)  
+   - Error-specific scaffolding bridges skill gaps  
+2. **Cognitive Load Theory** (Sweller, 1988)  
+   - Chunked feedback prevents working memory overload  
+3. **Dual Coding** (Paivio, 1986; Clark & Paivio, 1991)  
+   - Combined verbal/visual processing enhances retention  
+4. **Feedback Cycles** (Hattie & Timperley, 2007)  
    - Tiered prompts address: Where am I going? How progressing? Next steps?
 
-### Tool Analysis
-| Tool | Limitation Addressed |
-|------|----------------------|
-| Magic School | Generic feedback lacking rubric alignment |
-| Writable | No multimodal supports |
-| Turnitin | Focuses on plagiarism over skill growth |
-<img width="996" alt="截屏2025-03-17 15 27 58" src="https://github.com/user-attachments/assets/eab3f53d-959c-4832-a581-0f9980530d6e" />
-<img width="1026" alt="截屏2025-03-17 15 28 31" src="https://github.com/user-attachments/assets/5763bf94-8c70-44d4-9463-7d9f3397f396" />
-<img width="998" alt="截屏2025-03-17 15 28 50" src="https://github.com/user-attachments/assets/1e0a5148-4038-4ac6-9f16-b5cd0cadae03" />
-<img width="1085" alt="截屏2025-03-17 15 29 18" src="https://github.com/user-attachments/assets/40e177e9-da82-479b-8bfb-ba5ba75a7747" />
-<img width="1012" alt="截屏2025-03-17 15 29 42" src="https://github.com/user-attachments/assets/bdca8d89-acef-4d50-a1cf-3b796bd7d079" />
-<img width="1090" alt="截屏2025-03-17 15 30 09" src="https://github.com/user-attachments/assets/29bf3140-73b5-48d8-b9a4-3bcff3d6b404" />
+### Tool Analysis  
 
-## Prototype
-<img width="823" alt="Prototype_1" src="https://github.com/user-attachments/assets/297cb7ed-26f8-45a6-aa40-2aecb39cb415" />
-<img width="558" alt="Prototype_2" src="https://github.com/user-attachments/assets/c4663fdc-0f2c-40e9-886b-779091e08cd6" />
+| Tool          | Limitation Addressed                  |
+|---------------|----------------------------------------|
+| Magic School  | Generic feedback lacking rubric alignment |
+| Writable      | No multimodal supports                 |
+| Turnitin      | Focuses on plagiarism over skill growth |
 
-## Research and Methodology
-### Research Questions
-How does multimodal feedback (verbal + visual) impact student revision accuracy compared to text-only feedback?
-Does chunked feedback reduce cognitive load and improve task completion rates?
-How do teachers perceive the usability and effectiveness of AI-driven scaffolding in writing instruction?
+![Tool Screenshot 1](https://github.com/user-attachments/assets/eab3f53d-959c-4832-a581-0f9980530d6e)  
+![Tool Screenshot 2](https://github.com/user-attachments/assets/5763bf94-8c70-44d4-9463-7d9f3397f396)  
+![Tool Screenshot 3](https://github.com/user-attachments/assets/1e0a5148-4038-4ac6-9f16-b5cd0cadae03)  
+![Tool Screenshot 4](https://github.com/user-attachments/assets/40e177e9-da82-479b-8bfb-ba5ba75a7747)  
+![Tool Screenshot 5](https://github.com/user-attachments/assets/bdca8d89-acef-4d50-a1cf-3b796bd7d079)  
+![Tool Screenshot 6](https://github.com/user-attachments/assets/29bf3140-73b5-48d8-b9a4-3bcff3d6b404)
 
-### Methodology
-The AI-Feedback Buddy study employed a mixed-methods approach to evaluate the impact of multimodal feedback on elementary students’ writing outcomes. Three research questions guided the investigation: 1) whether combining verbal and visual feedback improves revision accuracy compared to text-only feedback, 2) how chunked feedback affects cognitive load, and 3) teachers’ perceptions of AI-driven scaffolding tools.
+</details>
 
-Data collection involved two primary streams. First, a 12-question teacher survey (targeting 10-15 respondents) identified key classroom challenges, revealing widespread demand for automated progress tracking and struggles with individualized support. Second, controlled student experiments compared text-only and multimodal feedback groups using writing tasks, measuring revision accuracy and task completion times as cognitive load indicators.
+---
 
-Analysis methods included affinity mapping to categorize teacher-reported needs and quantitative comparisons of student performance metrics. A functional prototype integrating tiered scaffolding prompts and clickable feedback was tested with 3rd–5th graders to validate usability.
+<details>
+<summary><strong>🧪 Prototype</strong></summary>
 
-The methodology aligns with Vygotsky’s ZPD through adaptive prompts and Sweller’s cognitive load theory via feedback chunking. Limitations included small sample sizes and a focus on short-term outcomes. Existing tools like Magic School and theoretical frameworks from Hattie’s feedback cycles informed the design, while avoiding their observed pitfalls like rigid feedback structures.
+### 🔹 Early Prototype  
+
+<img width="692" alt="Early Prototype 1" src="https://github.com/user-attachments/assets/b62c548f-df04-462d-a4d8-71cdd04d562b" />  
+<img width="688" alt="Early Prototype 2" src="https://github.com/user-attachments/assets/5fc6eb4e-add5-4386-a8aa-3ed9a1dd6a9b" />  
+<img width="690" alt="Early Prototype 3" src="https://github.com/user-attachments/assets/44094862-27cf-42a4-bf2d-18747d5f2edc" />  
+
+---
+
+### 🔸 Current Prototype (Refined Version)  
+
+<img width="1350" alt="Current Prototype 1" src="https://github.com/user-attachments/assets/74c01751-384b-4e39-9707-65173294282d" />  
+<img width="1346" alt="Current Prototype 2" src="https://github.com/user-attachments/assets/e176183e-9667-4c90-ad9e-7ff9db382c70" />  
+<img width="1474" alt="Current Prototype 3" src="https://github.com/user-attachments/assets/8890071e-acf1-469b-8029-6281a0a5eb65" />  
+<img width="1219" alt="Current Prototype 4" src="https://github.com/user-attachments/assets/85c7c623-d992-4a28-92a9-0bb9b2860c04" />  
+<img width="1094" alt="Current Prototype 5" src="https://github.com/user-attachments/assets/cb739d51-755a-4fec-b8d3-66f19a36101b" />  
+
+</details>
+
+---
+
+
+
+
+
+<details>
+<summary><strong>📊 Research and Methodology</strong></summary>
+
+### Research Questions  
+1. How does multimodal feedback (verbal + visual) impact student revision accuracy compared to text-only feedback?  
+2. Does chunked feedback reduce cognitive load and improve task completion rates?  
+3. How do teachers perceive the usability and effectiveness of AI-driven scaffolding in writing instruction?
+
+### Methodology  
+The AI-Feedback Buddy study employed a mixed-methods approach to evaluate the impact of multimodal feedback on elementary students’ writing outcomes.
+
+Three research questions guided the investigation:  
+1) Whether combining verbal and visual feedback improves revision accuracy compared to text-only feedback  
+2) How chunked feedback affects cognitive load  
+3) Teachers’ perceptions of AI-driven scaffolding tools  
+
+Data collection involved two primary streams:  
+- A 12-question teacher survey (10–15 respondents) identified key classroom challenges, including demand for automated progress tracking and struggles with individualized support  
+- Controlled student experiments compared text-only and multimodal feedback groups on writing tasks, measuring revision accuracy and task completion times  
+
+**Analysis**  
+- Affinity mapping for teacher needs  
+- Quantitative comparison of student performance  
+- Usability testing of functional prototype with 3rd–5th graders  
+
+The methodology aligns with:  
+- **Vygotsky’s ZPD** – through adaptive prompts  
+- **Sweller’s cognitive load theory** – via feedback chunking  
+- Also informed by **Hattie’s feedback cycles** and prior tool limitations (e.g., Magic School)  
+
+**Limitations**: Small sample sizes, short-term impact focus  
+
+### Key Variables & Measures  
+
 | **Variable**          | **Measurement**                          | **Source**               |  
 |-----------------------|------------------------------------------|--------------------------|  
 | Feedback Type         | Revision accuracy, error rates           | Student quizzes          |  
 | Cognitive Load        | Task completion time, self-report surveys| Student data             |  
-| Teacher Acceptance    | Survey ratings (1–5 scale)               | Teacher surveys          |  
+| Teacher Acceptance    | Survey ratings (1–5 scale)               | Teacher surveys          |
 
-## References
-Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). The Power of ZPD: Enhancing Teaching and Learning. Journal of Education and Social Studies, 5, 396-405.
+</details>
 
-Clark, J.M., & Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3).
-
-Hattie, J., & Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81-112.
-
-Martinez, M.E. (2010). Learning and Cognition: The Design of the Mind. Merrill.
-
-Paivio, A. (1986). Mental Representations: A Dual-Coding Approach. Oxford University Press.
-
-Reiser, B.J., & Tabak, I. (2014). Scaffolding. Cambridge Handbook of Learning Sciences, 2nd Ed.
-
-Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12(2), 257-285.
-
-=======
+---
 
 
 
 
-## Ethical Considerations Table
+
+
+<details>
+<summary><strong>⚖️ Ethical Considerations Table</strong></summary>
 
 | **Ethical Topic** | **Ethical Considerations** | **Mitigation** |
 |-------------------|-----------------------------|----------------|
@@ -139,97 +225,55 @@ Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12
 | **Overselling and Hype** | The feedback is individualised but it does not replace teachers and what they are doing with students.<br>This is a tool to reinforce what they are learning in class.<br>Students still need to read and comprehend. Students still need to inference, it should not give the answer. | State that this does not replace classroom instruction, but supports teachers and students.<br>Do not use language that guarantees test score improvement.<br>Tell that it helps students use strategies to answer questions but does not solve comprehension.<br>All promotional language (website, documentation) should clarify that the tool supports thinking, not guarantees improvement. |
 | **Ethical AI Education** | Teachers and students may use AI without understanding its risks or responsibilities. | At first login, display a visual “AI Use Instruction Sheet” for both teachers and students to clarify what AI can and cannot do, and how to report problems.<br>Recommend adding an “AI Ethics Self-Check” during onboarding to help students understand responsible use. |
 
-
-### Societal and Ethical Implications of Generative AI in Education
-
-The use of generative AI in education raises several ethical concerns, which require not only technical solutions but also educational reforms and stakeholder collaboration to ensure responsible, equitable, and human-centered implementation.
+</details>
 
 ---
 
-#### 1. Bias and Fairness
-**Training Data Bias**: If the generative AI models are trained on biased data, they can perpetuate and amplify existing disparities in educational content, potentially leading to unfair treatment or discrimination.
+<details>
+<summary><strong>🌐 Societal and Ethical Implications of Generative AI in Education</strong></summary>
 
-**Personalization Bias**: Personalized learning systems powered by AI may inadvertently reinforce stereotypes or limit student opportunities based on assumptions about ability or identity.
+### 1. Bias and Fairness  
+AI must detect **intent** over form to avoid misjudging dialect or cultural expressions.
 
-   These risks are magnified in writing tasks, where linguistic expressions tied to culture or dialect may be misinterpreted as low proficiency. AI must be tuned to detect intent rather than surface form.
+### 2. Privacy and Data Security  
+Requires **anonymization**, **guardian consent**, and **opt-in/out clarity**.
 
----
+### 3. Transparency and Explainability  
+AI feedback should show "**Why this suggestion?**" logic tied to rubrics.
 
-#### 2. Privacy and Data Security
-**Student Data Protection**: The use of AI often involves large-scale data collection. Protecting students’ privacy requires minimizing data storage, anonymizing records, and securing transmission pathways.
+### 4. Equity and Accessibility  
+Design for **offline/low-tech** use, **diverse reading levels**, and **inclusive content**.
 
-**Informed Consent**: Families and students must understand what data is collected, how it is used, and have the right to opt in or out without losing access to educational support.
+### 5. Teacher and Student Autonomy  
+Enable **feedback control**, **override**, and **student agency**.
 
-   Consent mechanisms should be age-appropriate and visually guided, particularly when AI is used in K–12 settings.
+### 6. Intellectual Property and Plagiarism  
+Mark **AI-assisted content**, disable **copy-paste**, and promote **originality**.
 
----
+### 7. Emotional Well-being  
+Avoid impersonal negativity; support **encouragement mode** and emotional check-ins.
 
-#### 3. Transparency and Explainability
-**Opaque Decision-Making**: Complex AI models may make recommendations that are difficult to interpret, making it unclear why certain feedback or grades were issued.
+### 8. Accountability and Responsibility  
+Include logs, metadata, and allow **teacher review of model outputs**.
 
-   AI feedback should include “why this suggestion?” prompts linked to rubrics or model scoring rationales, helping students learn the reasoning behind each comment.
+### 9. Overselling and Hype  
+AI is an **aid**, not a **replacement**—avoid marketing overpromises.
 
----
+### 10. Ethical AI Education  
+Embed **AI literacy**, **bias awareness**, and **critical use skills** in onboarding.
 
-#### 4. Equity and Accessibility
-**Technological Divide**: AI could worsen educational inequality if access depends on high-end hardware, internet speed, or exclusive subscriptions.
-
-**Accessibility Challenges**: AI systems must accommodate students with diverse physical, cognitive, and linguistic needs.
-
-   Equity efforts must also address cultural inclusivity: AI content should reflect global voices, not just Western norms or majority dialects.
-
----
-
-#### 5. Teacher and Student Autonomy
-**Loss of Control**: Heavy reliance on AI can shift authority away from educators and over-script students’ decisions.
-
-   Tools should offer adjustable feedback levels, allowing teachers to scaffold or override suggestions and students to reflect on AI guidance before accepting it.
-
----
-
-#### 6. Intellectual Property and Plagiarism
-**Ownership of Content**: It must be clear who owns work co-produced by students and AI.
-
-**Plagiarism Concerns**: Students may unintentionally plagiarize from AI outputs, or overuse sentence starters that diminish originality.
-
-   Feedback systems should flag AI-influenced text and distinguish between inspiration, completion, and full generation.
-
----
-
-#### 7. Emotional Well-being
-**Emotional Impact**: If feedback is too frequent, negative, or impersonal, it may reduce motivation and increase stress.
-
-   Emotional design in AI interfaces—such as tone of feedback and visible encouragement—should be as intentional as content accuracy.
-
----
-
-#### 8. Accountability and Responsibility
-**Attribution of Errors**: Who is responsible when AI-generated feedback is incorrect, harmful, or misleading?
-
-   AI systems in education must include audit logs, allow human override, and empower teachers to document and report feedback mismatches.
-
----
-
-#### 9. Overselling and Hype
-**Exaggerated Claims**: Marketing AI as a solution to all educational problems risks disillusionment and distracts from pedagogy.
-
-   Systems should be framed as assistive—not replacement—technologies, and pilot-tested before wide-scale rollout.
-
----
-
-#### 10. Ethical AI Education
-**Lack of Ethical Education**: Teachers and students often use AI without understanding its limitations, risks, or obligations.
-
-   Basic AI literacy should be embedded into all levels of digital learning, including bias awareness, data rights, and feedback skepticism.
+</details>
 
 ---
 
 
-
-## Mitigation Strategies
+<details>
+<summary><strong>🛡️ Mitigation Strategies</strong></summary>
 
 **Training Data Bias**  
 Implement diverse and representative training datasets, regularly audit data for biases, and use techniques like adversarial training to reduce bias.  
+
+---
 
 **Personalization Bias**  
 Provide transparency in personalization algorithms, allow students to control and customize their learning experiences, and regularly evaluate and adjust personalization models.  
@@ -238,6 +282,8 @@ Provide transparency in personalization algorithms, allow students to control an
 
 **Student Data Protection**  
 Follow strict data protection regulations, anonymize and aggregate data when possible, and ensure that data storage and transmission adhere to robust security protocols.  
+
+---
 
 **Informed Consent**  
 Clearly communicate data usage policies to students and parents, obtain explicit consent, and allow users to opt-out of certain data collection practices.  
@@ -252,6 +298,8 @@ Develop AI systems with explainability features, provide clear documentation on 
 **Technological Divide**  
 Promote initiatives to provide equal access to technology, such as subsidized devices or internet access, and ensure that AI tools are designed with varying levels of technology in mind.  
 
+---
+
 **Accessibility Challenges**  
 Adhere to accessibility standards, conduct regular accessibility testing, and involve individuals with diverse abilities in the design and testing phases.  
 
@@ -264,6 +312,8 @@ Empower teachers to understand and modify AI recommendations, involve them in th
 
 **Ownership of Content**  
 Clearly define ownership rights in AI-generated content, educate students on intellectual property, and establish protocols for collaboration and attribution.  
+
+---
 
 **Plagiarism Concerns**  
 Use plagiarism detection tools to identify AI-generated content, educate students on proper citation practices, and implement clear policies on plagiarism.  
@@ -288,15 +338,20 @@ Encourage realistic expectations through transparent communication about the cap
 **Lack of Ethical Education**  
 Integrate ethical AI education into the curriculum for both educators and students, covering topics such as bias mitigation, privacy, and responsible AI use.  
 
+</details>
 
+---
 
+<details>
+<summary><strong>📚 References</strong></summary>
 
-## References
-1. Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). The Power of ZPD: Enhancing Teaching and Learning. Journal of Education and Social Studies, 5, 396-405.
-1. Clark, J.M., & Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3).
-1. Hattie, J., & Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81-112.
-1. Martinez, M.E. (2010). Learning and Cognition: The Design of the Mind. Merrill.
-1. Paivio, A. (1986). Mental Representations: A Dual-Coding Approach. Oxford University Press.
-1. Reiser, B.J., & Tabak, I. (2014). Scaffolding. Cambridge Handbook of Learning Sciences, 2nd Ed.
-1. Sweller, J. (1988). Cognitive load during problem solving. Cognitive Science, 12(2), 257-285.
-1. Winne, P.H., & Azevedo, R. (2014). Metacognition. Cambridge Handbook of Learning Sciences.
+1. Anwar, M., Mushtaq, N., Mubeen, A., & Iqbal, M. (2024). *The Power of ZPD: Enhancing Teaching and Learning*. Journal of Education and Social Studies, 5, 396–405.  
+2. Clark, J.M., & Paivio, A. (1991). *Dual coding theory and education*. Educational Psychology Review, 3(3).  
+3. Hattie, J., & Timperley, H. (2007). *The Power of Feedback*. Review of Educational Research, 77(1), 81–112.  
+4. Martinez, M.E. (2010). *Learning and Cognition: The Design of the Mind*. Merrill.  
+5. Paivio, A. (1986). *Mental Representations: A Dual-Coding Approach*. Oxford University Press.  
+6. Reiser, B.J., & Tabak, I. (2014). *Scaffolding*. Cambridge Handbook of Learning Sciences, 2nd Ed.  
+7. Sweller, J. (1988). *Cognitive load during problem solving*. Cognitive Science, 12(2), 257–285.  
+8. Winne, P.H., & Azevedo, R. (2014). *Metacognition*. Cambridge Handbook of Learning Sciences.  
+
+</details>
