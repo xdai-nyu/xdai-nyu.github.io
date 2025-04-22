@@ -4,9 +4,9 @@ title: Final Project
 
 
 April 29
-: **Project Check-in**{: .label .label-purple }[Project](#)
+: **No Deliverables**{: .label .label-purple }[Project](#)
   : Work on your final projects
 
 May 6
-: [Project Final Presentations](#)
-: **Final Project Due**{: .label .label-red }
+: [Project Final Presentations](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link)
+: **[Final Project Due](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link)**{: .label .label-red }
