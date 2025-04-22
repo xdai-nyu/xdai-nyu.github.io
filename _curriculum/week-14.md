@@ -3,12 +3,12 @@ title: Societal and Ethical Implications of AI - II
 week: 14
 date: 2025-04-22
 ---
+Instructor will share some evaluation good practices and examples. 
+
 Students will present the current state of their project prototype, and evaluation plan or early data, and receive peer and instructor feedback. 
 
 Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems.
 
-## In-class Activity
-Ethical Matrix - students will develop an ethical matrix for their own final projects outlining different direct and indirect stakeholders that will be impacted by their systems, their values, and how the system design aligns (or could align) with their values.
 
 
 ## Week 14 Readings
