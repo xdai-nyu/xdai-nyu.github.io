@@ -211,17 +211,34 @@ Robotic Prototype/Materials Audit (Cass)
 
 
 
-## Midterm reflection
+## Ethical Considerations
 
-Melody: I'm glad we gathered feedback from parents before starting the design phase of our project. I'm curious to see how all the secondary research and perspectives come together as we develop the prototype for the trial with participating parents and children.
+Personalization Bias: While personalizing the reading experience according to learner knowledge, preferences, and needs is one of the main features of Syllabot, there is possibility for this design feature to create stereotype threat. For example, if there is a learner who becomes aware of their learning differences due to the way their progress in the app is presented, this might create anxiety that inadvertently negatively affects their performance and reinforces their differences. It is important that we present feedback at the right time and in positive ways so that this doesn't happen.
 
-Cass:
+Privacy: Our personalization feature also involves collecting and interpreting a large amount of learner data. This data will be kept locally in order to maintain learner profiles on Syllabot, but at any point the parent/guardian can delete this data and/or choose to use default learner profiles to maintain anonymity. Syllabot will ask the learner during setup if they consent to having their information collected in order to personalize their experience.
 
-Kai: 
+Accessibility: Syllabot also incorporates many sensory and input channels into the learning experience: vision, audio, speech, gesture, and touch. The main version of the experience relies on the integration of these channels, but this introduces accessibility issues if the learner cannot interact in these ways (e.g., they are deaf or cannot move their body). Thus there will also be settings to include or remove various input channels in order to make the learning experience more accessible.
+
+Emotional impact: The customizable anthropormorphic quality of the Syllabot body makes it possible for students to form more intense emotional connections with the device. While we hypothesize this can increase engagement in the learning experience, it can also be considered an ethically questionable design choice because there is potential for issues with the device to be interpreted as harm/pain and cause emotional distress. We combat this by implementing a robotic-sounding voice that Syllabot uses to communicate with the user, hopefully offsetting its other anthropomorphic and emotional qualities.
 
 
+## Evaluation Plan 
 
+### Hypotheses 
+1. A social robot for phonics learning will increase learner agency and decrease parental involvement in learning phonics.
+2. Personalizing the reading content will increase learners’ motivation to practice reading.
+3. Personalizing the robot body will improve children’s ability to express their identity in the phonics learning process.
 
+### Variables
+1. Learning modality vs. Learner agency, Parental involvement
+2. Reading content vs. Motivation to practice reading
+3. Robot body design vs. Learner expression
 
+### Methods
+1. Control group (book) and experimental group (Syllabot)
+2. Survey both students and parents of each group
+
+### Analysis
+TBD…
 
 
