@@ -26,6 +26,7 @@ Toolkits:
 1. [Pytorch](https://pytorch.org/) 
 1. [P5.js](https://p5js.org/)
 1. [ML5.js](https://ml5js.org/) 
+1. [Huggingface](https://huggingface.co/)
 
 Notebooks: 
 1. [Vision notebook](https://colab.research.google.com/drive/1PSrNYNf4iemAhoffa9_pWjVrlzrEXjFX?usp=sharing)
@@ -33,5 +34,6 @@ Notebooks:
 
 Cool Datasets: 
 1. [Kaggle](https://www.kaggle.com/datasets)
+1. [HuggingFace Datasets](https://huggingface.co/datasets)
 
 
