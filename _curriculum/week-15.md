@@ -36,4 +36,8 @@ Cool Datasets:
 1. [Kaggle](https://www.kaggle.com/datasets)
 1. [HuggingFace Datasets](https://huggingface.co/datasets)
 
+Article: 
+1. [Times Article GPT](https://www.nytimes.com/interactive/2023/04/26/upshot/gpt-from-scratch.html?unlocked_article_code=1.B08.u-BE._gDRvnXemtK0&smid=url-share). 
+1. [PDF version is here](https://xdai-nyu.github.io/assets/articles/NYT-GPT.pdf)
+
 
