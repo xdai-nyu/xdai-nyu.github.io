@@ -22,7 +22,7 @@ Project Report reuqirements:
 - Add your project reports in the [final project folder](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link). Two options: 
 
 1. You may create a PDF document with a paper style formating, OR 
-1. you may choose to use your website. If you use your website, add a googe doc in the submission folder with your project website link, and please format your website well (fix the bold formating, add bullets, link the appropriate links, etc.). [Here are some formating tips for markdown pages.](https://www.markdownguide.org/basic-syntax/) 
+1. you may choose to use your [github page website](https://xdai-nyu.github.io/projects/). If you use your website, add a googe doc in the submission folder with your project website link, and please format your website well (fix the bold formating, add bullets, link the appropriate links, etc.). [Here are some formating tips for markdown pages.](https://www.markdownguide.org/basic-syntax/) 
 
 Final project report required sections: 
 
