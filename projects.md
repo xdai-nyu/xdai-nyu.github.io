@@ -11,6 +11,6 @@ description: A listing of all the course projects
 - [Enhancing Parental Support in K-12 Math Learning Without Requiring Subject Expertise](projects/parent.md)
 - [Learning to read through gamified embodied storytelling (Team Syllabot)](projects/syllabot.md)
 - [AI-Generated ASMR: Enhancing Learning Through Sound and Relaxation (Team Whisper)](projects/whisper.md)
-- [AI-Feedback Buddy (Team explAIners)](projects/explAIners.md)
+- [AI-Feedback Buddy (Team explAIners)](projects/FeedbackBuddy.md)
 - [Cognizance: Your Deep Learning Pal](projects/Cognizance.md)
 
