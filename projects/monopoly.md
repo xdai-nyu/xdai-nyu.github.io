@@ -1,5 +1,7 @@
 ## VentureSeed
-## Team Name:
+## Project Report Website
+[All about VentureSeed](https://coolsoda11.github.io/VentureSeed/)
+## Team Name
 Monopoly
 ## Project Members
 Ziying Zhao, Beining Sun, Qinyu Lin
