@@ -2,10 +2,16 @@
 
 **Enhance learning by providing personalized feedback on reading responses through AI-driven verbal/visual scaffolds**
 
-## Project Members
-Jessica Masciovecchio, Lucy Castro, Merry Cui, Yu-ri Chang, Ruolin Zhang
+## Project Members & Contributions
 
----
+**Jessica Masciovecchio, Lucy Castro, Merry Cui, Yu-ri Chang, Ruolin Zhang**
+
+- Project Lead: Jess & Yu-Ri    
+- User Research / Testing: Jess  
+- Design Lead: Lucy & Yu-Ri    
+- AI Lead: Merry & Yu-Ri    
+- Website / Presentation Update: Ruolin    
+- Project Development: All  
 
 ## 📄 Table of Contents
 - [Abstract](#abstract)
@@ -265,14 +271,14 @@ Based on rubric-graded responses from Day 3 and Day 4 sessions, we observed:
 
 ### 2. Observational Insights
 
-#### From User 1 (Mak):
+#### From User 1:
 - Attempted all 5 steps but hesitated at "Explain": *"I'm not sure what to do here."*
 - Benefited from **visual cues** like underlining and emoji scoring.
 - Actively corrected spelling when underlined, showing awareness of feedback.
 - Valued the side-by-side layout: *“I like the questions next to it… it helps me know what part I was missing.”*
 - Suggested feedback should stay longer or be easier to reference: *“It would help if the feedback stayed longer or had checkmarks to know what to fix.”*
 
-#### From User 2 (Ma):
+#### From User 2:
 - Initially confused by navigation, benefited from the numbered stages: *“Oh I think I restate and answer.”*
 - Wanted **immediate feedback**: *“This is three words and it didn’t say anything.”*
 - Struggled with **error detection**: *“When I type something wrong they never tell me what is wrong… maybe it should tell you how to fix it.”*
@@ -286,15 +292,15 @@ These insights suggest a need for anchored instruction, feedback persistence, cl
 ### 3. Student Feedback Highlights
 
 #### 🧩 Simplicity & Layout
-- *“This feels simpler to write everything down. The other one you have to go back and forth.”* —Mak
+- *“This feels simpler to write everything down. The other one you have to go back and forth.”* 
 
 #### 👀 Visual Feedback
 - *“I like the turtle.”*
 - *“It would help if the feedback stayed longer or had checkmarks to know what to fix.”*
 
 #### 💬 Confidence
-- *“I would recommend it to others to help prepare.”* —Mak
-- *“Just staring at this is a little boring… you got a medal, yay!”* —Ma
+- *“I would recommend it to others to help prepare.”* 
+- *“Just staring at this is a little boring… you got a medal, yay!”* 
 
 ---
 
