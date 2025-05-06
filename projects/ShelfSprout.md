@@ -3,6 +3,8 @@
 
 **Qadira Razman, Ranju Krishna**
 
+Link to Project Report: [https://docs.google.com/document/d/1p0PMcRHc1eUaX7L4ISCz7cMXmoBB-CceJOnsMxqCebM/edit?usp=sharing](url)
+
 ## Project Brief:  
 
 **Target Learning Audience:** 
@@ -59,6 +61,6 @@ Click here to see our full [need-finding report!]([url](https://docs.google.com/
 
 Click here to see our [survey!]([url](https://docs.google.com/forms/d/e/1FAIpQLSdzMug8NxGh4CLsaLgmvRQYdfjFQ-pFGesh2PqW13hXZrHZfw/viewform?usp=dialog))
 
-For our current prototype of the project, [click here.]([url](https://replit.com/join/gwpochxdjo-qr2050)) 
+For our current prototype of the project, click here: [https://e412493a-92d2-41e9-85ce-d6c421744795-00-2r3ip5g6luofc.picard.replit.dev/](url)
 
 
