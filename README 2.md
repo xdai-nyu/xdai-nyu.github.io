@@ -22,7 +22,7 @@ This is the class website where the assignments, announcements, schedules, ofice
 - [course calendar](calendar.md)
 - [weekly schedule](schedule.md)
 - [curriculum](curriculum.md)
-- [projects](projects.md)
+- [projects](projectsf25.md)
 - [slack channel](https://ectnyu.slack.com/archives/C08A4NVRWL8)
 - [assignment submission folder](https://drive.google.com/drive/folders/10QJY4eDSQVoGuU9s-fj3FHR63pGw777z?usp=drive_link)
 - [Github repository](https://github.com/xdai-nyu/xdai-nyu.github.io)
