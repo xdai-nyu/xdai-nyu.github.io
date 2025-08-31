@@ -66,6 +66,12 @@ defaults:
     values:
       layout: curriculum
 
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: projects
+
 compress_html:
   clippings: all
   comments: all
