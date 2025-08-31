@@ -13,11 +13,10 @@ seo:
 This is the class website where the assignments, announcements, schedules, ofice hours, etc. will be posted. Here are some important links: 
 
 - Course number: EDCT-GE 2114 (3 credits), Section 001
-- Class: #7153, 
-- Location: [370 Jay Street, Room 540](https://g.co/kgs/ZUeFPF3)
+- Location: [370 Jay Street, Room 522](https://g.co/kgs/ZUeFPF3)
 - Instructor: [Safinah Ali](https://steinhardt.nyu.edu/people/safinah-ali)
 - Contact: safinah[dot]ali[at]nyu[dot]edu
-- Schedule: Tuesdays, 5:00-6:45 pm
+- Schedule: Wednesdays, 7:00-8:45 pm
 
 ## Important Links:
 - [course calendar](calendar.md)

@@ -46,8 +46,8 @@ Each week will consist of an assigned reading reflections and assignment (unless
 
 ### Required 
 - Weekly in-person weekly class meeting
-- Weekly reading assignments will be available online (Due 24 hours prior to the class meeting: Monday at 5:00 PM EST)
-- Weekly mini-assignment (Due 24 hours prior to the class meeting: Monday at 5:00 PM EST)
+- Weekly reading assignments will be available online (Due 24 hours prior to the class meeting: Tuesdays at 7:00 PM EST)
+- Weekly mini-assignment (Due 24 hours prior to the class meeting: Tuesday at 7:00 PM EST)
 - Weekly lecture assignments available online to be completed before class meetings.
 - Final project paper
 - Final project source materials or code repository 
