@@ -1,3 +1,7 @@
+---
+title: Cognizance Project Page
+---
+
 ## Cognizance: Your Deep Learning Pal
 ![COGNIZANCE LOGO](https://github.com/user-attachments/assets/337d1457-b9c3-4417-a2d1-a1ea189a0be3)
 
