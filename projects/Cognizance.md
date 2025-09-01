@@ -3,7 +3,7 @@ title: [S25] Cognizance
 nav_exclude: true
 ---
 
-## Cognizance: Your Deep Learning Pal
+## Cognizance: Your Deep Learning Pal Project
 ![COGNIZANCE LOGO](https://github.com/user-attachments/assets/337d1457-b9c3-4417-a2d1-a1ea189a0be3)
 
 ## Project Members: 
