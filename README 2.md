@@ -32,7 +32,7 @@ This is the class website where the assignments, announcements, schedules, ofice
 ## Pre-class To-do: 
 - Carry your laptop to the class. 
 - Join the class [Slack channel](https://ectnyu.slack.com/archives/C08A4NVRWL8) 
-- Request edit access to the [Google Drive Assignment folder](https://drive.google.com/drive/folders/10QJY4eDSQVoGuU9s-fj3FHR63pGw777z?usp=drive_link)
+- Request edit access to the [Google Drive Assignment folder](https://drive.google.com/drive/folders/1Ss0c3Qh7ObPOJEO0OWkZo_oT1bfHrlHu?usp=sharing)
 - Sign up for [Github](https://github.com)
 - Make sure that you have Python 3.0 installed in your computer. If you don't already have it, see download instructions [here](https://www.python.org/downloads/). Do not worry if you have never used Python before, we will go over this. 
 

@@ -40,7 +40,7 @@ Students should be able to:
 
 ## Assignments
 
-Each week will consist of an assigned reading reflections and assignment (unless specified otherwise). You may find the readings, assignments, and due dates in the course curriculum. Reading reflections will be a form available on the calendar tab of this website. All assignments can be submitted on the group [Google Drive](https://drive.google.com/drive/folders/10QJY4eDSQVoGuU9s-fj3FHR63pGw777z?usp=sharing). All reading reflections and assignments will be due 24 hours prior to the class (5:00 PM on Mondays). 
+Each week will consist of an assigned reading reflections and assignment (unless specified otherwise). You may find the readings, assignments, and due dates in the course curriculum. Reading reflections will be a form available on the calendar tab of this website. All assignments can be submitted on the group [Google Drive](https://drive.google.com/drive/folders/1Ss0c3Qh7ObPOJEO0OWkZo_oT1bfHrlHu?usp=sharing). All reading reflections and assignments will be due 24 hours prior to the class (5:00 PM on Mondays). 
 
 ## Course Expectations
 
