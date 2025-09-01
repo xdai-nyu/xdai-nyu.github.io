@@ -1,7 +1,7 @@
 ---
 title: Designing Human-centered AI - II 
 week: 3
-date: 2025-02-04
+date: 2025-09-17
 ---
 
 Students will examine current day AI systems (such as text-generation, vision tools, and image generation tools) from the lens of the HAI, Explainability, and Design Justice frameworks. How do contemporary tools such as ChatGPT hold up? What are they urgently missing? 

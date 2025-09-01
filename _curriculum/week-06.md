@@ -1,7 +1,7 @@
 ---
 title: AI in Learning 
 week: 6
-date: 2025-02-25
+date: 2025-10-08
 ---
 
 In a flipped classroom style, we discuss historic case studies of instructional technology, and students’ lived experiences of their long-term impact. What changed with calculators in the classroom? With computers? With AI? We will discuss scaffolding using AI chatbots, and early findings from research pieces discussing personalized scaffolding. Students will explore key concepts in personalized ML algorithms, AI for assistive learning, adaptive systems, AI tutors, social AI companions, educational data mining and learning analytics. We will dive deeper into AI for fostering learning behaviors, such as, curiosity, growth mindset and creativity. 

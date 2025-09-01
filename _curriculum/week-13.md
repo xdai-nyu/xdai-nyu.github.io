@@ -1,16 +1,28 @@
 ---
-title: Societal and Ethical Implications of AI - I 
+title: Societal and Ethical Implications of AI - II + Evaluations
 week: 13
-date: 2025-04-15
+date: 2025-11-26
 ---
 
-Students will dive deeper into current fairness, accountability and transparency concerns in AI. Students will learn about the dangers of large language models, particularly in learning. Students will dive deeper into bias, data privacy and security, equity, learner autonomy, plagiarism, emotional well-being, AI hype, accountability, implications on the future of work, misinformation, environmental impact, and power dynamics in AI ecosystems. We will discuss the uncanny valley, and digital presence and persuasive powers of generative AI personas. We will also consider when not to use AI. 
+Instructor will share some evaluation good practices and examples. 
 
-## In-class Activity
-Students will interact with the Bias Explorer to understand bias in visual AI systems, and how societal stereotypes are represented in AI-generated media. 
+Students will present the current state of their project prototype, and evaluation plan or early data, and receive peer and instructor feedback. 
 
-## Week 13 Readings
-1. [Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922)
-1. [Turkle, S. (2024). Who Do We Become When We Talk to Machines?.](https://mit-genai.pubpub.org/pub/uawlth3j/release/2)
+Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems.
 
-**[Reading Reflection:](https://forms.gle/yLfgmg3sFpk7byfp7)** *(due on 04/14, 5:00 PM EST)*
+
+
+## Week 14 Readings
+1. [Ehsan, U., Singh, R., Metcalf, J., & Riedl, M. (2022, June). The algorithmic imprint. In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (pp. 1305-1317).](https://dl.acm.org/doi/pdf/10.1145/3531146.3533186)
+1. [Jiang, H. H., Brown, L., Cheng, J., Khan, M., Gupta, A., Workman, D., ... & Gebru, T. (2023, August). AI Art and its Impact on Artists. In Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (pp. 363-374).](https://dl.acm.org/doi/pdf/10.1145/3600211.3604681) 
+
+**Reading Reflection: [https://forms.gle/Z1yKjZFQ5zqdyhgt9](https://forms.gle/Z1yKjZFQ5zqdyhgt9)** *(due on 04/21, 5:00 PM EST)*
+
+
+## Project Update 6
+1. Update your project websites to include an ethical implications, and a societal implications section (1-2 paragraphs). Discuss how your approach in your project may mitigate AI harms. Make sure to add this section on your project site. 
+1. Add slides in your project update with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. Think of what you will want to measure to evaluate the efficacy of your tool. You will present these in the next class. 5 minutes presentation time. 
+**Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)*
+
+[Class Slides](https://docs.google.com/presentation/d/1X6YEFE8aUg-zQUjf6E2Lm2Ob-tn-v_X_TEa0EtRxzOw/edit?usp=sharing)
+

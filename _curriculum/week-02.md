@@ -1,7 +1,7 @@
 ---
 title: Designing Human-centered AI - I 
 week: 2
-date: 2025-01-28
+date: 2025-09-10
 ---
 
 We often hear of the human and AI dichotomy, but can they flourish in tandem? Students are introduced to key concepts in human-centered AI (HCAI), and we go over the two-dimensional HCAI framework (Shneiderman, 2022). We discuss the HCAI concepts: user-centered design, transparency, explainability, inclusivity, equity, safety, and regulation. We especially dive deeper into Explainable AI (XAI), and explainability implications for AI systems in learning. 

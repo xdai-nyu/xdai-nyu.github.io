@@ -1,7 +1,7 @@
 ---
 title: Building Blocks of AI - Neural Networks
 week: 8
-date: 2025-03-11
+date: 2025-10-22
 ---
 
 How does the AI work? Students learn about what different terms such as big data, machine learning, deeplearning, reinforcement and artificial intelligence mean, and how they relate with one another. We then explore datasets, such as the imagenet and LAION-5B to gain a sense of datasets used for training AI. Through an interactive simulation, students learn about how the feedforward and backpropagation processes in Neural Networks work.We dive deeper into Recurrent Neural Networks and their applications in Natural Language Processing. 

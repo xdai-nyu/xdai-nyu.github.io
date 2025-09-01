@@ -1,27 +1,49 @@
 ---
-title: Societal and Ethical Implications of AI - II + Evaluations
+title: Final Project Presentations
 week: 14
-date: 2025-04-22
+date: 2025-12-03
 ---
-Instructor will share some evaluation good practices and examples. 
 
-Students will present the current state of their project prototype, and evaluation plan or early data, and receive peer and instructor feedback. 
+Students will share their final projects. 
 
-Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems.
+Project Presentations: 
+- Add your presentation slides in the [final project folder.](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link)
+- Time: 8 minutes + 2 minutes for questions 
+1. Team introductions 
+1. Hook: Interesting one liner about your project 
+1. Target audience
+1. Problem statement / user need 
+1. Prototype demo 
+1. Design process / lessons 
+1. Evaluation plan 
+1. Findings (if any)
+1. Next steps 
+
+Project Report reuqirements: 
+- Add your project reports in the [final project folder](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link). Two options: 
+
+1. You may create a PDF document with a paper style formating, OR 
+1. you may choose to use your [github page website](https://xdai-nyu.github.io/projects/). If you use your website, add a googe doc in the submission folder with your project website link, and please format your website well (fix the bold formating, add bullets, link the appropriate links, etc.). [Here are some formating tips for markdown pages.](https://www.markdownguide.org/basic-syntax/) 
+
+Final project report required sections: 
+
+1. Abstract: A one paragraph summary of your project. 
+1. Introduction: A 1 pager describing the target audience, the need you identified, the research questions or problem statement, the prorotype design, and findings in brief. 
+1. System design: Add your design features (from the feature mapping), your early prototypes, and your design process here. 
+1. Prototype: Add a description of your final project prorotype here. Call out all the features and describe what works. 
+1. Evaluation: A 1 pager about what you wish to evaluate, what data needs to be collected to evaluate this, and how you will conduct this evaluation. 
+1. Findings: If you conducted any evaluation. 
+1. Ethical implications: What you foresee as ethical and societal implications of your work, and how you plan to mitigate them. 
+1. Future work or next steps
+
+	---
 
 
-
-## Week 14 Readings
-1. [Ehsan, U., Singh, R., Metcalf, J., & Riedl, M. (2022, June). The algorithmic imprint. In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (pp. 1305-1317).](https://dl.acm.org/doi/pdf/10.1145/3531146.3533186)
-1. [Jiang, H. H., Brown, L., Cheng, J., Khan, M., Gupta, A., Workman, D., ... & Gebru, T. (2023, August). AI Art and its Impact on Artists. In Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (pp. 363-374).](https://dl.acm.org/doi/pdf/10.1145/3600211.3604681) 
-
-**Reading Reflection: [https://forms.gle/Z1yKjZFQ5zqdyhgt9](https://forms.gle/Z1yKjZFQ5zqdyhgt9)** *(due on 04/21, 5:00 PM EST)*
+**Project reports and project presentations are due on 05/05. No extensions.**
 
 
-## Project Update 6
-1. Update your project websites to include an ethical implications, and a societal implications section (1-2 paragraphs). Discuss how your approach in your project may mitigate AI harms. Make sure to add this section on your project site. 
-1. Add slides in your project update with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. Think of what you will want to measure to evaluate the efficacy of your tool. You will present these in the next class. 5 minutes presentation time. 
-**Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)*
+*Name your file as LastNames_FinalProject (e.g. Lastname1_Lastname2_FinalProject)*
 
-[Class Slides](https://docs.google.com/presentation/d/1X6YEFE8aUg-zQUjf6E2Lm2Ob-tn-v_X_TEa0EtRxzOw/edit?usp=sharing)
+
+**[Final Project Folders](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link)**
 

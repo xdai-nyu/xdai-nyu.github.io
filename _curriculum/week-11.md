@@ -1,20 +1,24 @@
 ---
-title: How Large Language Models (LLMs) work & Evaluation
+title: Building with AI - Makeathon! 
 week: 11
-date: 2025-04-01
+date: 2025-11-12
 ---
 
-Using simulation activities, students learn about Attention Models, Transformers, Large Language models, how ChatGPT works (generative pre-training, supervised fine-tuning, reinforcement learning from human feedback). They participate in a game simulating the experience of building a dataset of a character, and training themselves as a model, and using the model to make predictions. Using visualizations and metaphors, students learn about Convolutional Neural Networks, Diffusion models and CLIP. They participate in a game simulating generating drawings based on training data from hypothetical doodle datasets. 
+Students will map features for their projects and share their prototyping progress with peers. They will continue developing their prototypes from last week, refining their designs and functionality. By the end of the session, students will build client-ready apps that include an AI demo component.
 
-Learning evaluations 
-Usability evaluations
+[Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1_pv2Pq8aHjD0L0VQxEZ1icPykB1trxM3nA6ymSJsO40/edit?usp=sharing)
 
-## Week 11 Readings / explorations
-1. Task 1 (Option 1): Watch this video to explore how Stable Diffusion models work: [https://www.youtube.com/watch?v=hb-KT66rCT8](https://www.youtube.com/watch?v=hb-KT66rCT8) OR
-1. Task 1 (Option 2): Read this blog to explore the inner workings of Diffusion Models: [https://poloclub.github.io/diffusion-explainer/](https://poloclub.github.io/diffusion-explainer/)
-1. Task 2: Explpre this simulation of the Stable Diffusion process to understand how text-to-image generators work: [https://colab.research.google.com/github/touretzkyds/DiffusionDemo/blob/master/demo.ipynb](https://colab.research.google.com/drive/1ZyAqv55xDG7cbkxHiNMnywEZPUb1HcE6?usp=sharing)
-<!-- 1. Evaluating Learning Tools (reading) -->
 
-## Assignment 3
-Nothing to submit! But come to class having explored these resources. 
+## Assignment 4
+Update your course websites with your prototype progress and your feature maps. View a peer team's project that is assigned to you, and think of yourself as potential users of the product to provide some early feedback. Provide them with the following feedback: 
 
+1. Are the  user/learner/teacher needs well communicated?
+2. Are the design features relating well to the needs that are described? Explain. 
+3. What do you find the most valuable about this design product? 
+4. Are there ethical implications that you are concerned about? 
+
+
+[Peer Feedback Form](https://forms.gle/VUaGX2Ssg98tNdFK8)
+
+
+*No pre-class readings*

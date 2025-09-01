@@ -1,7 +1,7 @@
 ---
 title: Project check-in
 week: 15
-date: 2025-04-29
+date: 2025-12-10
 ---
 
 Instructor will discuss some advances in Creative AI applications and algorithms. 

@@ -1,24 +1,16 @@
 ---
-title: Building with AI - Makeathon! 
+title: Societal and Ethical Implications of AI - I 
 week: 12
-date: 2025-04-08
+date: 2025-11-19
 ---
 
-Students will map features for their projects and share their prototyping progress with peers. They will continue developing their prototypes from last week, refining their designs and functionality. By the end of the session, students will build client-ready apps that include an AI demo component.
+Students will dive deeper into current fairness, accountability and transparency concerns in AI. Students will learn about the dangers of large language models, particularly in learning. Students will dive deeper into bias, data privacy and security, equity, learner autonomy, plagiarism, emotional well-being, AI hype, accountability, implications on the future of work, misinformation, environmental impact, and power dynamics in AI ecosystems. We will discuss the uncanny valley, and digital presence and persuasive powers of generative AI personas. We will also consider when not to use AI. 
 
-[Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1_pv2Pq8aHjD0L0VQxEZ1icPykB1trxM3nA6ymSJsO40/edit?usp=sharing)
+## In-class Activity
+Students will interact with the Bias Explorer to understand bias in visual AI systems, and how societal stereotypes are represented in AI-generated media. 
 
+## Week 13 Readings
+1. [Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922)
+1. [Turkle, S. (2024). Who Do We Become When We Talk to Machines?.](https://mit-genai.pubpub.org/pub/uawlth3j/release/2)
 
-## Assignment 4
-Update your course websites with your prototype progress and your feature maps. View a peer team's project that is assigned to you, and think of yourself as potential users of the product to provide some early feedback. Provide them with the following feedback: 
-
-1. Are the  user/learner/teacher needs well communicated?
-2. Are the design features relating well to the needs that are described? Explain. 
-3. What do you find the most valuable about this design product? 
-4. Are there ethical implications that you are concerned about? 
-
-
-[Peer Feedback Form](https://forms.gle/VUaGX2Ssg98tNdFK8)
-
-
-*No pre-class readings*
+**[Reading Reflection:](https://forms.gle/yLfgmg3sFpk7byfp7)** *(due on 04/14, 5:00 PM EST)*

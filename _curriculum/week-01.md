@@ -1,7 +1,7 @@
 ---
 title: Introduction to Experience Design and AI 
 week: 1
-date: 2025-01-21
+date: 2025-09-03
 ---
 
 This introductory class will go over the course syllabus, course expectations, and introduce to students key concepts in designing AI systems. We will cover case studies of AI in learning systems, such as, the use of social agents to scaffold learning, and chatbots for scaffolding problem-solving. We will discuss students’ early understandings of applications and implications of using AI systems in learning environments. Through seminal works, students will get introduced to basic concepts in AI for learning, such as, personalization, social interaction, adaptive systems, emotion recognition, contextual feedback, and data analytics. 

@@ -1,7 +1,7 @@
 ---
 title: Project pitches; Introduction to AI in Learning 
 week: 4
-date: 2025-02-11
+date: 2025-09-24
 ---
 
 Students will present their 2-minute project pitches (individually) that you submitted in week 3. You can modify your slides if needed. Use individual pitches to form project teams. We will then continue the AI overview lecture from week 2. 
