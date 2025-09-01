@@ -68,9 +68,9 @@ defaults:
 
   - scope:
       path: ''
-      type: projectss25
+      type: projects
     values:
-      layout: projectss25
+      layout: projects
 
 compress_html:
   clippings: all

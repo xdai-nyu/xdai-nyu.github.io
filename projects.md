@@ -4,6 +4,10 @@ title: Projects Spring 2025
 description: A listing of all the course projects
 ---
 
+# Final Projects (Fall 2025)
+
+[to appear]
+
 # Final Projects (Spring 2025)
 
 - [AI-Powered Scenario-Based Entrepreneurship Practice Platform (Team Monopoly)](monopoly.md)
