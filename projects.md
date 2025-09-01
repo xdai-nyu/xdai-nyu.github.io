@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects Spring 2025
+title: Final Projects
 description: A listing of all the course projects
 ---
 
