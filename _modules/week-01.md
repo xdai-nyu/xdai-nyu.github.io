@@ -4,7 +4,7 @@ title: Designing AI Systems
 
 Sept 3
 : **Remote**{: .label .label-purple }[Introduction to Experience Design and AI](#)
-  : [Assignment 1: Due 9/9](https://drive.google.com/drive/folders/1ADHdU4B_reE2ustgkf6XOFYFwQvAhBWG?usp=sharing), [Reading reflections](https://forms.gle/ERvUbYe4GREuaSE39), [Slides](https://docs.google.com/presentation/d/1DFDuZwZhlsn9SFgo6Tmei7Q4YxeZtqfStXUv-E7pxOA/edit?usp=sharing)
+  : [Assignment 1: Due 9/9](https://drive.google.com/drive/folders/1ADHdU4B_reE2ustgkf6XOFYFwQvAhBWG?usp=drive_link), [Reading reflections](https://forms.gle/ERvUbYe4GREuaSE39), [Slides](https://docs.google.com/presentation/d/1DFDuZwZhlsn9SFgo6Tmei7Q4YxeZtqfStXUv-E7pxOA/edit?usp=sharing)
 
 Sept 10
 : [Designing Human-centered AI - I](#)
