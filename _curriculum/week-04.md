@@ -17,7 +17,7 @@ Write or draw a brief scenario explaining how you imagine AI will transform teac
 ### Supplemental Reading (optional): 
 1.[Luckin, R., & Holmes, W. (2016). Intelligence unleashed: An argument for AI in education.](https://static.googleusercontent.com/media/edu.google.com/en//pdfs/Intelligence-Unleashed-Publication.pdf)
 
-**Reading Reflection: [https://forms.gle/4Ts1yqvBxSLtdj1Z8](https://forms.gle/4Ts1yqvBxSLtdj1Z8)** *(due on 02/10, 5:00 PM EST)*
+**Reading Reflection: [https://forms.gle/4Ts1yqvBxSLtdj1Z8](https://forms.gle/4Ts1yqvBxSLtdj1Z8)** *(due on 09/23, 7:00 PM EST)*
 
 [Class Slides](https://drive.google.com/drive/folders/1lnL8kJfupv4-aQXAtY42xghxrmac5VQ7?usp=drive_link)
 

@@ -7,6 +7,6 @@ date: 2025-10-01
 ## No class due to Monday schedules
 
 
-**Reading Reflection: []()** *(due on 02/24, 5:00 PM EST)*
+**Reading Reflection: []()** *(due on 09/31, 5:00 PM EST)*
 
 
