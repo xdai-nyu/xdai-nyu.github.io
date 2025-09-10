@@ -8,12 +8,11 @@ Sept 3
 
 Sept 10
 : [Designing Human-centered AI - I](#)
-  : [Assignment 2: Due 9/16](https://drive.google.com/drive/folders/1lnL8kJfupv4-aQXAtY42xghxrmac5VQ7?usp=drive_link), [Reading reflections](https://forms.gle/KbzNnbGc4bGUfCYK8)
+  : [Assignment 2: Due 9/16](https://drive.google.com/drive/folders/1aPuMBJzVyfZB_k8kGylEuRBHF5G7I3dB?usp=drive_link), [Reading reflections](https://forms.gle/KbzNnbGc4bGUfCYK8)
 
 Sept 17
-: [ Designing Human-centered AI - II; Guest Lecture: Dr. Sooyeon Jeong](#)
+: [ Designing Human-centered AI - II](#)
   : [Reading reflections](https://forms.gle/4Ts1yqvBxSLtdj1Z8)
-
 
 
 <!-- Oct 2
