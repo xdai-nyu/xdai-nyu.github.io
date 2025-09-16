@@ -28,7 +28,7 @@ Ideate on final project ideas, and prepare two minute pitches for your final pro
 1. You will be presenting your 2-minute pitches on 02/11. This will be followed by group formations based on interest synergy. 
 
 
-**Assignment 2: [https://drive.google.com/drive/folders/1lnL8kJfupv4-aQXAtY42xghxrmac5VQ7?usp=sharing](https://drive.google.com/drive/folders/1aPuMBJzVyfZB_k8kGylEuRBHF5G7I3dB?usp=drive_link)** *(due on 09/16, 7:00 PM EST)*
+**Assignment 2: [https://drive.google.com/drive/folders/1aPuMBJzVyfZB_k8kGylEuRBHF5G7I3dB?usp=sharing](https://drive.google.com/drive/folders/1aPuMBJzVyfZB_k8kGylEuRBHF5G7I3dB?usp=drive_link)** *(due on 09/16, 7:00 PM EST)*
 
 [Class Slides](https://docs.google.com/presentation/d/1giYTt-lomq9IC-YSWjWsFSPVJQnFPDeC9lLth3wsbms/edit?usp=sharing)
 [Intro to AI Slides](https://docs.google.com/presentation/d/13vcGQgefdrNTq_X9NxDwsndV9_haVblIV9kZdNENlI8/edit?usp=sharing)
