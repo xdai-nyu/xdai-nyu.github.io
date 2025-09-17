@@ -6,6 +6,14 @@ date: 2025-09-17
 
 Students will examine current day AI systems (such as text-generation, vision tools, and image generation tools) from the lens of the HAI, Explainability, and Design Justice frameworks. How do contemporary tools such as ChatGPT hold up? What are they urgently missing? 
 
+Students will present their 2 min pitches to their peers to aid project formation. 
+
+
+## Tools used in class today: 
+1.  [Custom GPT for Chemistry](https://chatgpt.com/g/g-3pqrO7KSp-chemistry-chem)
+1.  [Art Explorer Tool](https://explore-art-204c2f2aab0f.herokuapp.com/)
+1.  [NotebookLM](https://notebooklm.google.com/)
+
 <!-- **Guest Lecture: [Dr. Sooyeon Jeong, Professor of Computer Science, Purdue University](https://www.cs.purdue.edu/people/faculty/sooyeonj.html)** -->
 
 ## Week 3 Readings
@@ -18,7 +26,7 @@ Students will examine current day AI systems (such as text-generation, vision to
 **Reading Reflection: [https://forms.gle/KbzNnbGc4bGUfCYK8](https://forms.gle/KbzNnbGc4bGUfCYK8)** *(due on 09/16, 7:00 PM EST)*
 
 
-## Assignment 2
+## Assignment 2 (due on Sept 16 before class)
 Ideate on final project ideas, and prepare two minute pitches for your final projects. Remember that these are preliminary ideas of what you're interested in, and you don't have to commit to them for your final projects. 
 
 

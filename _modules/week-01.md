@@ -12,7 +12,7 @@ Sept 10
 
 Sept 17
 : [ Designing Human-centered AI - II](#)
-  : [Reading reflections](https://forms.gle/4Ts1yqvBxSLtdj1Z8)
+  : [Reading reflections: Due 9/23](https://forms.gle/4Ts1yqvBxSLtdj1Z8)
 
 
 <!-- Oct 2

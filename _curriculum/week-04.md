@@ -4,7 +4,11 @@ week: 4
 date: 2025-09-24
 ---
 
-Students will present their 2-minute project pitches (individually) that you submitted in week 3. You can modify your slides if needed. Use individual pitches to form project teams. We will then continue the AI overview lecture from week 2. 
+Students will practice 2 new AI prototyping techniques. 
+
+Students will reflect on how AI is transforming teaching and learning. 
+
+Project teams will begin documenting their design priorities. 
 
 ## Week 4 Readings
 
@@ -19,8 +23,10 @@ Write or draw a brief scenario explaining how you imagine AI will transform teac
 
 **Reading Reflection: [https://forms.gle/4Ts1yqvBxSLtdj1Z8](https://forms.gle/4Ts1yqvBxSLtdj1Z8)** *(due on 09/23, 7:00 PM EST)*
 
-[Class Slides](https://drive.google.com/drive/folders/1lnL8kJfupv4-aQXAtY42xghxrmac5VQ7?usp=drive_link)
 
+#### **FORM YOUR PROJECT TEAMS BEFORE NEXT CLASS** 
 
-## Project Pitches 
-Revise your project pitches for next week's class. This is to gauge early interests. We will use these project pitchs to form groups for your final projects. Make sure your slides are in the group drive. 
+#### **NO ASSIGNMENTS, ONLY READINGS**
+
+<!-- ## Project Pitches 
+Revise your project pitches for next week's class. This is to gauge early interests. We will use these project pitchs to form groups for your final projects. Make sure your slides are in the group drive.  -->
