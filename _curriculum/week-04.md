@@ -23,7 +23,6 @@ Write or draw a brief scenario explaining how you imagine AI will transform teac
 
 **Reading Reflection: [https://forms.gle/4Ts1yqvBxSLtdj1Z8](https://forms.gle/4Ts1yqvBxSLtdj1Z8)** *(due on 09/23, 7:00 PM EST)*
 
-
 #### **FORM YOUR PROJECT TEAMS BEFORE NEXT CLASS** 
 
 #### **NO ASSIGNMENTS, ONLY READINGS**
