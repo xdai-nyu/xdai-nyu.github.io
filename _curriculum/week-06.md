@@ -9,7 +9,7 @@ In a flipped classroom style, we discuss historic case studies of instructional 
 ## In-class Activity
  Students will interact with a co-writing tool scaffolding different writing styles and vocabulary development in storytelling. Students will reflect on ownership in a co-created human-AI artifact. 
 
-## Week 5 Readings
+## Week 6 Readings
 
 1. Self-study: Technology has transformed educational spaces and pedagogies in the past. Choose a technology (i.e., radio, television, computers, or the internet) and research (use any sources: internet, magazines, movies, etc.) its reported impact on classrooms and teacher pedagogy.
 2. [A History of Instructional Design and Technology: Part I: A History of Instructional Media, Robert A, Reiser, 2001](https://docdrop.org/static/drop-pdf/A-history-of-instructional-design-and-technology-1-8nOHG.pdf)
@@ -29,7 +29,7 @@ Meet with your teams to decide on your problem statement. Teams will write the f
 3. A rationale for how you imagine AI may assist this learning need
 4. Footnote: Contribution of each group member (this footnote need to be a short line after each group submission)
 
-**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing)** *(due on 02/24, 5:00 PM EST)* -->
+**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing)** *(due on 10/07, 7:00 PM EST)* -->
 
 [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
 [Creative AI Slides](https://docs.google.com/presentation/d/1BZOD8KtlNrZ89DCSSoH-4hadH3lGdMqV_q-9bUGR1Cc/edit?usp=sharing)

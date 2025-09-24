@@ -4,9 +4,14 @@ week: 5
 date: 2025-10-01
 ---
 
-## No class due to Monday schedules
+Students will practice 2 new AI prototyping techniques. 
 
+Project teams will begin documenting their design priorities. 
 
-**Reading Reflection: []()** *(due on 09/31, 5:00 PM EST)*
+#### ***Assignment (Due Sept 30):*** 
+- Form a final project team. Meet with your team, and come up with priliminary project ideas.
+- Try vibe coding your learning games from week 1 (Assignment 1)
+
+#### **NO READINGS, ONLY ASSIGNMENT**
 
 

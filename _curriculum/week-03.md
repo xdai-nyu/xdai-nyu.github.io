@@ -6,7 +6,6 @@ date: 2025-09-17
 
 Students will examine current day AI systems (such as text-generation, vision tools, and image generation tools) from the lens of the HAI, Explainability, and Design Justice frameworks. How do contemporary tools such as ChatGPT hold up? What are they urgently missing? 
 
-Students will present their 2 min pitches to their peers to aid project formation. 
 
 
 ## Tools used in class today: 

@@ -4,11 +4,11 @@ week: 4
 date: 2025-09-24
 ---
 
-Students will practice 2 new AI prototyping techniques. 
+Students will present their 2 min pitches to their peers to aid project formation. 
+
+Students will have class time to meet with their peers to form project teams. 
 
 Students will reflect on how AI is transforming teaching and learning. 
-
-Project teams will begin documenting their design priorities. 
 
 ## Week 4 Readings
 
