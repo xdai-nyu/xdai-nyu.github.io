@@ -3,12 +3,11 @@ title: AI in Learning
 ---
 
 Sept 24
-: [Individual Pitches & Intro to AI](#)
-  : [Project Update 1: Due 9/30](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing), [Reading reflections: Due 9/30](https://forms.gle/i9m6SCPz3JDezm6o8)
+: [Individual Pitches](#)
+  : [Assignment 3 - Teams and Vibes: Due 9/30](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link), No Readings
 
 Oct 1
-: [Project teams and topics](#)
-  : 
+: [Project Update 1: Due 9/30](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing), [Reading reflections: Due 9/30](https://forms.gle/i9m6SCPz3JDezm6o8)
 
 Oct 8
 : [AI in Learning](#)
