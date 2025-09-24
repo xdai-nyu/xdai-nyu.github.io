@@ -1,5 +1,5 @@
 ---
-title: AI in Learning - II
+title: AI in Learning 
 week: 5
 date: 2025-10-01
 ---
