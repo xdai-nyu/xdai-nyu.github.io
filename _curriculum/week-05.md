@@ -10,7 +10,7 @@ Project teams will begin documenting their design priorities.
 
 Github basics. 
 
-#### ***[Assignment 3](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link)** *(due on 09/30, 7:00 PM EST)* -->*** 
+#### **[Assignment 3](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link)** *(due on 09/30, 7:00 PM EST)*  
 
 [Assignment Instructions in Detail](https://docs.google.com/document/d/1-Fc2-VDqTIkl4bKeS2fhXu-Z3VPaZ1vWerjcMvVnwz4/edit?usp=drive_link)
 
