@@ -25,5 +25,8 @@ Write or draw a brief scenario explaining how you imagine AI will transform teac
 
 #### **NO ASSIGNMENTS, ONLY READINGS**
 
+
+[Class 4 Slides](https://docs.google.com/presentation/d/1f9-Bl0oivjVkb9rCkiit9gcRJ7ARPe1kek9OBzP4vHY/edit?usp=sharing)
+
 <!-- ## Project Pitches 
 Revise your project pitches for next week's class. This is to gauge early interests. We will use these project pitchs to form groups for your final projects. Make sure your slides are in the group drive.  -->

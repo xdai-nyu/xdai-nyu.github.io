@@ -4,7 +4,7 @@ title: AI in Learning
 
 Sept 24
 : [Individual Pitches](#)
-  : [Assignment 3 - Teams and Vibes: Due 9/30](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link), No Readings
+  : [Assignment 3 - Teams and Vibes: Due 9/30](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link), No Readings, [Slides](https://docs.google.com/presentation/d/1f9-Bl0oivjVkb9rCkiit9gcRJ7ARPe1kek9OBzP4vHY/edit?usp=sharing)
 
 Oct 1
 : [AI in Learning]
