@@ -19,6 +19,8 @@ Github basics.
 
 [Assignment Folder](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link)
 
+#### **FORM YOUR PROJECT TEAMS BEFORE NEXT CLASS** 
+
 #### **NO READINGS, ONLY ASSIGNMENT**
 
 
