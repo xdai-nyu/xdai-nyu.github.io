@@ -15,6 +15,10 @@ Github basics.
 [Assignment Instructions in Detail](https://docs.google.com/document/d/1-Fc2-VDqTIkl4bKeS2fhXu-Z3VPaZ1vWerjcMvVnwz4/edit?usp=drive_link)
 
 1.  PART 1. TEAMS: Form your final project teams, and add team info to the sheets. 
+
+
+**PART 2 is MOVED TO IN-CLASS ACTIVITY. NO LONGER NEED TO DO THIS. ONLY DO PART 1** 
+
 1.  PART 2. VIBES: Try vibe coding your learning games from week 1, and add small videos in the assignment folder. 
 
 [Assignment Folder](https://drive.google.com/drive/folders/1cGVwR8mfZ8AKx7_l31jhdnDPe5FJlVks?usp=drive_link)
