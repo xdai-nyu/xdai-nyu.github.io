@@ -20,7 +20,7 @@ In a flipped classroom style, we discuss historic case studies of instructional 
 1. [Vazhayil, A., Shetty, R., Bhavani, R. R., & Akshay, N. (2019, December). Focusing on teacher education to introduce AI in schools: Perspectives and illustrative findings. In 2019 IEEE tenth international conference on Technology for Education (T4E) (pp. 71-77). IEEE.](https://drive.google.com/file/d/1g-vymkg2UIYsmEblUJ75ml4aLZx_MnHv/view?usp=drive_link)
 1. [Ali, S., Devasia, N., Park, H. W., & Breazeal, C. (2021). Social robots as creativity eliciting agents. Frontiers in Robotics and AI, 8, 673730.](https://drive.google.com/file/d/1MJZZrpLOu1gbd4qKuiopnYCFdTrGOqBa/view?usp=drive_link)
 
-**Reading Reflection: [https://forms.gle/i9m6SCPz3JDezm6o8](https://forms.gle/i9m6SCPz3JDezm6o8)** *(due on 02/24, 5:00 PM EST)*
+**Reading Reflection: [https://forms.gle/i9m6SCPz3JDezm6o8](https://forms.gle/i9m6SCPz3JDezm6o8)** *(due on 10/07, 7:00 PM EST)*
 
 ## Project Update 1
 Meet with your teams to decide on your problem statement. Teams will write the first draft of their problem statement, including:
@@ -29,7 +29,9 @@ Meet with your teams to decide on your problem statement. Teams will write the f
 3. A rationale for how you imagine AI may assist this learning need
 4. Footnote: Contribution of each group member (this footnote need to be a short line after each group submission)
 
-**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing)** *(due on 10/07, 7:00 PM EST)* -->
+**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing)** *(due on 10/07, 7:00 PM EST; includes github updates)* -->
+
+**Assignment 4 (vibes videos): [https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link)** *(due on 10/07, 7:00 PM EST)*
 
 [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
 [Creative AI Slides](https://docs.google.com/presentation/d/1BZOD8KtlNrZ89DCSSoH-4hadH3lGdMqV_q-9bUGR1Cc/edit?usp=sharing)

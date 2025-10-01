@@ -8,7 +8,7 @@ Sept 24
 
 Oct 1
 : [AI in Learning]
-  : [Project Update 1: Due 10/7](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing), [Reading reflections: Due 10/7](https://forms.gle/i9m6SCPz3JDezm6o8)
+  : [Project Update 1: Due 10/7](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing), [Assignment 4: Due 10/7](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link), [Reading reflections: Due 10/7](https://forms.gle/i9m6SCPz3JDezm6o8)
 
 Oct 8
 : [AI in Learning](#)
