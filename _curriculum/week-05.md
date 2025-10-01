@@ -25,6 +25,8 @@ Github basics.
 
 [Github](https://github.com/xdai-nyu/xdai-nyu.github.io)
 
+[Github project pages](https://github.com/xdai-nyu/xdai-nyu.github.io/tree/main/projects)
+
 #### **FORM YOUR PROJECT TEAMS BEFORE NEXT CLASS** 
 
 #### **NO READINGS, ONLY ASSIGNMENT**
