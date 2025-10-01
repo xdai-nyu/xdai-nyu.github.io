@@ -33,6 +33,7 @@ Meet with your teams to decide on your problem statement. Teams will write the f
 
 **Assignment 4 (vibes videos): [https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link)** *(due on 10/07, 7:00 PM EST)*
 
+[Github](https://github.com/xdai-nyu/xdai-nyu.github.io)
 [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
 [Creative AI Slides](https://docs.google.com/presentation/d/1BZOD8KtlNrZ89DCSSoH-4hadH3lGdMqV_q-9bUGR1Cc/edit?usp=sharing)
 
