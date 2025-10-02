@@ -29,9 +29,10 @@ Meet with your teams to decide on your problem statement. Teams will write the f
 3. A rationale for how you imagine AI may assist this learning need
 4. Footnote: Contribution of each group member (this footnote need to be a short line after each group submission)
 
-**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/1hbx0OF1QKc88oBTR3nn64RTYAzKkrHsr?usp=sharing)** *(due on 10/07, 7:00 PM EST; includes github updates)* -->
+**Project Update Submission [GROUP]: [Project Update 1](https://drive.google.com/drive/folders/13RotIPRsCfTU1yTkhjsIiayvdLJbUr_N?usp=drive_link)** *(due on 10/07, 7:00 PM EST; includes github updates)* -->
 
-**Assignment 4 (vibes videos): [https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link)** *(due on 10/07, 7:00 PM EST)*
+**Assignment 4 (vibes videos): [
+Assignment 4](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCvVyq4Po?usp=drive_link)** *(due on 10/07, 7:00 PM EST)*
 
 [Github](https://github.com/xdai-nyu/xdai-nyu.github.io)
 [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
