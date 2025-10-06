@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes from Safinah</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <style>
+        /* Custom styles for centering the sketch and setting Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        /* Style for the p5.js canvas container */
+        #p5-container {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 1rem; /* rounded-xl */
+            overflow: hidden;
+            max-width: 900px;
+            width: 100%;
+        }
+        /* Ensure the canvas element itself is styled correctly */
+        canvas {
+            display: block;
+            width: 100%;
+            height: auto;
+            touch-action: none; /* Important for touch drawing on mobile */
+        }
+        .info-box {
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-bottom-left-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+    </style>
+</head>
+<body class="selection:bg-indigo-300 selection:text-indigo-900">
+
+    <div id="p5-container" class="flex flex-col">
+        <!-- The p5.js canvas will be injected here -->
+        <div id="canvas-host"></div>
+        <div class="info-box text-center">
+             <h1 class="text-2xl font-bold text-gray-800 mb-2">Magic Text</h1>
+             <p class="text-sm text-gray-600">Draw a continuous curvy line on the canvas above using your finger.</p>
+             <button id="clear-btn" class="mt-4 px-4 py-2 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition duration-150 shadow-md hover:shadow-lg active:scale-95 transform">
+                 Clear Path
+             </button>
+        </div>
+    </div>
+
+    <script>
+        // Global variables for the p5.js sketch
+        let drawingLines = []; // Stores all completed strokes (arrays of {x, y} points)
+        let currentStroke = []; // Stores the points of the currently active stroke
+        let loremIpsumText;
+        // Adjusted character spacing to accommodate the bold, animated text
+        const charSpacing = 18; 
+
+        // --- P5.js Setup Function ---
+        window.setup = function() {
+            // Set dimensions for the canvas to be responsive.
+            // Cap the width at 860 (900px max container width - 40px body padding)
+            const canvasWidth = min(windowWidth - 40, 900);
+            const canvasHeight = 450;
+            const canvas = createCanvas(canvasWidth, canvasHeight);
+            
+            // Attach the canvas to the specified HTML element
+            canvas.parent('canvas-host');
+
+            // Generate a block of text (repeats as needed)
+            loremIpsumText = `Do your homeworks on time folks! 🤓`;
+
+            // Setup clear button functionality
+            document.getElementById('clear-btn').addEventListener('click', () => {
+                drawingLines = [];
+                currentStroke = [];
+                redraw(); // Redraw immediately to clear the screen
+            });
+
+            // Set frame rate for smooth animation
+            frameRate(30); 
+        }
+
+        // --- P5.js Draw Loop Function ---
+        window.draw = function() {
+            // 1. Fixed Background
+            // Clear the canvas with a fixed, almost-white background (grayscale value 250)
+            // This runs every frame, ensuring the background never changes color or animates.
+            background(250); 
+
+            // 2. Animated Text Setup
+            // Set p5.js to use Hue, Saturation, Brightness (HSB) color mode.
+            colorMode(HSB, 360, 100, 100);
+
+            // Combine all strokes (completed and current) into a single path of points
+            let allPoints = [];
+            drawingLines.forEach(stroke => {
+                allPoints = allPoints.concat(stroke);
+            });
+            allPoints = allPoints.concat(currentStroke); // Include the currently drawing stroke
+
+            if (allPoints.length < 2) {
+                // If no path exists, display instructions
+                colorMode(RGB); // Temporarily switch back to standard RGB for static text
+                textAlign(CENTER, CENTER);
+                textSize(24);
+                fill(150);
+                text("Draw a continuous line here!", width / 2, height / 2);
+                return;
+            }
+
+            // Text Flow Rendering Logic
+            let charIndex = 0;
+            let distanceTraveled = 0;
+
+            textSize(18);
+            textStyle(BOLD);
+            textAlign(CENTER, CENTER); // Center the character on its path point
+            noStroke();
+
+            // Iterate through all line segments in the combined path
+            for (let i = 1; i < allPoints.length; i++) {
+                const p1 = allPoints[i - 1];
+                const p2 = allPoints[i];
+                
+                if (!p1 || !p2) continue;
+
+                const segmentLength = dist(p1.x, p1.y, p2.x, p2.y);
+                const segmentAngle = atan2(p2.y - p1.y, p2.x - p1.x);
+
+                // Check for characters that fall within this segment's range
+                while (charIndex < loremIpsumText.length) {
+                    // Calculate the total distance required to place the next character
+                    const targetDistance = charIndex * charSpacing;
+
+                    // Check if the target distance falls within the current segment
+                    if (targetDistance >= distanceTraveled && targetDistance < distanceTraveled + segmentLength) {
+                        
+                        // 1. Calculate the position along the segment
+                        const distanceIntoSegment = targetDistance - distanceTraveled;
+                        const interpolationFraction = distanceIntoSegment / segmentLength;
+
+                        // Use linear interpolation (lerp) to find the character's exact coordinates
+                        const charX = lerp(p1.x, p2.x, interpolationFraction);
+                        const charY = lerp(p1.y, p2.y, interpolationFraction);
+
+                        // 2. Prepare the character
+                        // Use modulo operator (%) to repeat the text
+                        const charToDraw = loremIpsumText[charIndex % loremIpsumText.length];
+
+                        // Calculate the animated rainbow Hue (0 to 360)
+                        // charIndex * 5 provides the rainbow spread along the path
+                        // frameCount * 2 provides the slow animation over time
+                        let hue = (charIndex * 5 + frameCount * 2) % 360;
+
+                        // Set the rainbow fill color (high saturation and brightness)
+                        // This uses the HSB color mode set above.
+                        fill(hue, 80, 90); 
+
+                        // Skip drawing whitespace characters for better visual flow
+                        if (charToDraw !== ' ') {
+                            // 3. Draw the character with rotation
+                            push();
+                            translate(charX, charY);
+                            // Rotate the character to match the path's angle
+                            rotate(segmentAngle); 
+                            text(charToDraw, 0, 0); 
+                            pop();
+                        }
+                        
+                        charIndex++; // Move to the next character
+                        
+                    } else if (targetDistance >= distanceTraveled + segmentLength) {
+                        // If the next character is beyond this segment, break the inner loop 
+                        break;
+                    } else {
+                        charIndex++;
+                    }
+                    
+                    // Safety break if we run out of text
+                    if (charIndex >= loremIpsumText.length) break;
+                }
+
+                // Update the total distance traveled so far
+                distanceTraveled += segmentLength;
+
+                // Stop iterating segments if we've used all the text
+                if (charIndex >= loremIpsumText.length) break;
+            }
+        }
+
+        // --- P5.js Resized Handler ---
+        // Ensures the canvas resizes when the browser window does
+        window.windowResized = function() {
+             // Recalculate dimensions based on current window size, respecting max container width
+             const w = min(windowWidth - 40, 860);
+             const h = 450; // Keep height fixed
+             resizeCanvas(w, h);
+        }
+
+        // --- P5.js Interaction Handlers (Drawing Logic) ---
+
+        // Record points while the mouse or touch is dragged
+        window.mouseDragged = function() {
+            // Only draw if the pointer is within the canvas bounds
+            if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
+                // If this is the start of a drag, add the previous point for a smooth start
+                if (currentStroke.length === 0) {
+                    currentStroke.push({ x: pmouseX, y: pmouseY });
+                }
+                
+                // Add the new point
+                currentStroke.push({ x: mouseX, y: mouseY });
+                
+                // Returning false is important to prevent default browser actions like scrolling/text selection
+                return false; 
+            }
+        }
+        
+        // Save the finished stroke when the mouse/touch is released
+        window.mouseReleased = function() {
+            if (currentStroke.length > 0) {
+                // Save the completed stroke to the main array
+                drawingLines.push(currentStroke);
+                currentStroke = []; // Reset for the next stroke
+            }
+        }
+    </script>
+</body>
+</html>
