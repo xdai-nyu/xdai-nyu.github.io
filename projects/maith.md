@@ -19,7 +19,9 @@ This is occurring in a context wherein students broadly report disinterest in ac
 It's notable that students who reported considering themselves a "math person" located the genesis of this feeling in elementary school. We'd like to broaden what might be considered significant within this time window. It may be, as Schwartz et al. assert, "that elementary school math teachers have a large role in cultivating positive math attitudes." We wonder if there may also be that key *experiences* during this window that, whether they are present or absent, play a significant role, whether positive or negative, in students' developing self-concept. In fact, while self-concept is relevent in all learning, it's interesting to notice the enhanced importance it seems to have in math learning.  
 
 
-
+\
+\
+\
   
 
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
