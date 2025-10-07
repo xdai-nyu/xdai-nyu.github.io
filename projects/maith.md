@@ -34,7 +34,7 @@ If we were to make a word cloud around the concept of mathematics in education t
 ---
 
 
-![image](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJglbTRidvgmIPAOLTAasLjIpD8EqS5iu_7rzL3eO2EuwnyF3B29AQQRiR1iVJ568xZLCwbXA6J_1JxQtgWhwvOKRjkpDkDFMSo0wwqFOphtcu5F1OBNA=s512)
+![image](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/diagram.png)
 
 ### Problem Statement
 
