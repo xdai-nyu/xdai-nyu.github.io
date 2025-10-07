@@ -33,6 +33,9 @@ If we were to make a word cloud around the concept of mathematics in education t
 
 ---
 
+
+![image](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlJglbTRidvgmIPAOLTAasLjIpD8EqS5iu_7rzL3eO2EuwnyF3B29AQQRiR1iVJ568xZLCwbXA6J_1JxQtgWhwvOKRjkpDkDFMSo0wwqFOphtcu5F1OBNA=s512)
+
 ### Problem Statement
 
 K–12 mathematics is largely taught via direct instruction, offered to students with little to no rationale, and focused on external and extrinsic motivators, metrics, and indicators (grades, scores, etc.). Students are under- or unmotivated. At the same time, fear of failure is so high that it leads to significant incidence of clinical anxiety.
