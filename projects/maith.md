@@ -14,8 +14,8 @@ It's notable that students who reported considering themselves a "math person" l
 
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
 
-![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20tracking.png)
-!([https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20tracking.png](https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20US.png))
+![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
+!([https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20tracking.png](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png))
 
 Definition, symptoms, and impacts of math anxiety are detailed in the following quotes:
 
@@ -27,7 +27,7 @@ There is also evidence that students worldwide broadly report disliking academic
 
 Overall, this situation constitutes a **“Wicked Problem”** (Rittel & Webber, 1973).
 
-![Wicked Problem diagram](https://github.com/peh9341/images-xdai/blob/main/Wicked%20Problem.png)
+![Wicked Problem diagram](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/Wicked%20Problem.png)
 
 Solutions to Wicked Problems are never truly “right” or “wrong.” The goal is to contribute to making a massive, complex, multifaceted situation ***better.*** So what contribution might we make?
 
@@ -55,7 +55,7 @@ Develop a one-on-one AI-assisted learner-directed learning application that supp
 
 When new technologies emerge, the first phase of integration tends to consist of grafting old methods onto the new medium. If these old methods are as we say in our problem statement, this grafting can further bake in existing inequities and inefficiencies. It takes time, effort and creativity to leverage the affordances of the new technology to *amplify* and ultimately *transform* pedagogy to realize its benefits (see PICRAT Matrix). 
 
-![PICRAT Matrix (Kimmons, Draper, & Backman, 2022)](https://github.com/peh9341/images-xdai/blob/main/PICRAT.png)
+![PICRAT Matrix (Kimmons, Draper, & Backman, 2022)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/PICRAT.png)
 
 In this context, we propose to explore how **new, novel affordances of AI-assisted learning** might transform the student experience of mathematics learning. This is an early-stage attempt to explore the novel affordances of this new technology and how they intersect with what is currently known about effective cognitive, affective and motivational design for learning. **As such, we will ultimately narrow our problem space, problem definition and target learner in order to keep focus on exploring novel ways to cultivate, capture and sustain a motivating, rewarding experience of mathematics learning that responds to the frustrations of today’s students.**
 
@@ -71,7 +71,7 @@ Most academic math learning occurs via direct instruction in a compulsory contex
 - ### The power of productive failure
 Failure activates the amygdala, a tiny structure deep in the brain that plays a key role in emotion processing, memory formation and social interaction. It evolved to assess potential threats and, in response, release neurotransmitters that compel us to mitigate that threat (fight, flight, freeze) and help us ***learn*** to avoid future threats. So, failure activates brain processes that can actually enhance learning. In fact, failure and disequilibrium are broadly understood to be vital to math learning (CITE!). But important conditions must be met to ensure this activation remains positive and productive. This activated state can be informed and reinforced by multiple factors present during and experience. And if arousal gets too high it can be extremely negative, damaging and debilitating over the long term. We will unpack this phenomenon in greater depth and detail, with citations, and explore ways to use our learner’s interaction with AI to establish and maintain this “goldilocks” state of positive, productive failure.
 
-![Yerkes-Dodson Law (Kimmons, Draper, & Backman, 2022)](https://github.com/peh9341/images-xdai/blob/main/Yerkes-Dodson.png)
+![Yerkes-Dodson Law (Kimmons, Draper, & Backman, 2022)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/Yerkes-Dodson.png)
 
 - ### Mathematics learning outside traditional K-12 scope and sequence
 All learning involves levels - of complexity and sophistication, of experience and mastery.
