@@ -21,7 +21,7 @@ It's notable that students who reported considering themselves a "math person" l
 
 \
 \
-\
+
   
 
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
