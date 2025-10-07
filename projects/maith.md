@@ -16,10 +16,13 @@ This is occurring in a context wherein students broadly report disinterest in ac
   
 - “Thirty percent of middle and high school students said that they have never considered themselves a ‘math person.’ Those who did identify as math people developed this view during elementary school, suggesting that elementary school math teachers have a large role in cultivating positive math attitudes.” (Schwartz et al., 2025, press release)
 
-It's notable that students who reported considering themselves a "math person" located the genesis of this feeling in elementary school. We'd like to broaden what might be considered significant within this time window. It may be, as Schwartz et al. assert, "that elementary school math teachers have a large role in cultivating positive math attitudes." We wonder if there may also be that key *experiences* during this window that, whether they are present or absent, play a significant role, whether positive or negative, in students' developing self-concept. In fact, while self-concept is relevent in all learning, it's interesting to notice the enhanced importance it seems to have in math learning. \\\
-  
+It's notable that students who reported considering themselves a "math person" located the genesis of this feeling in elementary school. We'd like to broaden what might be considered significant within this time window. It may be, as Schwartz et al. assert, "that elementary school math teachers have a large role in cultivating positive math attitudes." We wonder if there may also be that key *experiences* during this window that, whether they are present or absent, play a significant role, whether positive or negative, in students' developing self-concept. In fact, while self-concept is relevent in all learning, it's interesting to notice the enhanced importance it seems to have in math learning. 
 
-At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
+\
+\
+  \
+
+At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).\
 
 ---
 
