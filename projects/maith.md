@@ -15,7 +15,7 @@ It's notable that students who reported considering themselves a "math person" l
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
 
 ![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
-!(https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png)
+!([https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20tracking.png](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png))
 
 Definition, symptoms, and impacts of math anxiety are detailed in the following quotes:
 
@@ -35,9 +35,6 @@ If we were to make a word cloud around the concept of mathematics in education t
 **But are they relevant to *learning?* Are there other ways to cultivate, describe, or measure engagement and learning in mathematics? Can mathematics practice have other goals, and *rewards,* besides academic performance and achievement?**
 
 ---
-
-
-![image](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/diagram.png)
 
 ### Problem Statement
 
@@ -66,7 +63,6 @@ We’ll consider how our design might support the intrinsically motivating satis
 
 - ### Mathematics learning without direct instruction
 Most academic math learning occurs via direct instruction in a compulsory context - students are told or shown what to do and how to do it, no real reason given. Exploratory learning, by contrast, is a bottom-up learner-driven approach. Learners engage with a problem in an active, hands-on way, asking questions and experimenting to find answers and gradually build strategic problem-solving toolkits. It encourages curiosity, investigation, and discovery, and fosters critical thinking, creativity, and adaptability. Exploratory learning in mathematics is often encouraged at the earliest levels, as youngsters work with manipulables in a largely self-directed way. But soon, the focus shifts to performance, achievement and progression. We aim to reintroduce authentic exploration and discovery, and will research ways our AI agent can foster the self-reflexive skills learners need for effective exploratory learning at high levels. 
-
 
 - ### The power of productive failure
 Failure activates the amygdala, a tiny structure deep in the brain that plays a key role in emotion processing, memory formation and social interaction. It evolved to assess potential threats and, in response, release neurotransmitters that compel us to mitigate that threat (fight, flight, freeze) and help us ***learn*** to avoid future threats. So, failure activates brain processes that can actually enhance learning. In fact, failure and disequilibrium are broadly understood to be vital to math learning (CITE!). But important conditions must be met to ensure this activation remains positive and productive. This activated state can be informed and reinforced by multiple factors present during and experience. And if arousal gets too high it can be extremely negative, damaging and debilitating over the long term. We will unpack this phenomenon in greater depth and detail, with citations, and explore ways to use our learner’s interaction with AI to establish and maintain this “goldilocks” state of positive, productive failure.
@@ -102,7 +98,7 @@ The role of AI in our project centers around two main questions...
 
 **What’s coming out (or *not* coming out)?** How is AI interacting with our learner? How are these interactions informed by the information that has gone in? AI personalization as it exists today can unintentionally blunt affective experiences in the “activated/unpleasant” valence of Russel’s Circumplex Model (Russell, 1980) that can be productive and may, in fact, be necessary for effective learning. So it’s important to note that intentional ***non-action*** by the AI is potentially as important as action. As such, we will research and explore ways to avoid overintervention and overmodification, and preserve and support productive failure and positive dysregulation. 
 
-![Russel’s Circumplex Model of Affect (Russell, 1980)] (https://github.com/peh9341/images-xdai/blob/main/Russel%20circumplex.png)
+![Russel’s Circumplex Model of Affect (Russell, 1980)] (https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/Russel%20circumplex.png)
 
 ---
   
