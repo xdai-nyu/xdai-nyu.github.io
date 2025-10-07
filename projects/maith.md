@@ -1,21 +1,35 @@
-### Problem Space
+# MaiTH tutor
+## An AI math tutor to cultivate intrinsic motivation and student-directed exploratory learning in advanced mathematics.
+Bair + Penny Hays
 
+---
+
+### Problem Space   
 
 American students are struggling in math. Researchers measured “sharp, steep declines” in competency scores between 2019 and 2023 (Carr, 2024). The Trends in International Mathematics and Science Study (TIMSS) recorded a loss of 18 points by 4th graders and 27 points by 8th graders — the largest drop since the U.S. joined the study in 1995 (Schwartz, 2024). These losses may be partially attributable to education disruptions during the COVID-19 pandemic, but declines were seen prior to the pandemic (Schwartz, 2024), and other studies show a mixed picture and minimal recovery post-pandemic (NAEP, 2024).
 
 This is occurring in a context wherein students broadly report disinterest in academic mathematics. 49% of middle and high school respondents to American Youth Panel surveys (a nationally representative group of ~2,000 youth ages 12–21 who regularly complete surveys via email and text message about attitudes, behaviors, school experiences, and other issues affecting their lives) reported losing interest in math about half or more of the time, and 75% reported losing interest for at least some class time (Schwartz et al., 2025). This loss of interest is consistent across genders and racial and ethnic groups (Schwartz et al., 2025).
 
-- “The students who are the most likely to maintain interest in math are the same ones who comprehend math, feel supported in math, are confident in their ability to do well in math, enjoy math, believe in the need to learn math, and see themselves as a math person.” (Schwartz et al., 2025, p. 1)  
-- “The students who are the most prone to disengage in math lessons want fewer online activities and more real-world applications in their math classes.” (Schwartz et al., 2025, p. 1)  
+- “The students who are the most likely to maintain interest in math are the same ones who comprehend math, feel supported in math, are confident in their ability to do well in math, enjoy math, believe in the need to learn math, and see themselves as a math person.” (Schwartz et al., 2025, p. 1)
+  
+- “The students who are the most prone to disengage in math lessons want fewer online activities and more real-world applications in their math classes.” (Schwartz et al., 2025, p. 1)
+  
 - “Thirty percent of middle and high school students said that they have never considered themselves a ‘math person.’ Those who did identify as math people developed this view during elementary school, suggesting that elementary school math teachers have a large role in cultivating positive math attitudes.” (Schwartz et al., 2025, press release)
 
-It's notable that students who reported considering themselves a "math person" located the genesis of this feeling in elementary school. We'd like to broaden what might be considered significant within this time window. It may be, as Schwartz et al. assert, "that elementary school math teachers have a large role in cultivating positive math attitudes." We wonder if there may also be that key *experiences* during this window that, whether they are present or absent, play a significant role, whether positive or negative, in students' developing self-concept. In fact, while self-concept is relevent in all learning, it's interesting to notice the enhanced importance it seems to have in math learning.
+It's notable that students who reported considering themselves a "math person" located the genesis of this feeling in elementary school. We'd like to broaden what might be considered significant within this time window. It may be, as Schwartz et al. assert, "that elementary school math teachers have a large role in cultivating positive math attitudes." We wonder if there may also be that key *experiences* during this window that, whether they are present or absent, play a significant role, whether positive or negative, in students' developing self-concept. In fact, while self-concept is relevent in all learning, it's interesting to notice the enhanced importance it seems to have in math learning.  
 
+
+
+  
 
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
 
+---
+
 ![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
 !(https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png)
+
+---
 
 Definition, symptoms, and impacts of math anxiety are detailed in the following quotes:
 
