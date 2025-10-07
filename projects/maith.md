@@ -15,7 +15,7 @@ It's notable that students who reported considering themselves a "math person" l
 At the other end of the spectrum of students’ experiences with math is **math anxiety**, which is increasing worldwide (Schwartz, 2024).
 
 ![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
-!([https://github.com/peh9341/images-xdai/blob/main/math%20anxiety%20tracking.png](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png))
+!(https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png)
 
 Definition, symptoms, and impacts of math anxiety are detailed in the following quotes:
 
