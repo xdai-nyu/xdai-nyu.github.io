@@ -1,5 +1,5 @@
 ---
-title: AI prototyping [REMOTE]
+title: AI prototyping 
 week: 7
 date: 2025-10-15
 ---
