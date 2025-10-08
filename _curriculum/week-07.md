@@ -20,3 +20,5 @@ Students will work on their literature review, and needfinding reports, and subm
 
 **Project Update Submission: Add your needfinding report to your Github page** *(due on 10/14, 7:00 PM EST)*
 
+**No readings this week**
+
