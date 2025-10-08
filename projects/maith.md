@@ -33,8 +33,8 @@ At the other end of the spectrum of students’ experiences with math is **math 
 
 <br>
 
-![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
-!(https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png)
+![Heading for Table showing increase in self-reports of math anxiety worldwide (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20tracking.png)
+![Table showing increase in self-reports of math anxiety in the U.S. (Schwartz, 2024)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/math%20anxiety%20US.png)
 
 <br>
 
