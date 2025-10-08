@@ -36,7 +36,7 @@ Assignment 4](https://drive.google.com/drive/folders/1gDV0fFrBzELVWl_Shcy8PDNQCv
 
 [Github](https://github.com/xdai-nyu/xdai-nyu.github.io)
 [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
-[Creative AI Slides](https://docs.google.com/presentation/d/1BZOD8KtlNrZ89DCSSoH-4hadH3lGdMqV_q-9bUGR1Cc/edit?usp=sharing)
+[Creative AI Slides](https://docs.google.com/presentation/d/1SN4opVGVBvYyU_wqSDLvvgojo921nDWgPgXBlsZCN1I/edit?usp=sharing)
 
 <!-- ## Project Update 3
 Students will conduct a literature review in the use of technology addressing the learning needs they identified. They will write two accounts of projects or papers addressing (or failing to address) those learning needs. 

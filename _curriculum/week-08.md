@@ -14,12 +14,12 @@ Students play the contours to classification game, where students act as nodes i
 1. [Lee, I., & Ali, S. (2021, May). The contour to classification game. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 17, pp. 15583-15590).](https://drive.google.com/file/d/1F3LrbjtIY7EPkTotEAIqQD3P4BA6fGrz/view?usp=drive_link)
 1. [Heikkilä, M., Arnett, S. (2024, Dec) This is where the data to build AI comes from. MIT Tech review.](https://drive.google.com/file/d/15upANkyoWyxV3yCdheVX59sZg5neU50k/view?usp=drive_link)
 
-**Reading Reflection: [https://forms.gle/vnL2HF3TD1q65jTG7](https://forms.gle/vnL2HF3TD1q65jTG7)** *(due on 03/10, 5:00 PM EST)*
+**Reading Reflection: [https://forms.gle/vnL2HF3TD1q65jTG7](https://forms.gle/vnL2HF3TD1q65jTG7)** *(due on 10/21, 7:00 PM EST)*
 
 
 ## Project Update 3
 Students will work on developing early working prototypes of their projects. Submit the designs of your early prototypes.
-**Project Update Submission: [Rapid Prototypes and Needfinding reports](https://drive.google.com/drive/folders/1jOFDYALZ-QlNPwXB1leLOAqv5BcKKYNT?usp=drive_link)** *(due on 03/10, 5:00 PM EST)*
+**Project Update Submission: [Rapid Prototypes and Needfinding reports](https://drive.google.com/drive/folders/1jOFDYALZ-QlNPwXB1leLOAqv5BcKKYNT?usp=drive_link)** *(due on 10/21, 7:00 PM EST)*
 
 
 
