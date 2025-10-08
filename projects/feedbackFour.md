@@ -2,7 +2,8 @@
 ## **Feedback Four**. 
 TEAM MEMBERS: Silvia Ramírez, Xualin Chen, Yuanyiyi Zhou, Sarah Krueger
 
-# Project Title
+
+## Project Title
 AI assistant for career feedback and optimization
 
 
@@ -44,7 +45,6 @@ Finally, AI supports adaptive and reflective learning. As users interact with th
 
 ### References
 Cengage Group. (2025, April). Cengage Group 2025 Graduate Employability Report. https://www.cengagegroup.com/news/press-releases/2025/cengage-group-2025-employability-report/
-
 
 Quartz. (2025, February). Gen Z is facing a tough job market as entry-level listings fall 35%. https://qz.com/gen-z-careers-economy-jobs
 
