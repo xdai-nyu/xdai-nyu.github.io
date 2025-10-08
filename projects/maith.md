@@ -148,7 +148,7 @@ The role of AI in our project centers around two main questions...
 
 <br>
 
-![Russel’s Circumplex Model of Affect (Russell, 1980)] (https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/Russel%20circumplex.png)
+![Russel’s Circumplex Model of Affect (Russell, 1980)](https://raw.githubusercontent.com/peh9341/images-xdai/refs/heads/main/Russel%20circumplex.png)
 
 ---
   
