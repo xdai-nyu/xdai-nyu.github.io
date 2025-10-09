@@ -6,6 +6,8 @@ TEAM MEMBERS: Silvia Ramírez, Xualin Chen, Yuanyiyi Zhou, Sarah Krueger
 ## Project Title
 AI assistant for career feedback and optimization
 
+## **Feedback Four**. 
+TEAM MEMBERS: Silvia Ramírez, Xualin Chen, Yuanyiyi Zhou, Sarah Krueger
 
 ## High-Level Summary
 Adults 18+ + Professional Training Simulations & Resources + AI Feedback & Personal Optimization
@@ -16,6 +18,7 @@ An AI assistant designed to help early-career professionals navigate job searchi
 Adults 18+ seeking resources and personal assistance to achieve their professional goals 
 
 Adults 18+ including undergraduate and graduate students and early-career professionals navigating the job market who seek personalized guidance to improve their job application process and professional growth.
+
 They often struggle with preparing for interviews, managing job-related information across multiple platforms, tracking application updates and learning how to reflect and grow from their job-search experiences.
 
 ## Learning Need
@@ -27,15 +30,14 @@ These statistics reveal a growing disconnect between academic preparation and pr
 
 Therefore, there is a clear need for integrated, intelligent career support systems that can guide learners through goal-setting, skill identification and application improvement in a holistic and adaptive manner.
 
-
 Studies have shown that undergraduate and early-career job seekers often experience high levels of stress and anxiety during the job search process. Job-seeking anxiety among college students is largely caused by job competition and the extended period of job preparation, as well as the time spent searching for jobs online and seeking employment guidance (Kim, Oh, & Rajaguru, 2022) Additionally, recent data indicate that early-career professionals and graduating students are facing unprecedented challenges entering the job market. According to Cengage Group’s 2025 Graduate Employability Report, only 30% of recent graduates have secured full-time jobs related to their degrees, while nearly half feel unprepared to apply for entry-level positions (Cengage Group, 2025). 
 
-AI potential/Benefits
+**AI Potential/Benefits**
 
-Anxiety and Mental Health
+_Anxiety and Mental Health_
 “Job-seeking anxiety perceived by college students is caused by job competition, as well as the increase in the period of job preparation. According to several studies, many students spend plenty of time searching jobs on job search portals and the internet, and also seeking consultancy regarding employment” [7,12,13,15,18] 
 
-Employment
+_Employment_
 “Fresh research underscores the challenge new graduates face. Research firm Revelio Labs recently found that entry-level job listings are down 35% since 2023. Similarly, according to Cengage Group’s 2025 Employability Report, just 30% of this year’s graduating class have found full-time jobs related to their degree, while nearly half say they feel unprepared even to apply for entry-level positions.”
 
 ## Rationale for AI Assistance
@@ -49,7 +51,9 @@ Cengage Group. (2025, April). Cengage Group 2025 Graduate Employability Report. 
 Quartz. (2025, February). Gen Z is facing a tough job market as entry-level listings fall 35%. https://qz.com/gen-z-careers-economy-jobs
 
 Gkintoni, E. (2025). Challenging cognitive load theory: The role of artificial intelligence in education. Frontiers in Psychology, 16, 1072394. 
+
 https://pmc.ncbi.nlm.nih.gov/articles/PMC11852728/
+
 https://www.researchgate.net/publication/395573891_The_Role_of_AI_in_Reducing_Cognitive_Overload_Complex_Learning_Environments
 
 Klimova, B., & Pikhart, M. (2025). Exploring the effects of artificial intelligence on student and academic well-being in higher education: A mini-review. Frontiers in Psychology, 16, Article 1498132. https://doi.org/10.3389/fpsyg.2025.1498132
@@ -61,28 +65,5 @@ https://qz.com/gen-z-careers-economy-jobs
 https://www.cengagegroup.com/edtech-research/employability-report/
 
 https://www.unicef.org/press-releases/young-people-unable-access-skills-needed-todays-job-market-new-report-says?utm_source=chatgpt.com
----
-**Bold text**
-
-*Italicized text*
-
-> Blockquote
-
-1. First item  
-2. Second item  
-3. Third item  
-
-- First item  
-- Second item  
-- Third item  
-
-`inline code`
-
----
-
-[link title](https://www.example.com)
-
-![image alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/PlayingCards_Rosebush.jpg/250px-PlayingCards_Rosebush.jpg)
-
 
 
