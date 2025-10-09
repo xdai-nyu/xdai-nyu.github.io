@@ -1,4 +1,4 @@
-# Project Title
+# KnowCheck
 **KnowCheck: An AI-Powered Knowledge Mastery Tool for Adult Learners**
 
 ---
