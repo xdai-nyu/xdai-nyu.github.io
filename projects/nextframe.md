@@ -99,6 +99,8 @@ Hashim, M.E.A.H. (2025). The Integration of AI in Design Thinking for Enhancing 
 Siwen created the following: GitHub layout & updates, initial project ideas, XMind logic chart, and provided initial concepts. Zhaonan purchased Xmind Team Plan so we can collaborate on the logic chart of the app together.
 We brainstormed together and finalized the idenitified learning needs and rational for AI assistance. Deqi and Zichong drafted those sections and the references. Zhaonan, Zhengyang, and Siwen then revised the written sections and refined them. 
 
+We first had a group meeting to assign tasks to each member. Zhengyang and Zichong searched for relevant cases and literature, and wrote two articles respectively. Deqi created a survey questionnaire based on the target users and surveyed them. Zhengyang and Siwen organized user data and summarized the results. Zhaonan reviewed all the data to be submitted soon. Then, through team meetings, the project was optimized and finally uploaded to GitHub. Zhaonan, Zichong, and Siwen jointly produced the presentation. 
+
 ![G4Llogo](https://drive.google.com/file/d/14jhNtv6KsrxJK9l_GwIdyX29DVj2hhj9/view?usp=sharing)
 ![NYUSteinhardtlogo](https://drive.google.com/file/d/1Uisd2ZccjkkoeeMAo0oOFpsVAty5tI0S/view?usp=sharing)
 
