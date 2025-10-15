@@ -27,6 +27,9 @@ Students will work on their literature review, and needfinding reports, and subm
 
 ## Class Resources
 
-[Notebook LM Design Document](https://jasonspielman.com/notebooklm)
+[Playground](https://playground.raise.mit.edu/main/)
+[Embeddings Projector](https://projector.tensorflow.org/)
+[Segment Anything](https://segment-anything.com/demo)
 [ML5 Documentation](https://ml5js.org/)
+[Notebook LM Design Document](https://jasonspielman.com/notebooklm)
 
