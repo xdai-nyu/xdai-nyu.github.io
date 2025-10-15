@@ -4,10 +4,12 @@ week: 7
 date: 2025-10-15
 ---
 
-## Project Update 2
-Groups will present their needfinding reports and project focus in this class. 5 mins + questions per group. 
+## AI Prototyping 
+We will discuss the basics of NLP and computer vision. We will learn to deploy a small chatbot, and a vision tool. We will learn to create with ML5. 
 
-Students will write their design plan for their final project. This will include rapid paper prototypes, sketches, blueprints, or design plans. 
+
+## Project Design Features
+Students will clearly lay out some needs that they are trying to solve. They will then outline how they play to solve these needs. They will write about how they plan to utilize different types of AI in their design. Students will review the design plan for NotebookLM. For homework, students will begin to create low fidelity prototypes of their own design plans.  
 
 ## Project Update 2
 Students will work on their literature review, and needfinding reports, and submit them on Github. 
