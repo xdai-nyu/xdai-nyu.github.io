@@ -97,6 +97,50 @@ KnowCheck builds on this gap by emphasizing conceptual transfer and diagnostic f
 
 ---
 
+## Needfinding Report: Understanding Learner Pain Points and Motivation
+
+### 1. Objective
+
+The goal of this needfinding study was to understand how adult learners—particularly those self-studying AI concepts—evaluate their own learning progress, what challenges they face in accurately gauging understanding, and how AI tools might help them receive more meaningful feedback.
+
+### 2. Methods
+
+Online survey: Distributed to students in the ECT program to capture broader perspectives on using AI for learning, self-assessment, and feedback.
+
+### 3. Key insights
+
+Learners consistently expressed uncertainty about what it means to truly “master” a concept, often asking when they could confidently claim understanding. Many felt that despite extensive study, their confidence decreased over time, revealing a lack of clear benchmarks for measuring progress. Rather than struggling to find learning materials, they struggled to verify whether they had genuinely understood or could apply what they learned. Traditional quizzes and recall-based tests were viewed as inadequate, since high scores could be achieved through guessing or pattern recognition. This led to frustration and self-doubt, as learners realized their perceived competence often didn’t match their actual ability. Together, these insights highlight a need for tools that provide measurable, evidence-based, and reflective ways to assess learning—focusing on conceptual understanding, real-world application, and the alignment between confidence and performance.
+
+###  4. Design Implications for KnowCheck
+
+Based on these insights, KnowCheck is designed around four guiding principles:
+
+**Layered understanding:**
+
+Break down mastery into stages — comprehension, application, and transfer — each with clear and measurable benchmarks.
+
+**Evidence-based feedback:**
+
+Go beyond single test scores by showing learners their reasoning patterns, examples, and counterexamples, helping them understand why they got something right or wrong.
+
+**Confidence calibration:**
+
+Collect learners’ self-rated confidence before tasks and visualize how it aligns with their actual performance.
+
+**Contextual challenges:**
+
+Use realistic, adaptive scenarios that test flexible thinking, rather than memorization or pattern recognition.
+
+### 5. Data Sources
+
+Reddit and StackExchange discussions about what it means to “truly know” machine learning.
+
+Kaggle and Hacker News threads about skill evaluation and self-assessment in data science.
+
+PNAS (2024) research on the gap between perceived and actual learning outcomes in AI-assisted environments.
+
+---
+
 ## Rationale for AI Assistance
 Traditional knowledge assessments, such as standardized tests or course-embedded exercises, often focus on evaluating a learner's ability to *recall* and *restate* information.  
 
