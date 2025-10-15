@@ -20,6 +20,7 @@ Students play the contours to classification game, where students act as nodes i
 ## Project Update 3 [FEATURE MAPS & RAPID PROTOTYPES]
 - Create design feature maps for your AI tool with your team. Use this template - [Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?usp=sharing)
 - Work on developing early working prototypes of their projects. Submit the designs of your early rapid prototypes (can be low fidelity).
+- Group presentations (5 min max) of what you are planning to build in the next class. 
 
 We will also spend half of next class developing these further in class - so don't worry if you are midway! 
 

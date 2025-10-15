@@ -35,3 +35,5 @@ Students will work on their literature review, and needfinding reports, and subm
 - [Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?usp=sharing)
 - [Vision reference from OpenAI](https://platform.openai.com/docs/guides/images-vision?api-mode=responses#analyze-images)
 
+- [Class Slides](https://docs.google.com/presentation/d/1nso2o-amEhQjcWBj0w9pvI5nN102HamTbwz7FFXhPN0/edit?usp=sharing)
+
