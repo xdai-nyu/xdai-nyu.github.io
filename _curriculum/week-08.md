@@ -17,8 +17,12 @@ Students play the contours to classification game, where students act as nodes i
 **Reading Reflection: [https://forms.gle/vnL2HF3TD1q65jTG7](https://forms.gle/vnL2HF3TD1q65jTG7)** *(due on 10/21, 7:00 PM EST)*
 
 
-## Project Update 3 [RAPID PROTOTYPES]
-Students will work on developing early working prototypes of their projects. Submit the designs of your early rapid prototypes (can be low fidelity).
+## Project Update 3 [FEATURE MAPS & RAPID PROTOTYPES]
+- Create design feature maps for your AI tool with your team. Use this template - [Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?usp=sharing)
+- Work on developing early working prototypes of their projects. Submit the designs of your early rapid prototypes (can be low fidelity).
+
+We will also spend half of next class developing these further in class - so don't worry if you are midway! 
+
 **Project Update Submission (on Github):** *(due on 10/21, 7:00 PM EST)*
 
 

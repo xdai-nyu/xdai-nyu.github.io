@@ -27,9 +27,11 @@ Students will work on their literature review, and needfinding reports, and subm
 
 ## Class Resources
 
-[Playground](https://playground.raise.mit.edu/main/)
-[Embeddings Projector](https://projector.tensorflow.org/)
-[Segment Anything](https://segment-anything.com/demo)
-[ML5 Documentation](https://ml5js.org/)
-[Notebook LM Design Document](https://jasonspielman.com/notebooklm)
+- [Playground](https://playground.raise.mit.edu/main/)
+- [Embeddings Projector](https://projector.tensorflow.org/)
+- [Segment Anything](https://segment-anything.com/demo)
+- [ML5 Documentation](https://ml5js.org/)
+- [Notebook LM Design Document](https://jasonspielman.com/notebooklm)
+- [Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?usp=sharing)
+- [Vision reference from OpenAI](https://platform.openai.com/docs/guides/images-vision?api-mode=responses#analyze-images)
 
