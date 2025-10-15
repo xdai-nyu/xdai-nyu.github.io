@@ -24,3 +24,9 @@ Students will work on their literature review, and needfinding reports, and subm
 
 **No readings this week**
 
+
+## Class Resources
+
+[Notebook LM Design Document](https://jasonspielman.com/notebooklm)
+[ML5 Documentation](https://ml5js.org/)
+
