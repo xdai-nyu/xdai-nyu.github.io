@@ -1,4 +1,4 @@
-# Project Title
+# KnowCheck
 **KnowCheck: An AI-Powered Knowledge Mastery Tool for Adult Learners**
 
 ---
@@ -35,6 +35,65 @@ In these settings, learners may feel confident, but their performance often fall
 Most current assessments are limited to **recall**, while professional contexts demand **application** and **transfer**. Without clear benchmarks or feedback, learners often mistake **recognition for mastery**.  
 
 An **objective tool** with **targeted feedback** can help adults better calibrate their self-assessment and guide future learning (Lu et al., 2021).
+
+---
+
+## Literature Review
+
+### Account 1: Generative AI Tutors and Student Learning Outcomes
+
+A large-scale study conducted in high school math classrooms compared two AI-supported learning conditions: an unrestricted version of GPT-4 (“GPT Base”) and a structured, teacher-designed version (“GPT Tutor”) with built-in guardrails. The results showed that unrestricted access to GPT-4 harmed learning outcomes, with students scoring 17% lower on unaided post-tests, even though they believed they had learned more. In contrast, the guardrailed version, which provided hints instead of full answers, mitigated these negative effects.
+
+**GPT Base (no guardrails)** = gives full answers → can create an illusion of learning.
+
+**GPT Tutor (with guardrails)** = gives guided hints → supports deeper understanding and engagement.
+
+This research highlights a key issue: the illusion of mastery. Learners exposed to generative AI often feel they have learned more than they actually have. When answers are easily accessible, the brain mistakes recognition for understanding. However, guided feedback—such as prompting reflection or offering partial hints—encourages deeper cognitive processing.
+
+**Limitations:**
+Focused on high school learners, not adults or professionals.
+Conducted in controlled classrooms rather than self-directed learning environments.
+Short-term results; no long-term or transferability assessment.
+
+**Alignment with KnowCheck:**
+KnowCheck addresses the same gap from a self-directed learning perspective. Adult learners using AI tools often face similar calibration problems, misjudging what they truly know. This evidence supports KnowCheck’s emphasis on diagnostic feedback and active engagement rather than passive correctness.
+
+---
+
+### Account 2: Google Cloud — Generative AI Leader Certification and Vertex AI Skill Badges
+
+Google Cloud has developed two prominent learning and assessment systems designed to validate AI-related competencies across different levels of expertise:
+
+**Generative AI Leader Certification** — a timed and proctored assessment for non-technical professionals that focuses on conceptual understanding of AI principles, ethical considerations, and strategic implementation.
+
+**Vertex AI Skill Badges** — a series of hands-on labs where learners complete practical AI tasks within a live cloud environment, demonstrating technical application and workflow mastery.
+
+**Limitations:**
+Despite their strengths, these systems remain primarily summative. Learners receive a completion badge or pass/fail result but rarely gain insight into why they performed well or poorly. The fixed task structures also limit opportunities to assess adaptability or creative problem-solving in unfamiliar contexts.
+
+**Alignment with KnowCheck:**
+
+To move beyond this limitation, KnowCheck aims to offer formative, reflective feedback—helping learners understand not only their level of mastery, but also their reasoning patterns, misconceptions, and potential areas for transfer and growth. These certification systems share common ground with KnowCheck’s goals by combining conceptual testing and practical application. Learners are evaluated on real-world tasks, not just factual recall, and performance is automatically assessed through their task submissions and activity logs. This model emphasizes authentic, skills-based learning rather than rote memorization.
+
+---
+
+### Account 3: AWS’s Simulation-Based Learning Models — AI Practitioner Certification, SimuLearn, and Cloud Quest
+
+Amazon Web Services (AWS) has developed a multi-tiered ecosystem of AI learning and assessment programs aimed at different learner needs and levels of expertise:
+
+**AI Practitioner Certification** — a standardized knowledge exam designed to evaluate conceptual understanding of AI principles within the AWS environment.
+
+**SimuLearn** — an AI-driven simulation platform where learners engage with virtual clients, design tailored AI solutions, and receive real-time, context-specific feedback.
+
+**Cloud Quest** — a gamified, role-based platform that allows learners to practice AI and cloud problem-solving through interactive missions.
+
+**Limitations:**
+
+Despite these innovations, AWS’s systems remain largely platform-dependent and procedurally focused. The simulations and exams test learners’ ability to execute known workflows within the AWS ecosystem, rather than their capacity to generalize and apply concepts to unfamiliar or cross-platform contexts.
+
+**Alignment with KnowCheck:**
+
+KnowCheck builds on this gap by emphasizing conceptual transfer and diagnostic feedback. Instead of validating step-by-step execution, KnowCheck seeks to assess how learners reason, adapt, and explain their choices—skills that reflect genuine understanding beyond procedural repetition. AWS’s learning tools share several parallels with KnowCheck’s goals. Both emphasize applied learning and reflective engagement. For example, SimuLearn provides personalized, targeted feedback on both technical performance and communication—helping learners recognize skill gaps and calibrate their self-assessment. Meanwhile, Cloud Quest introduces scenario-based challenges that mirror real workplace tasks, promoting practical reasoning and transfer of knowledge.
 
 ---
 
