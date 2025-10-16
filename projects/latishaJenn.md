@@ -40,7 +40,7 @@ meaning making.
 
 
 **Team contributions** 
->We are a group of two and will divide the work on an as needed basis. The contributions below are indications of who will be leading the action item but both group members will be participating in every step.
+We are a group of two and will divide the work on an as needed basis. The contributions below are indications of who will be leading the action item but both group members will be participating in every step.
 1. Latisha: Research, creative arts therapy, UI/UX design and project management.
 2. Jenn Choi: UI/UX design, visual storytelling, project management and service blueprint.
 
