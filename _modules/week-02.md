@@ -15,7 +15,7 @@ Oct 8
   : [Assignment 6: Due 10/14](https://drive.google.com/drive/folders/1lnL8kJfupv4-aQXAtY42xghxrmac5VQ7?usp=drive_link), [Reading reflections](#)
 
 Oct 15
-:[AI Prototyping](https://drive.google.com/drive/folders/1jOFDYALZ-QlNPwXB1leLOAqv5BcKKYNT?usp=drive_link), [Reading reflections](https://forms.gle/vnL2HF3TD1q65jTG7)
+:[Project update 3 (design features in sheet and rapid prototypes on github): Due 10/21](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?gid=770262995#gid=770262995), [Reading reflections: Due 10/21](https://forms.gle/vnL2HF3TD1q65jTG7)
 
 <!-- March 11
 : [Runtime Analysis](#)
