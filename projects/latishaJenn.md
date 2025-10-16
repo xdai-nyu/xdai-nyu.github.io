@@ -1,8 +1,7 @@
 # Emotive Journeys
-# AI-Powered experience that connects therapeutic arts with emotional expression
+## AI-Powered experience that connects therapeutic arts with emotional expression
 
-## Heading 2
-### Heading 3
+## Project Scope
 
 **Target Learning Audience:**
 Young adults who are struggling with mental health issues, and a secondary target audience for individuals who are particularly interested in therapeutic arts
@@ -20,6 +19,24 @@ AI can provide enhanced digital support, such as offering positive content for u
 *References: 
 Shojaei F, Shojaei F, Osorio Torres J, Shih PC. Insights From Art Therapists on Using AI-Generated Art in Art Therapy: Mixed Methods Study. JMIR Form Res. 2024 Dec 4;8:e63038.
 National Institute of Mental Health. (2024). [Mental Illness]. U.S. Department of Health and Human Services, National Institutes of Health [Internet]. Retrieved October 6, 2025, from [https://www.nimh.nih.gov/health/statistics/mental-illness]*
+
+## Needfinding 
+
+### Learner Needs
+
+- There is a need to detect negative emotional patterns to address and help identify
+recurring negative thoughts and behaviors.
+- There is a need to enhance interaction between users and digital support
+content and identify which digital support elements should be implemented to address
+this need. This will help to create progress tracking and personalized activities for a
+more personalized and effective experience.
+- There is a need to implement a social emotional element to work as a social
+emotional element that will provide an impactful human AI collaborative experience for
+users. Implementing a social element through dialogue and social interactions promotes
+collaborative learning because this allows users to have the opportunity to use
+communication as an expression of their independent thoughts. The collaboration
+creates connections and a flow for users to engage with digital content and acquire
+meaning making.
 
 
 **Team contributions** 
