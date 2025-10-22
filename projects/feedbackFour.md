@@ -100,6 +100,10 @@ An AI-powered career assistant that turns job seeking into a guided, reflective,
 The system integrates personalized feedback, smart tracking, and skill recommendations to help users stay focused, learn from their applications, and manage their progress with confidence.
 By combining AI insights with project management methods, it makes job searching more structured, efficient and empowering.
 <br>
+
+## Design Feature Mapping
+[View data in Google Sheets](https://docs.google.com/spreadsheets/d/ABCDEFGHIJK/export?format=csv](https://docs.google.com/spreadsheets/d/1f3mhmxF-Lctpf6aT4J8Q7_c5syst0Mf39l0glnGwTXM/edit?usp=sharing)
+
 <br>
 <br>
  
