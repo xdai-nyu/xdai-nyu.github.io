@@ -29,4 +29,4 @@ We will also spend half of next class developing these further in class - so don
 **Project Update Submission (on Github):** *(due on 10/21, 7:00 PM EST)*
 
 
-[Class Slides](https://docs.google.com/presentation/d/1nxSWbpkQ7hxDkA-GNHGPJtJIjeLFJbTH1aOfjqGW1B0/edit?usp=sharing)
+[Class Slides](https://docs.google.com/presentation/d/1_7nFsE4WTqW_MOsrP_wFZkkIZSfELIPpQbd4a-onQAs/edit?usp=sharing)
