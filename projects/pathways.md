@@ -3,6 +3,8 @@
 Sana Alimojamed, Rebeca Arens, Mei Buzzell, Maitreyi Nandhakumar, Ashish Noble
 
 ---
+### Working Prototype
+https://www.figma.com/design/a8wYjmeUE4JVJhVaaCrht8/Builder-Input?node-id=0-1&t=yIYPWkSAlJA4ReGG-1
 
 ### Target Audience
 Any digital literate individual interested in sharing and archiving local community knowledge (ex. Place-based history). 
