@@ -18,3 +18,6 @@ Usability evaluations
 ## Assignment 3
 Nothing to submit! But come to class having explored these resources. 
 
+
+## Project Update 3
+Update your git pages with your prototype progress (wherever you are in your design). See [project update instructions here](https://drive.google.com/drive/folders/1CUePNRIGRV2Fe_Itc9xpiB3v6JM9zjDq?usp=drive_link).
