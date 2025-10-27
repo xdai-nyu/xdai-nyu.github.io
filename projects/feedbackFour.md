@@ -106,7 +106,20 @@ By combining AI insights with project management methods, it makes job searching
 
 <br>
 <br>
- 
+
+## Prototype Updates:
+
+Features currently in the work ... AI Chatbot with feedback and application strategy analysis, Job Search Tracker 
+
+USER PERSONA: 
+
+MOCK DATA:
+
+AI Chatbot Prototype Links: 
+
+Job Search Tracker Prototype Links: 
+
+
 ### **References**
 Allison Shrivastava, C. S. (2024, December 10). Indeed’s 2025 US Jobs & Hiring trends report: What to expect when you’re expecting a soft landing. Indeed Hiring Lab. https://www.hiringlab.org/2024/12/10/indeed-2025-us-jobs-and-hiring-trends-report/
 
