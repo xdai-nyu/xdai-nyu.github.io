@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Minesweeper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@400;700&display=swap');
+        
+        :root {
+            --board-size: 10;
+            --cell-size: 40px;
+            --dark-bg: #1a1a1a;
+            --orange-glow: #ff8c00;
+            --purple-accent: #800080;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d0d0d;
+            color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .game-container {
+            background-color: var(--dark-bg);
+            border: 8px solid var(--purple-accent);
+            box-shadow: 0 0 20px rgba(255, 140, 0, 0.4), 0 0 40px rgba(128, 0, 128, 0.3);
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 95vw;
+        }
+
+        .header-text {
+            font-family: 'Creepster', cursive;
+            font-size: 3rem;
+            color: var(--orange-glow);
+            text-shadow: 0 0 5px rgba(255, 140, 0, 0.8), 0 0 10px rgba(255, 140, 0, 0.5);
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+
+        #board {
+            display: grid;
+            grid-template-columns: repeat(var(--board-size), 1fr);
+            width: calc(var(--cell-size) * var(--board-size));
+            height: calc(var(--cell-size) * var(--board-size));
+            max-width: 100%;
+            max-height: 100%;
+            border: 4px solid var(--purple-accent);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cell {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            transition: background-color 0.1s ease, transform 0.05s ease;
+            position: relative;
+        }
+
+        .cell.covered {
+            background-color: #333;
+            border: 1px solid #444;
+        }
+        .cell.covered:hover {
+            background-color: #555;
+            transform: scale(1.02);
+        }
+
+        /* Revealed Safe Cell */
+        .cell.revealed {
+            background-color: #222;
+            color: #fff;
+            border: 1px solid #333;
+            cursor: default;
+        }
+        
+        /* Number Styles */
+        .cell.revealed[data-value="1"] { color: #5B89FF; } /* Blue */
+        .cell.revealed[data-value="2"] { color: #38AA38; } /* Green */
+        .cell.revealed[data-value="3"] { color: #F05030; } /* Red-Orange */
+        .cell.revealed[data-value="4"] { color: #800080; } /* Purple */
+        .cell.revealed[data-value="5"] { color: #C04000; } /* Brown-Orange */
+        .cell.revealed[data-value="6"] { color: #40E0D0; } /* Turquoise */
+        .cell.revealed[data-value="7"] { color: #F0A000; } /* Dark Orange */
+        .cell.revealed[data-value="8"] { color: #f0f0f0; } /* White */
+
+        /* Letter Reveal Animation */
+        .cell.letter-reveal {
+            background-color: #4b0082 !important; /* Indigo/Purple flash */
+            animation: magic-glow 0.5s ease-out;
+            color: var(--orange-glow) !important;
+            font-size: 1.5rem;
+            font-family: 'Creepster', cursive;
+        }
+        
+        .cell.letter-reveal::after {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            box-shadow: 0 0 10px var(--orange-glow), 0 0 20px var(--purple-accent);
+            opacity: 0;
+            animation: glow-pulse 1s ease-in-out forwards;
+        }
+
+        @keyframes magic-glow {
+            0% { background-color: #222; }
+            50% { background-color: #800080; }
+            100% { background-color: #222; }
+        }
+
+        @keyframes glow-pulse {
+            0% { opacity: 0; }
+            50% { opacity: 0.8; }
+            100% { opacity: 0; }
+        }
+
+        /* Flag/Mark */
+        .cell.flagged {
+            background-color: #581845; /* Dark Purple */
+            color: #f0f0f0;
+            font-size: 1.5rem;
+        }
+
+        /* Bomb Cell (Game Over) */
+        .cell.bomb.exploded {
+            background-color: #8b0000; /* Dark Red */
+            animation: explode 0.5s ease-out;
+            transform: scale(1.1);
+        }
+        .cell.bomb.revealed {
+            background-color: #4a1919;
+            font-size: 1.5rem;
+        }
+
+        @keyframes explode {
+            0% { transform: scale(1); }
+            50% { background-color: #ff4500; }
+            100% { transform: scale(1); background-color: #8b0000; }
+        }
+
+        /* Game Message Box */
+        .message-box {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            backdrop-filter: blur(5px);
+        }
+
+        .message-content {
+            background-color: var(--dark-bg);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 4px solid var(--orange-glow);
+            box-shadow: 0 0 30px var(--orange-glow);
+        }
+
+        .message-title {
+            font-family: 'Creepster', cursive;
+            font-size: 4rem;
+            margin-bottom: 20px;
+            color: var(--orange-glow);
+            text-shadow: 0 0 8px var(--purple-accent);
+        }
+        
+        .message-subtitle {
+            font-family: 'Creepster', cursive;
+            font-size: 2rem;
+            color: #fff;
+        }
+
+        .cta-button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: var(--purple-accent);
+            color: #fff;
+            border: 2px solid var(--orange-glow);
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+            box-shadow: 0 4px var(--orange-glow);
+        }
+
+        .cta-button:hover {
+            background-color: #a020f0;
+            box-shadow: 0 6px var(--orange-glow);
+            transform: translateY(-2px);
+        }
+        .cta-button:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px var(--orange-glow);
+        }
+
+        /* Responsive adjustments for mobile */
+        @media (max-width: 600px) {
+            :root {
+                --cell-size: 30px;
+            }
+            .header-text {
+                font-size: 2.5rem;
+            }
+            .message-title {
+                font-size: 3rem;
+            }
+            .message-subtitle {
+                font-size: 1.5rem;
+            }
+            .cell {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="game-container">
+    <div class="header-text">Spooky Minesweeper</div>
+    
+    <div class="flex justify-between w-full max-w-sm mb-4 p-2 bg-gray-800 rounded-lg shadow-inner">
+        <div id="bomb-counter" class="text-xl font-mono text-red-500">💀 Bombs: 15</div>
+        <div id="letter-status" class="text-xl font-mono text-green-400">HALLOWEEN: 0/9</div>
+    </div>
+
+    <div id="board">
+        <!-- Cells generated by JavaScript -->
+    </div>
+</div>
+
+<!-- Game Over/Win Modal -->
+<div id="game-message-box" class="message-box">
+    <div class="message-content">
+        <div id="message-icon" class="text-6xl mb-4"></div>
+        <div id="message-title" class="message-title"></div>
+        <div id="message-subtitle" class="message-subtitle"></div>
+        <button id="restart-button" class="cta-button">Try Again</button>
+    </div>
+</div>
+
+
+<script>
+    // --- Configuration ---
+    const ROWS = 10;
+    const COLS = 10;
+    const TOTAL_BOMBS = 15;
+    const LETTERS = ['H', 'A', 'L', 'L', 'O', 'W', 'E', 'E', 'N'];
+    const BOMB_EMOJI = '💀';
+    const SAFE_EMOJI = '🎃';
+    const FLAG_EMOJI = '👻';
+    
+    // --- Game State Variables ---
+    let board = []; // Stores cell data (bomb/count/letter)
+    let state = []; // Stores cell state (covered/revealed/flagged)
+    let isGameOver = false;
+    let isGameWon = false;
+    let revealedLetters = 0;
+    
+    // DOM Elements
+    const boardEl = document.getElementById('board');
+    const messageBoxEl = document.getElementById('game-message-box');
+    const messageTitleEl = document.getElementById('message-title');
+    const messageSubtitleEl = document.getElementById('message-subtitle');
+    const messageIconEl = document.getElementById('message-icon');
+    const restartButtonEl = document.getElementById('restart-button');
+    const letterStatusEl = document.getElementById('letter-status');
+
+    // --- Utility Functions ---
+
+    /**
+     * Gets valid neighbors for a given cell coordinate.
+     */
+    function getNeighbors(r, c) {
+        const neighbors = [];
+        for (let dr = -1; dr <= 1; dr++) {
+            for (let dc = -1; dc <= 1; dc++) {
+                if (dr === 0 && dc === 0) continue;
+                const nr = r + dr;
+                const nc = c + dc;
+
+                if (nr >= 0 && nr < ROWS && nc >= 0 && nc < COLS) {
+                    neighbors.push({ r: nr, c: nc });
+                }
+            }
+        }
+        return neighbors;
+    }
+
+    // --- Board Initialization ---
+
+    /**
+     * Places the HALLOWEEN letters on safe tiles, ensuring no two letters are adjacent.
+     */
+    function placeLetters() {
+        // 1. Get all safe coordinates
+        let safeCoords = [];
+        for (let r = 0; r < ROWS; r++) {
+            for (let c = 0; c < COLS; c++) {
+                if (!board[r][c].isBomb) {
+                    safeCoords.push({ r, c });
+                }
+            }
+        }
+
+        // 2. Iterate through letters and place them
+        for (const letter of LETTERS) {
+            let placed = false;
+            let attempts = 0;
+            const maxAttempts = safeCoords.length * 2; // Prevent infinite loop
+
+            while (!placed && attempts < maxAttempts) {
+                if (safeCoords.length === 0) {
+                    console.error("Not enough non-adjacent safe tiles to place all letters.");
+                    break;
+                }
+                
+                // Pick a random index from the available safe coordinates
+                const randomIndex = Math.floor(Math.random() * safeCoords.length);
+                const { r, c } = safeCoords[randomIndex];
+
+                // Check adjacency: ensure the current cell is not adjacent to any previously placed letter
+                let isAdjacentToExistingLetter = false;
+                getNeighbors(r, c).forEach(n => {
+                    if (board[n.r][n.c].letter) {
+                        isAdjacentToExistingLetter = true;
+                    }
+                });
+
+                if (!isAdjacentToExistingLetter) {
+                    // Place the letter
+                    board[r][c].letter = letter;
+                    placed = true;
+                    
+                    // Filter out the placed coordinate and its neighbors from the pool for future letters
+                    const coordsToRemove = [{ r, c }];
+                    getNeighbors(r, c).forEach(n => coordsToRemove.push(n));
+                    
+                    safeCoords = safeCoords.filter(coord => 
+                        !coordsToRemove.some(rT => rT.r === coord.r && rT.c === coord.c)
+                    );
+                } else {
+                    // Remove the problematic coordinate and try again
+                    safeCoords.splice(randomIndex, 1);
+                }
+                attempts++;
+            }
+            if (!placed) {
+                console.warn(`Could not place letter ${letter}. Board might be too small/bomb density too high.`);
+            }
+        }
+    }
+
+    /**
+     * Initializes the game board with bombs, counts, and letters.
+     */
+    function initBoard() {
+        board = Array(ROWS).fill(0).map(() => Array(COLS).fill(0).map(() => ({
+            isBomb: false,
+            count: 0,
+            letter: null
+        })));
+        state = Array(ROWS).fill(0).map(() => Array(COLS).fill(0).map(() => ({
+            revealed: false,
+            flagged: false
+        })));
+        isGameOver = false;
+        isGameWon = false;
+        revealedLetters = 0;
+        
+        // 1. Place Bombs
+        let bombCount = 0;
+        while (bombCount < TOTAL_BOMBS) {
+            const r = Math.floor(Math.random() * ROWS);
+            const c = Math.floor(Math.random() * COLS);
+            if (!board[r][c].isBomb) {
+                board[r][c].isBomb = true;
+                bombCount++;
+            }
+        }
+
+        // 2. Calculate neighbor counts
+        for (let r = 0; r < ROWS; r++) {
+            for (let c = 0; c < COLS; c++) {
+                if (!board[r][c].isBomb) {
+                    let bombNeighbors = 0;
+                    getNeighbors(r, c).forEach(n => {
+                        if (board[n.r][n.c].isBomb) {
+                            bombNeighbors++;
+                        }
+                    });
+                    board[r][c].count = bombNeighbors;
+                }
+            }
+        }
+
+        // 3. Place Letters
+        placeLetters();
+    }
+
+    /**
+     * Renders the current state of the board to the DOM.
+     */
+    function updateBoardDOM() {
+        boardEl.innerHTML = '';
+        boardEl.style.setProperty('--board-size', ROWS);
+
+        for (let r = 0; r < ROWS; r++) {
+            for (let c = 0; c < COLS; c++) {
+                const cellData = board[r][c];
+                const cellState = state[r][c];
+
+                const cellEl = document.createElement('div');
+                cellEl.className = 'cell flex justify-center items-center';
+                cellEl.dataset.row = r;
+                cellEl.dataset.col = c;
+                
+                // Add click listeners
+                cellEl.addEventListener('click', () => handleCellClick(r, c));
+                cellEl.addEventListener('contextmenu', (e) => handleCellFlag(e, r, c));
+
+                if (cellState.revealed || isGameOver) {
+                    cellEl.classList.add('revealed');
+                    cellEl.classList.remove('covered');
+
+                    if (cellData.isBomb) {
+                        cellEl.classList.add('bomb');
+                        cellEl.textContent = BOMB_EMOJI;
+                        if (cellEl.dataset.row === boardEl.dataset.explodedRow && cellEl.dataset.col === boardEl.dataset.explodedCol) {
+                             cellEl.classList.add('exploded');
+                        }
+                    } else if (cellData.letter) {
+                        cellEl.textContent = cellData.letter;
+                        cellEl.classList.add('letter-reveal');
+                    } else if (cellData.count > 0) {
+                        cellEl.textContent = cellData.count;
+                        cellEl.dataset.value = cellData.count;
+                    } else {
+                        // Empty cell
+                        cellEl.textContent = SAFE_EMOJI;
+                        cellEl.style.fontSize = '1.5rem';
+                    }
+                } else {
+                    // Covered cell
+                    cellEl.classList.add('covered');
+                    if (cellState.flagged) {
+                        cellEl.classList.add('flagged');
+                        cellEl.textContent = FLAG_EMOJI; // Ghost emoji for flag
+                    } else {
+                         cellEl.textContent = SAFE_EMOJI;
+                         cellEl.style.fontSize = '1.5rem';
+                    }
+                }
+
+                boardEl.appendChild(cellEl);
+            }
+        }
+        
+        // Update status display
+        letterStatusEl.textContent = `HALLOWEEN: ${revealedLetters}/${LETTERS.length}`;
+        if(revealedLetters === LETTERS.length) {
+            letterStatusEl.classList.remove('text-green-400');
+            letterStatusEl.classList.add('text-orange-glow');
+        } else {
+             letterStatusEl.classList.add('text-green-400');
+             letterStatusEl.classList.remove('text-orange-glow');
+        }
+    }
+
+    // --- Game Logic ---
+
+    /**
+     * Recursively reveals a cell and its empty neighbors (standard Minesweeper flood fill).
+     */
+    function revealCell(r, c) {
+        if (r < 0 || r >= ROWS || c < 0 || c >= COLS || state[r][c].revealed || state[r][c].flagged || isGameOver) {
+            return;
+        }
+
+        state[r][c].revealed = true;
+        
+        // Check for letter reveal
+        if (board[r][c].letter) {
+             revealedLetters++;
+        }
+
+        if (board[r][c].isBomb) {
+            gameOver(r, c);
+            return;
+        }
+
+        // Check for win
+        checkWin();
+
+        // If count is 0, propagate reveal
+        if (board[r][c].count === 0) {
+            getNeighbors(r, c).forEach(n => {
+                revealCell(n.r, n.c);
+            });
+        }
+    }
+
+    /**
+     * Handles left-click (reveal cell).
+     */
+    function handleCellClick(r, c) {
+        if (isGameOver || state[r][c].flagged || state[r][c].revealed) {
+            return;
+        }
+        revealCell(r, c);
+        updateBoardDOM();
+    }
+
+    /**
+     * Handles right-click (flag/unflag cell).
+     */
+    function handleCellFlag(event, r, c) {
+        event.preventDefault(); // Prevent context menu
+        if (isGameOver || state[r][c].revealed) {
+            return;
+        }
+
+        state[r][c].flagged = !state[r][c].flagged;
+        updateBoardDOM();
+    }
+
+    /**
+     * Checks if the game has been won.
+     */
+    function checkWin() {
+        let safeCellsRevealed = 0;
+        let totalSafeCells = (ROWS * COLS) - TOTAL_BOMBS;
+
+        for (let r = 0; r < ROWS; r++) {
+            for (let c = 0; c < COLS; c++) {
+                if (!board[r][c].isBomb && state[r][c].revealed) {
+                    safeCellsRevealed++;
+                }
+            }
+        }
+
+        if (safeCellsRevealed === totalSafeCells) {
+            isGameWon = true;
+            gameOver();
+        }
+    }
+
+    /**
+     * Ends the game and displays the appropriate message.
+     */
+    function gameOver(explodedRow = null, explodedCol = null) {
+        isGameOver = true;
+        
+        // If it was a bomb hit, mark the spot
+        if (explodedRow !== null) {
+            boardEl.dataset.explodedRow = explodedRow;
+            boardEl.dataset.explodedCol = explodedCol;
+        }
+
+        // Reveal all cells on game over
+        for (let r = 0; r < ROWS; r++) {
+            for (let c = 0; c < COLS; c++) {
+                state[r][c].revealed = true;
+            }
+        }
+        updateBoardDOM();
+        
+        // Show message box
+        if (isGameWon) {
+            messageIconEl.textContent = '🥳🎃';
+            messageTitleEl.textContent = 'Happy Halloween!';
+            messageSubtitleEl.textContent = `You cleared the board and found all ${revealedLetters} letters!`;
+            restartButtonEl.textContent = 'Play Again';
+        } else {
+            messageIconEl.textContent = BOMB_EMOJI;
+            messageTitleEl.textContent = 'BOOM!';
+            messageSubtitleEl.textContent = 'A big skeleton haunts this spot! Try again?';
+            restartButtonEl.textContent = 'Try Again';
+        }
+
+        messageBoxEl.style.display = 'flex';
+    }
+    
+    // --- Event Listeners ---
+    restartButtonEl.addEventListener('click', initGame);
+
+    // --- Initialization ---
+
+    /**
+     * Starts a new game.
+     */
+    function initGame() {
+        messageBoxEl.style.display = 'none';
+        initBoard();
+        updateBoardDOM();
+        document.getElementById('bomb-counter').textContent = `💀 Bombs: ${TOTAL_BOMBS}`;
+    }
+
+    // Start the game on load
+    window.onload = initGame;
+
+</script>
+</body>
+</html>
