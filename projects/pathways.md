@@ -71,6 +71,31 @@ VoiceMap NYC is a platform that allows users to access self-guided walking tours
 - *Geo-Synced Narration:* GPS-based automatic audio narration is synced to listeners’ position through a mobile app.
 - *Collaborative Storytelling:* Audio tours are contributed by a diverse community of journalists, artists, and locals, using soundscapes and narration to create immersion.
 
+---
+
+### Prototype Updates
+Our initial prototype was a Figma prototype that we designed to test the journey of the human user’s input. We used this to visualize what the interface would look like, and where in the creation journey user input and AI output would meet.
+[Figma link](https://www.figma.com/design/a8wYjmeUE4JVJhVaaCrht8/Builder-Input?node-id=0-1&t=yIYPWkSAlJA4ReGG-1)
+
+Having tried out the user's journey itself, our team then into two:
+
+#### Front-End (Mei & Beca)
+Currently, the front end team is working on developing the website interface, using React framework for the pages. They are utilizing Figma plugin tools in order to build a website based on the prototype design, and will then begin building the functionality.
+
+Right now, their major roadblock is that they are struggling to find the right tool to export the wireframes and build the website. They are trying out Anima and Builder.io, which are AI-powered platforms that should integrate React and the Figma files to create a functional website, but as they aren’t familiar with either of these tools, the learning curve (and lack of free credits) is slowing them down. They are able to run the files developed with vibe coding in Builder.io, and are currently making a decision on if they want to continue using the same platform or if they want to explore other platforms instead.
+
+[A recording of the current progress can be seen here](https://drive.google.com/file/d/1fxH0L4jknONXTMWYGbbtyAU7yaQQ7KAH/view?usp=sharing).
+
+#### Back-End (Sana, Maitreyi, & Ashish)
+The back-end team has been exploring the AI & API tools available, identifying the ones that will be used to start building the necessary functions of the platform, most notably summarizing text, transforming image to description, and storing and utilizing string variables in order to connect the user input to the AI tools we use. They have uploaded the p5js file to the team github account to document the back-end tech needs for the project, and have begun coding functions. They have also begun training the generative AI that will create the audio walk scripts.
+
+The current roadblocks the back-end team is facing is that their code expertise is limited for what the project will require. The scope is also quite large currently, so they are evaluating where to focus their attention first, and where they can narrow the scope and leverage AI tools if necessary.
+
+#### Team Contributions for the Prototype
+- All team members discussed and decided on the functions of the webpage after evaluating the Figma prototype;
+- Beca and Mei are developing the front end of the webpage;
+- Sana, Maitreyi, and Ashish are developing the back end and training the AI;
+- Beca wrote the group update.
 
 ---
 
