@@ -8,6 +8,9 @@ We will cover the remaining basics of Neural Networks, and datasets.
 
 We will practice some more AI prototyping to reinforce some concepts. 
 
+
+**[Prototyping AI doc](https://docs.google.com/document/d/1KH3Zj2-TfMa5BPmP9yNFvmjMPvi4dcnup656k7KI2QM/edit?usp=sharing)**
+
 *No pre-class readings*
 
 
