@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Name Picker</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Keyframes for a celebratory glow effect */
+        @keyframes pulse-glow {
+            0%, 100% {
+                transform: scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0), 0 0 20px rgba(0, 0, 0, 0);
+            }
+            50% {
+                transform: scale(1.03);
+                box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px theme('colors.pink.500');
+            }
+        }
+        .animate-win {
+            animation: pulse-glow 1s ease-in-out 3; /* Run 3 times for a quick celebration */
+        }
+        /* Custom Font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background */
+        }
+        /* Style for the fast-cycling text during the "roll" */
+        .rolling-text {
+            transition: color 0.1s, transform 0.1s;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#4c7cff',
+                        'accent-pink': '#ff6384',
+                        'soft-yellow': '#ffcd56',
+                        'playful-teal': '#4bc0c0',
+                        'deep-purple': '#9966ff',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <!-- Main Name Picker Container -->
+    <div class="w-full max-w-lg bg-white rounded-xl shadow-2xl p-6 md:p-10 border-b-8 border-accent-pink">
+        <h1 class="text-4xl font-extrabold text-center text-primary-blue mb-2">
+            XDAI Name Dice 🎲
+        </h1>
+        <p class="text-center text-gray-500 mb-8">
+            Cannot escape classroom participation
+        </p>
+
+        <!-- Display Area for the Selected Name -->
+        <div id="resultDisplay" class="h-32 flex items-center justify-center mb-8 bg-playful-teal text-white rounded-lg shadow-inner border-4 border-primary-blue">
+            <p class="text-3xl md:text-5xl font-black uppercase tracking-wider text-shadow-lg rolling-text">
+                Spin to Win!
+            </p>
+        </div>
+
+        <!-- Roll Button -->
+        <button id="rollButton" class="w-full py-4 text-xl font-bold rounded-full text-white bg-accent-pink hover:bg-red-500 transition duration-300 shadow-lg hover:shadow-xl transform hover:scale-[1.01] active:scale-[0.99] disabled:bg-gray-400">
+            Roll the Dice!
+        </button>
+
+        <!-- Name List Section -->
+        <div class="mt-8">
+            <h2 class="text-xl font-semibold text-deep-purple mb-4 border-b pb-1">
+                Available Names (<span id="nameCount"></span>)
+            </h2>
+            <div id="nameListContainer" class="max-h-40 overflow-y-auto p-3 bg-gray-50 rounded-lg border">
+                <!-- Names will be injected here -->
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        // Array of names provided by the user
+        const NAMES = [
+            "Sana", "Rebeca", "Bair", "Mei", "Xuanlin", "Jenn", "Penny",
+            "Deqi", "Sarah", "Sixin", "Maitreyi", "Ashish", "Siwen", "Nanxi",
+            "Silvia", "Latisha", "Zhengyang", "Zhaonan", "Zichong", "Chenyu",
+            "Yuanyiyi"
+        ];
+
+        // --- DOM Elements ---
+        const rollButton = document.getElementById('rollButton');
+        const resultDisplay = document.getElementById('resultDisplay');
+        const resultText = resultDisplay.querySelector('p');
+        const nameListContainer = document.getElementById('nameListContainer');
+        const nameCountSpan = document.getElementById('nameCount');
+
+        // --- State Variables ---
+        let isRolling = false;
+        let rollingInterval;
+
+        // --- Utility Functions ---
+
+        /**
+         * Selects a random name from the NAMES array.
+         * @returns {string} The randomly selected name.
+         */
+        const getRandomName = () => {
+            const randomIndex = Math.floor(Math.random() * NAMES.length);
+            return NAMES[randomIndex];
+        };
+
+        /**
+         * Fills the list container with the names and updates the count.
+         */
+        const renderNameList = () => {
+            nameCountSpan.textContent = NAMES.length;
+            nameListContainer.innerHTML = NAMES.map(name =>
+                `<span class="inline-block px-2 py-0.5 m-1 bg-soft-yellow rounded-full text-sm font-medium text-gray-800 shadow-sm">${name}</span>`
+            ).join('');
+        };
+
+        /**
+         * The main logic for simulating the dice roll.
+         * @param {string} finalName - The name the roll will land on.
+         * @param {number} duration - Total rolling duration in milliseconds.
+         * @param {number} speed - Interval between name changes in milliseconds.
+         */
+        const startRollAnimation = (finalName, duration, speed) => {
+            // Remove previous animation class
+            resultDisplay.classList.remove('animate-win');
+            
+            // Set rolling state and disable button
+            isRolling = true;
+            rollButton.disabled = true;
+            resultText.classList.add('text-gray-800'); // Change text color for rolling effect
+            resultDisplay.classList.add('bg-gray-200', 'border-gray-400');
+            resultDisplay.classList.remove('bg-playful-teal', 'border-primary-blue');
+
+            let startTime = Date.now();
+
+            // Function to handle rapid cycling
+            const cycleNames = () => {
+                const elapsed = Date.now() - startTime;
+                if (elapsed < duration) {
+                    // Still rolling: pick a random name quickly
+                    resultText.textContent = getRandomName().toUpperCase();
+                } else {
+                    // Rolling time is up: stop and display final name
+                    clearInterval(rollingInterval);
+                    resultText.textContent = finalName.toUpperCase();
+                    
+                    // Cleanup and finish state
+                    isRolling = false;
+                    rollButton.disabled = false;
+                    resultText.classList.remove('text-gray-800'); // Revert text color
+                    
+                    // Final celebratory styling
+                    resultDisplay.classList.add('bg-playful-teal', 'border-primary-blue', 'animate-win');
+                    resultDisplay.classList.remove('bg-gray-200', 'border-gray-400');
+                    rollButton.textContent = 'Roll Again!';
+                }
+            };
+
+            // Start the interval for name cycling
+            rollingInterval = setInterval(cycleNames, speed);
+        };
+
+        /**
+         * Handles the button click event.
+         */
+        const handleRoll = () => {
+            if (isRolling) return;
+
+            // 1. Pick the winning name
+            const winningName = getRandomName();
+            
+            // 2. Determine animation parameters
+            const rollDuration = 2500; // 2.5 seconds of rolling
+            const cycleSpeed = 80;   // Change name every 80ms initially
+
+            // 3. Update button text
+            rollButton.textContent = 'Rolling...';
+
+            // 4. Start the animation
+            startRollAnimation(winningName, rollDuration, cycleSpeed);
+        };
+
+        // --- Initialization ---
+
+        // Add event listener to the roll button
+        rollButton.addEventListener('click', handleRoll);
+
+        // Render the name list on load
+        window.onload = renderNameList;
+    </script>
+</body>
+</html>
