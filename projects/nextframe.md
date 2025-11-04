@@ -101,7 +101,21 @@ In what ways does the AI planner help students identify their personal artistic 
 | 8 | Students fear AI might replace their creative process. | Clear ethical declaration: AI does not generate art, only provides assistance. | Users trust and engage with the tool confidently. | Transparency and usage restrictions. | User interactions and system logs. | Interface messaging and policy prompts. | Misunderstanding AI’s role and over-reliance risks. | (1) Trust survey. (2) Continued usage rate. | Users feel AI is a supportive assistant, not a replacement. |
 | 9 | Students want immediate feedback on their work. | The tool generates instant portfolio analysis reports. | Users see feedback within minutes instead of days or weeks. | Automated analysis and real-time reporting. | Uploaded files and metadata. | Rapid evaluation pipeline + LLM output. | Risks of inaccurate instant feedback or misuse of sensitive data. | Feedback turnaround time. | Users receive near-instant feedback and can iterate immediately. |
 
-## Prototype
+## Prototype 11/4/2025
+![Preview Screenshot](https://drive.google.com/file/d/15Gf961YKlsyh8Z_I6BO1Uix5dvL368XQ/view?usp=sharing)
+
+As this is the initial phase of the project, we have done our utmost to implement several features. Below are the features we have implemented:
+Implementing AI Conversation Functionality - We have already implemented the conversation feature. However, it is not yet perfect. The first issue is API stability, which we believe is relatively straightforward to resolve since we are familiar with the Gemini and GBT APIs. The second issue is that the AI's responses are overly verbose and complex. We want the AI to guide users toward creating portfolios using concise language.
+
+We've prepared Q&A questions for users to gradually guide them in understanding what a portfolio is. However, the pre-written answers we've prepared are too lengthy, and we need to streamline this section. Additionally, we aim to create an adaptive environment for users. This means that when users ask relevant questions, corresponding prompts will appear in the dialog box, allowing them to quickly click on questions to inquire. Of course, this approach is relatively difficult to implement, so we'll place it at the end of the project timeline for modification.
+
+At first, we didn't know how to design the entire interactive page. We've been striving to create a user-friendly interface. However, when we add new features, some elements become buggy, causing issues where users are unable to click buttons or the buttons become unresponsive. We are still working on a fix for this, and other challenges that we are facing is that dynamically displaying prompts. This requires the AI to understand chat content in real time and dynamically show relevant prompts to guide users to click. but, we haven't resolve this yet. Another difficulty is limiting the length of AI responses. Previous tests revealed that AI responses were consistently too lengthy, and we're actively working on fixing that.
+
+
+Contribution: Siwen created Data base. Zhaonan, Zichong, Deqi, and Zhengyang developed the prototype
+
+
+## Prototype 10/21/2025
 ![Preview Screenshot](https://drive.google.com/file/d/1-4p-GhmRQ0HyCEo54i4Ht-Z1KykjCnm-/view?usp=sharing)
 
 ### References
