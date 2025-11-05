@@ -27,7 +27,7 @@ In both cases, you must clearly outline how you imagine that AI is making an imp
 1. Findings (if any)
 1. Next steps 
 
-## Project Report reuqirements: 
+## Project Report Requirements: 
 - Add your project reports in the [final project folder](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link). Two options: 
 
 1. You may create a PDF document with a paper style formating, OR 
