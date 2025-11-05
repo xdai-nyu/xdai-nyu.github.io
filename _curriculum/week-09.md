@@ -13,7 +13,6 @@ We will practice some more AI prototyping to reinforce some concepts.
 
 *No pre-class readings*
 
-
 ## Assignment 5
 Code activity (Jupyter Notebook) - Character Design with AI. Use different AI models in a character design activity. API keys will be in the assignment folder. 
 
@@ -22,4 +21,6 @@ Code activity (Jupyter Notebook) - Character Design with AI. Use different AI mo
 ## Find a time to meet with Safinah as a team to discuss your project. 
 
 **Safinah's Calendar : [Booking Link](https://calendar.app.google/Jz9RhjLvF1xVtrTGA)**
+
+[Class Slides](https://docs.google.com/presentation/d/1_7nFsE4WTqW_MOsrP_wFZkkIZSfELIPpQbd4a-onQAs/edit?usp=sharing)
 
