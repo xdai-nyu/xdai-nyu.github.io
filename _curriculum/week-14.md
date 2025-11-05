@@ -47,7 +47,7 @@ In both cases, you must clearly outline how you imagine that AI is making an imp
 	---
 
 
-**Project reports and project presentations are due on 05/05. No extensions.**
+**Project reports and project presentations are due on 12/03. No extensions.**
 
 
 *Name your file as LastNames_FinalProject (e.g. Lastname1_Lastname2_FinalProject)*
