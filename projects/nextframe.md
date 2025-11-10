@@ -5,6 +5,17 @@ An AI led web application that helps young artists to plan a portfolio.
 
 **Members** Siwen Pang, Zhengyang Xie, Deqi Kong, Zhaonan Xu, Zichong Xu
 
+### Prototype Update 11/09/2025
+
+**Link for the prototype:** https://ai.studio/apps/drive/1NLD1l5uP7gGpdEzP7JJrYZxtLBt0IWlE
+
+**Link for the video:** https://drive.google.com/file/d/11rSfw_XTsgUwNzhms_qZMIByOQNmjc6l/view?usp=drive_link
+
+This update addresses some issues while introducing new features. We've resolved the AI chatbot's tendency to provide overly extensive responses at once. The chatbot now guides users step-by-step through portfolio creation. Additionally, we've optimized the chat window by limiting it to three questions—selected randomly from the Q&A pool. Users can refresh these questions if they're unsatisfied with the current selection.
+
+Most importantly, we've introduced a canvas feature. After users input their information, the canvas on the right will help them summarize the content. This prevents users from getting lost in lengthy information exchanges. That covers all the updates in this release.
+
+
 ### Target Learning Audience 10/14/2025
 High school & College students who are making ***an art portfolio***
    
