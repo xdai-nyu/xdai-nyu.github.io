@@ -107,18 +107,56 @@ By combining AI insights with project management methods, it makes job searching
 <br>
 <br>
 
-## Prototype Updates:
+## Prototype Updates: Core Features Development
+Link to prototype:  https://gen-z-companion-xc3137.replit.app/
 
-Features currently in the work ... AI Chatbot with feedback and application strategy analysis, Job Search Tracker 
+Link to video: https://vimeo.com/1135629348?share=copy&fl=sv&fe=ci
+
+<br>
+
+Our current version of **Jobi – Your AI Career Companion**, focuses on three high-feasibility features that together form the foundation of the user experience.
+
+
+### 💬Smart Career Assistant
+
+**Goal**: Provide personalized, AI-generated feedback on resumes, job applications, and reflection prompts.
+
+**Description**:
+Users can upload resumes or job descriptions for AI-powered feedback on tone, structure, and keyword alignment. The assistant also offers encouragement and reflection tips after each job update, helping users learn from their progress.
+
+**Current Status**:
+Basic chat interface complete. Feedback categories (“General”, “Encouragement”, “Application & Strategy”) integrated. Future work will connect this module with the Learning Hub for targeted skill suggestions.
+
+### 📊Job Application Tracker
+
+**Goal**: Centralize and visualize the user’s job search process.
+
+**Description**:
+An interactive dashboard where users can track all job applications in one place. Each listing shows progress through stages such as Applied → Assessment → Interview → Offer → Hired. Users can expand a job card for detailed info, add notes, and view AI insights on application trends.
+
+**Current Status**:
+Job status color system and progress rail implemented. Next step: enable “Add from link” autofill and reflective AI prompts for rejected or completed applications.
+
+### 🧠Learning Hub
+
+**Goal**: Support continuous skill growth through personalized learning recommendations.
+
+**Description**:
+A dedicated hub that visualizes users’ current skill levels with a radar chart and recommends resources—courses, mentorship, and communities—based on gaps identified between user skills and job requirements from the tracker.
+
+**Current Status**:
+Prototype visuals (Skills Dashboard + AI Recommendations panel) completed. The spider chart and recommendation cards now display dynamic mock data. Next step: link to the chatbot for self-assessment input and dynamic learning updates.
+
+<br>
+
+WIP
 
 USER PERSONA: 
 
 MOCK DATA:
 
-AI Chatbot Prototype Links: 
-
-Job Search Tracker Prototype Links: 
-
+<br>
+<br>
 
 ### **References**
 Allison Shrivastava, C. S. (2024, December 10). Indeed’s 2025 US Jobs & Hiring trends report: What to expect when you’re expecting a soft landing. Indeed Hiring Lab. https://www.hiringlab.org/2024/12/10/indeed-2025-us-jobs-and-hiring-trends-report/
