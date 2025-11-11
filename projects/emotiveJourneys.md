@@ -1,5 +1,28 @@
 # Emotive Journeys
+
 ## AI-Powered experience that connects therapeutic arts with emotional expression
+
+**Team** Jenn Choi, Latisha Sanders
+
+**Team contributions** 
+1. Jenn: UI/UX Design, Prototyping, Frontend Development, Emotion-driven Interaction Design, System Architecture
+2. Latisha:
+
+
+**Link to Prototype:** https://grain-luxury-01901327.figma.site
+
+
+## Progress update November 12th
+**Experience Steps**
+1.
+2.
+3.
+4.
+
+**Product UI**
+
+![image alt text](https://file.notion.so/f/f/45596513-58aa-4f72-b8c8-046c63319ab0/f0890b0c-2b73-412f-9d14-cdee23bbe65e/Screenshot_2025-11-10_at_17.28.57.png?table=block&id=2a7151cd-651d-808f-9355-f8c88f800f6c&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&expirationTimestamp=1762905600000&signature=UdN_mZfUlhlZZBsiLddYoZk7odPj-ydHhj3piP0bwLc&downloadName=Screenshot+2025-11-10+at+17.28.57.png)
+
 
 ## Project Scope
 
@@ -44,7 +67,7 @@ creates connections and a flow for users to engage with digital content and acqu
 meaning making.
 - There is a need to build trust and emotional continuity between users and AI systems to sustain long-term engagement and authentic emotional expression. Immediate empathy is beneficial, but users also require consistent tone, memory of prior interactions, and emotional reliability to feel safe sharing their thoughts over time.
 
-##Literature Review
+## Literature Review
 1. Insights From Art Therapists on Using AI-Generated Art in Art Therapy (Shih et al., 2024)
 
 Art therapists affiliated with the American Art Therapy Association participated in this study evaluating how AI can be integrated as a digital tool in therapy.
@@ -58,12 +81,12 @@ This study explores ChatGPT’s role as an emotional support tool, identifying b
 Researchers found that ChatGPT’s empathetic language and immediate feedback enhanced users’ ability to articulate emotions and reflect on their thoughts. However, the study also noted the lack of emotional persistence and relational trust.
 These insights inform our project’s design: building a system that remembers emotional context, responds consistently with empathy, and promotes emotional continuity.
  
-###Pain Points Identified:
+### Pain Points Identified:
 	1.	Lack of emotional continuity — short-term empathy but no long-term memory of emotional context.
 	2.	Limited trust-building — users hesitate to open up repeatedly without relational consistency.
 	3.	Surface-level understanding — AI struggles with complex emotional nuances.
 
-###Relevance to Our Project:
+### Relevance to Our Project:
 I think this literature directly supports our project’s focus on AI-assisted emotional expression and poetic creation.
 It shows how ChatGPT helps users verbalize and externalize emotions, aligning with our goal of transforming emotional states into poetic language.
 It also points out that AI lacks emotional persistence and relational depth, reinforcing our design direction to build a system that remembers emotional context and responds with consistent empathy.
@@ -74,15 +97,6 @@ Overall, I think this research provides a solid foundation for positioning AI no
 
 
 
-**Team contributions** 
-We are a group of two and will divide the work on an as needed basis. The contributions below are indications of who will be leading the action item but both group members will be participating in every step.
-1. Latisha: Research, creative arts therapy, UI/UX design and project management.
-2. Jenn Choi: UI/UX design, visual storytelling, prototyping and service blueprint.
-
-
 
 ---
 
-[link title](https://www.example.com)
-
-![image alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/PlayingCards_Rosebush.jpg/250px-PlayingCards_Rosebush.jpg)
