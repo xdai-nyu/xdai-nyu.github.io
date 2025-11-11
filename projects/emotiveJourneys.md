@@ -14,19 +14,26 @@
 
 
 ## Progress update November 12th
+
+
+![image alt text](https://deeply-family-b5f.notion.site/image/attachment%3A0337f142-d688-4d14-a943-52f9e8d22efd%3AScreenshot_2025-11-10_at_21.23.16.png?table=block&id=2a8151cd-651d-80c8-9ae6-d25ab80e73a3&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&width=1420&userId=&cache=v2)
+
 **Experience Steps**
 
-1. **Color Reflection**
-   
-Users are prompted with the question “How are you feeling today?” and asked to choose the color that feels closest to their current mood.
-→ A 12-color wheel helps them intuitively pick a hue without overthinking.
+1. **Emoji Emotional Tracker:**
+
+On the Welcome/Onboarding screen, the user will be be asked " How are you feeling today?" to  help them recognize how they are feeling. This will also help to provide a visual representation of their current emotional state and enhance active engagement with the activities.
 
 
-2. **Emotion Mapping**
+2. **Color Wheel/ Psychology of Colors- Color based activity with emotional association:**
 
-After selecting a color, users see 4–6 emotion words related to that hue (e.g., calm, joy, tension, hope) and choose the one that resonates most.
-→ This creates a data point linking hue–emotion–user context.
+Colors are associated with different emotions and is a form of non- verbal communication. Emotions and the relationship between colors will be represented in a visual tool called a color wheel. Users will be asked to choose emotions that best describe their current feelings, so that they can connect their feelings with their current emotional state.
+This will be done to encourage them to connect their feelings to specific situations, thoughts and triggers and allow them to reflect and focus on what matters most during the drawing session rather then trivial thoughts or memories.
+They will use the colors that they chose during the drawing session with the AI chat companion. This will allow for intentional and impactful art in order to enhance emotional expression and evoke feelings in their art.
+The AI chat companion will also provide an description on the meaning of the colors they selected and ask the user questions (ex. Why did you choose this color?)  about the colors they selected. This will be done to help cultivate an opportunity to exchange open dialogue and create a safe space for emotional tracking and journaling as part of the therapeutic process.
 
+
+![image alt text](https://file.notion.so/f/f/45596513-58aa-4f72-b8c8-046c63319ab0/f0890b0c-2b73-412f-9d14-cdee23bbe65e/Screenshot_2025-11-10_at_17.28.57.png?table=block&id=2a7151cd-651d-808f-9355-f8c88f800f6c&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&expirationTimestamp=1762905600000&signature=UdN_mZfUlhlZZBsiLddYoZk7odPj-ydHhj3piP0bwLc&downloadName=Screenshot+2025-11-10+at+17.28.57.png)
 
 3. **Emotional Visualization**
 
@@ -52,12 +59,9 @@ As the user draws, the AI companion provides gentle emotional prompts or reflect
 “This blue gradient feels very serene. Would you like to add a touch of warmth to balance it?”
 → These prompts encourage mindful observation and emotional awareness throughout the sketching process.
 
-## Product UI
-
-![image alt text](https://deeply-family-b5f.notion.site/image/attachment%3A0337f142-d688-4d14-a943-52f9e8d22efd%3AScreenshot_2025-11-10_at_21.23.16.png?table=block&id=2a8151cd-651d-80c8-9ae6-d25ab80e73a3&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&width=1420&userId=&cache=v2)
 
 
-![image alt text](https://file.notion.so/f/f/45596513-58aa-4f72-b8c8-046c63319ab0/f0890b0c-2b73-412f-9d14-cdee23bbe65e/Screenshot_2025-11-10_at_17.28.57.png?table=block&id=2a7151cd-651d-808f-9355-f8c88f800f6c&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&expirationTimestamp=1762905600000&signature=UdN_mZfUlhlZZBsiLddYoZk7odPj-ydHhj3piP0bwLc&downloadName=Screenshot+2025-11-10+at+17.28.57.png)
+
 
 
 ## Project Scope
