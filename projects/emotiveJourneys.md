@@ -6,7 +6,8 @@
 
 **Team contributions** 
 1. Jenn: UI/UX Design, Prototyping, Frontend Development, Emotion-driven Interaction Design, System Architecture
-2. Latisha:
+2. Latisha: Research, creative arts therapy, UI/UX design and project management.
+
 
 
 **Link to Prototype:** https://grain-luxury-01901327.figma.site
@@ -14,12 +15,47 @@
 
 ## Progress update November 12th
 **Experience Steps**
-1.
-2.
-3.
-4.
 
-**Product UI**
+1. **Color Reflection**
+   
+Users are prompted with the question “How are you feeling today?” and asked to choose the color that feels closest to their current mood.
+→ A 12-color wheel helps them intuitively pick a hue without overthinking.
+
+
+2. **Emotion Mapping**
+
+After selecting a color, users see 4–6 emotion words related to that hue (e.g., calm, joy, tension, hope) and choose the one that resonates most.
+→ This creates a data point linking hue–emotion–user context.
+
+
+3. **Emotional Visualization**
+
+The system maps the selected color and emotion into a 2D emotion model (Pleasure–Arousal grid or color emotion wheel).
+→ A brief visual feedback (“You’re in the calm zone today “) reinforces reflection.
+
+
+4. **Personalized Palette Generation**
+   
+Based on the user’s emotional state, the system generates a custom palette and transitions to the sketchbook interface.
+→ “Start your sketch with today’s color mood” appears with a smooth fade-in animation.
+
+
+5. **Guided Expression (AI Chat Companion)**
+    
+Once inside the sketchbook, the AI companion (e.g., Luma) starts a brief empathetic dialogue:
+“I sense you’re feeling calm today. Would you like to create something peaceful or expressive?”
+→ The chat dynamically adapts tone and suggestions (scene ideas, brush types, or color blending) based on the user’s earlier emotional data.
+
+
+6. **Creative Flow & Reflection Loop**
+As the user draws, the AI companion provides gentle emotional prompts or reflections—e.g.,
+“This blue gradient feels very serene. Would you like to add a touch of warmth to balance it?”
+→ These prompts encourage mindful observation and emotional awareness throughout the sketching process.
+
+## Product UI
+
+![image alt text](https://deeply-family-b5f.notion.site/image/attachment%3A0337f142-d688-4d14-a943-52f9e8d22efd%3AScreenshot_2025-11-10_at_21.23.16.png?table=block&id=2a8151cd-651d-80c8-9ae6-d25ab80e73a3&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&width=1420&userId=&cache=v2)
+
 
 ![image alt text](https://file.notion.so/f/f/45596513-58aa-4f72-b8c8-046c63319ab0/f0890b0c-2b73-412f-9d14-cdee23bbe65e/Screenshot_2025-11-10_at_17.28.57.png?table=block&id=2a7151cd-651d-808f-9355-f8c88f800f6c&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&expirationTimestamp=1762905600000&signature=UdN_mZfUlhlZZBsiLddYoZk7odPj-ydHhj3piP0bwLc&downloadName=Screenshot+2025-11-10+at+17.28.57.png)
 
