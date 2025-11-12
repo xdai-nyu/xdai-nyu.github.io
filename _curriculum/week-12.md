@@ -13,4 +13,4 @@ Students will interact with the Bias Explorer to understand bias in visual AI sy
 1. [Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021, March). On the dangers of stochastic parrots: Can language models be too big?🦜. In Proceedings of the 2021 ACM conference on fairness, accountability, and transparency (pp. 610-623).](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922)
 1. [Turkle, S. (2024). Who Do We Become When We Talk to Machines?.](https://mit-genai.pubpub.org/pub/uawlth3j/release/2)
 
-**[Reading Reflection:](https://forms.gle/yLfgmg3sFpk7byfp7)** *(due on 04/14, 5:00 PM EST)*
+**[Reading Reflection:](https://forms.gle/yLfgmg3sFpk7byfp7)** *(due on 11/18, 7:00 PM EST)*

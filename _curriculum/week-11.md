@@ -4,6 +4,12 @@ week: 11
 date: 2025-11-12
 ---
 
+Students will share their prototype progress with their peers. 
+
+Safinah will go over building AI Agents.
+
+Safinah will discuss ways of evaution. 
+
 Students will reproduce their feature design maps for their projects and share their prototyping progress with peers. They will continue developing their prototypes from last week, refining their designs and functionality. By the end of the session, students will build client-ready apps that include an AI demo component.
 
 [Feature Mapping Sheet](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?usp=sharing)
