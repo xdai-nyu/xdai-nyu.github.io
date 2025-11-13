@@ -80,22 +80,26 @@ Our initial prototype was a Figma prototype that we designed to test the journey
 Having tried out the user's journey itself, our team then into two:
 
 #### Front-End (Mei & Beca)
-Currently, the front end team is working on developing the website interface, using React framework for the pages. They are utilizing Figma plugin tools in order to build a website based on the prototype design, and will then begin building the functionality.
+The frontend team has selected and leveraged Builder.io to build a functioning front-end prototype with HTML, CSS, and Javascript. Through iterative refinement and identifying necessary adjustments, the team has added variables to the code based on user value selections, allowing user selections and inputs to be saved and communicated across pages. 
 
-Right now, their major roadblock is that they are struggling to find the right tool to export the wireframes and build the website. They are trying out Anima and Builder.io, which are AI-powered platforms that should integrate React and the Figma files to create a functional website, but as they aren’t familiar with either of these tools, the learning curve (and lack of free credits) is slowing them down. They are able to run the files developed with vibe coding in Builder.io, and are currently making a decision on if they want to continue using the same platform or if they want to explore other platforms instead.
-
-[A recording of the current progress can be seen here](https://drive.google.com/file/d/1fxH0L4jknONXTMWYGbbtyAU7yaQQ7KAH/view?usp=sharing).
+The next steps for the front-end team are to continue developing a high-fidelity prototype with an improved UI, and drafting pages for successful uploads, published audio for viewing & sharing, and a listener-end navigation page. 
 
 #### Back-End (Sana, Maitreyi, & Ashish)
-The back-end team has been exploring the AI & API tools available, identifying the ones that will be used to start building the necessary functions of the platform, most notably summarizing text, transforming image to description, and storing and utilizing string variables in order to connect the user input to the AI tools we use. They have uploaded the p5js file to the team github account to document the back-end tech needs for the project, and have begun coding functions. They have also begun training the generative AI that will create the audio walk scripts.
+Since the last progress check, the backend team has begun building out the APIs and preparing them to connect to the front end. They have also been working on generating QR codes for each location to enable locative audio play. 
 
-The current roadblocks the back-end team is facing is that their code expertise is limited for what the project will require. The scope is also quite large currently, so they are evaluating where to focus their attention first, and where they can narrow the scope and leverage AI tools if necessary.
+Now, both teams (front-end and back-end) will begin merging their codebases, aligning the necessary API endpoints, and running tests on the prototype.
+
+#### New Integrations
+
+![Content block organization](https://drive.google.com/file/d/1ALvnWpx9BfYO7SWdc3dVd12GjyQByFIP/view?usp=sharing) ![Transcript creation](https://drive.google.com/file/d/1a1Xl7f9UD4dJ1g_kW8wdhUcAaOT9xObp/view?usp=sharing)
+
+At this stage in our prototype, we have successfully integrated Gemini’s text generation API into the Studio and Audio pages, allowing users to create transcripts based on user-sorted content blocks and audience, tone, and additional narration-focused user inputs. This was intended for a simple ‘Wizard of Oz’ style prototyping for early user testing of the transcript and audio generation function, as we further develop the deep content generation APIs.
 
 #### Team Contributions for the Prototype
 - All team members discussed and decided on the functions of the webpage after evaluating the Figma prototype;
 - Beca and Mei are developing the front end of the webpage;
 - Sana, Maitreyi, and Ashish are developing the back end and training the AI;
-- Beca wrote the group update.
+- Beca and Mei wrote the group update.
 
 ---
 
