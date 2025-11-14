@@ -21,8 +21,8 @@ Students will participate in a debate-style AI Audit game, where they will set u
 
 ## Project Update 6
 1. Update your project websites to include an ethical implications, and a societal implications section (1-2 paragraphs). Discuss how your approach in your project may mitigate AI harms. Make sure to add this section on your project site. 
-1. Add slides in your project update with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. Think of what you will want to measure to evaluate the efficacy of your tool. You will present these in the next class. 5 minutes presentation time. 
-**Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)*
+1. Start to create your final project slides with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. Think of what you will want to measure to evaluate the efficacy of your tool. You will present these in the next class. 5 minutes presentation time. 
+<!-- **Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)* -->
 
 [Class Slides](https://docs.google.com/presentation/d/1X6YEFE8aUg-zQUjf6E2Lm2Ob-tn-v_X_TEa0EtRxzOw/edit?usp=sharing)
 
