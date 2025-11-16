@@ -1,7 +1,7 @@
 ---
-layout: page
+<!-- layout: page -->
 title: [S25] Cognizance
-nav_exclude: true
+<!-- nav_exclude: true -->
 ---
 
 ## Cognizance: Your Deep Learning Pal
