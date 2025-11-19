@@ -8,4 +8,4 @@ Nov 19
 
 Nov 26
 : **Thanksgiving Break**{: .label .label-green }
-  : Enjoy the break! 
+  : [Reading reflections](https://forms.gle/Z1yKjZFQ5zqdyhgt9), [Assignment](#)
