@@ -33,7 +33,7 @@ In both cases, you must clearly outline how you imagine that AI is making an imp
 1. You may create a PDF document with a paper style formating, OR 
 1. you may choose to use your [github page website](https://xdai-nyu.github.io/projects/). If you use your website, add a googe doc in the submission folder with your project website link, and please format your website well (fix the bold formating, add bullets, link the appropriate links, etc.). [Here are some formating tips for markdown pages.](https://www.markdownguide.org/basic-syntax/) 
 
-## Final project report required sections: 
+## Final project report required sections [maximum 8 pages, reasonable font size, use any format]: 
 
 1. Abstract: A one paragraph summary of your project. 
 1. Introduction: A 1 pager describing the target audience, the need you identified, the research questions or problem statement, the prorotype design, and findings in brief. 
