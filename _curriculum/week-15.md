@@ -1,5 +1,5 @@
 ---
-title: Project check-in
+title: Creative AI + Classroom Implications of AI
 week: 15
 date: 2025-12-10
 ---
