@@ -17,15 +17,15 @@ In both cases, you must clearly outline how you imagine that AI is making an imp
 ## Project Presentations: 
 - Add your presentation slides in the [final project folder.](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link)
 - Time: 8 minutes + 2 minutes for questions 
-1. Team introductions 
-1. Hook: Interesting one liner about your project 
-1. Target audience
-1. Problem statement / user need 
-1. Prototype demo 
-1. Design process / lessons 
-1. Evaluation plan 
+1. Team introductions [5%]
+1. Hook: Interesting one liner about your project [5%]
+1. Target audience [5%]
+1. Problem statement / user need [10%]
+1. Prototype demo [40%]
+1. Design process / lessons [10%]
+1. Evaluation plan [20%]
 1. Findings (if any)
-1. Next steps 
+1. Next steps [5%]
 
 ## Project Report Requirements: 
 - Add your project reports in the [final project folder](https://drive.google.com/drive/folders/1llLehwlK_Mw5dDJzCWizntVzKHbco2eu?usp=drive_link). Two options: 

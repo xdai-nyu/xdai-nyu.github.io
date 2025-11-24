@@ -1,6 +1,6 @@
 ---
 title: Creative AI + Classroom Implications of AI
-week: 15
+week: 15 [Online]
 date: 2025-12-10
 ---
 
