@@ -8,8 +8,6 @@
 1. Jenn: UI/UX Design, Prototyping, Frontend Development, Emotion-driven Interaction Design, System Architecture
 2. Latisha: Research, creative arts therapy, UI/UX design and project management.
 
-
-
 **Link to Prototype:** https://grain-luxury-01901327.figma.site
 
 
