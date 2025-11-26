@@ -14,6 +14,8 @@ Guest Speaker: AI researcher [Jocelyn Shen](https://jocelynshen.com/) will share
 
 Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems. -->
 
+## Code Notebook for Class: [Collab Link](https://drive.google.com/drive/folders/1zYQTjO5xhmaXJGm31Esv7cWns0TpWT6J?usp=drive_link)
+
 
 ## Week 14 Readings
 1. [Ehsan, U., Singh, R., Metcalf, J., & Riedl, M. (2022, June). The algorithmic imprint. In Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (pp. 1305-1317).](https://dl.acm.org/doi/pdf/10.1145/3531146.3533186)
