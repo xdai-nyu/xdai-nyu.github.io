@@ -25,7 +25,17 @@ Students will participate in a debate-style AI Audit game, where they will set u
 To be added. -->
 
 ## Project Update 6
-1. Start to create your final project slides with (1) Your prototype demo. (2) Your evaluation plan, or evaluation results if you got a chance to test it early. Think of what you will want to measure to evaluate the efficacy of your tool. You will present these in the next class. 5 minutes presentation time. 
+1. Create an evaluation plan for your prototype. Think of what you will want to measure to evaluate the efficacy of your tool. Do this early. Determine your: 
+
+- Metrics of success - What you plan to achieve with this tool. You can limit it to the main key variables of succes. (e.g. concept retention, creativity, emotion recognition, etc.)
+- Measures - How will you meausre these metrics? (e.g. user feedback, errors made in interaction, creative ideas generated, etc.)
+- Data Collection Methods - How will you collect the information needed to measure these? ()
+- Data Analysis Methods - How will you analyze this data? (e.g. Qualitative thematic analysis, Quantitative comparison between groups, etc.)
+- Findings - What you found with early analysis with users (or proxy users, e.g. your peers)
+
+1. Add your evaluation plan to your git sites. 
+
+1. Get ready for your final presentations NEXT week (Dec 3rd)! 
 <!-- **Project Update Submission: [https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link](https://drive.google.com/drive/folders/1qNgxq8qCvgFw741hppSi9uI6yf7zq6Pl?usp=drive_link)** *(due on 04/21, 5:00 PM EST)* -->
 
 [Class Slides](https://docs.google.com/presentation/d/1X6YEFE8aUg-zQUjf6E2Lm2Ob-tn-v_X_TEa0EtRxzOw/edit?usp=sharing)
