@@ -6,9 +6,13 @@ date: 2025-11-26
 
 Instructor will share some evaluation good practices and examples. 
 
-Students will present the current state of their project prototype, and evaluation plan or early data, and receive peer and instructor feedback. 
+Students will practice prompt structuring with LLMs. 
 
-Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems.
+Guest Speaker: AI researcher [Jocelyn Shen](https://jocelynshen.com/) will share her work on AI, social interaction & empathy. 
+
+<!-- Students will present the current state of their project prototype, and evaluation plan or early data, and receive peer and instructor feedback. 
+
+Students will participate in a debate-style AI Audit game, where they will set up hypothetical AI learning businesses, and challenge their competitors with the lens of societal and ethical implications. They will utilize the Ethical implications handout to form an informed critique of, and design mitigation steps for, AI applications in learning. Through this debate game, students will research, and reflect on the ethical and societal implications of everyday AI systems. -->
 
 
 ## Week 14 Readings
