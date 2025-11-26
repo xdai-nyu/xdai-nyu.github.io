@@ -27,13 +27,21 @@ Students will participate in a debate-style AI Audit game, where they will set u
 To be added. -->
 
 ## Project Update 6
-1. Create an evaluation plan for your prototype. Think of what you will want to measure to evaluate the efficacy of your tool. Do this early. Determine your: 
+1. Create an evaluation plan for your prototype. Think of what you will want to measure to evaluate the efficacy of your tool. Do this early. Guide to evaluation: 
 
+- Identify a hypothesis of your tool's success: E.g. A personalized writing feedback tool will reduce cognitive overload for students while writing. 
+- Identify your variables
+- Identify what data you will collect
+- Set up an experiment to collect this data
+- How will you analyze this data
+- How will you present your findings 
+
+<!-- 
 - Metrics of success - What you plan to achieve with this tool. You can limit it to the main key variables of succes. (e.g. concept retention, creativity, emotion recognition, etc.)
 - Measures - How will you meausre these metrics? (e.g. user feedback, errors made in interaction, creative ideas generated, etc.)
 - Data Collection Methods - How will you collect the information needed to measure these? ()
 - Data Analysis Methods - How will you analyze this data? (e.g. Qualitative thematic analysis, Quantitative comparison between groups, etc.)
-- Findings - What you found with early analysis with users (or proxy users, e.g. your peers)
+- Findings - What you found with early analysis with users (or proxy users, e.g. your peers) -->
 
 1. Add your evaluation plan to your git sites. 
 

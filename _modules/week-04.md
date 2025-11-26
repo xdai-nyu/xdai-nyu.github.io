@@ -7,5 +7,5 @@ Nov 19
   :  [Reading reflections](https://forms.gle/yLfgmg3sFpk7byfp7)
 
 Nov 26
-: **Thanksgiving Break**{: .label .label-green }
-  : [Reading reflections](https://forms.gle/Z1yKjZFQ5zqdyhgt9), [Assignment](#)
+: [Evaluation. Prompt Structuring.](#)
+  : [Reading reflections](https://forms.gle/Z1yKjZFQ5zqdyhgt9)
