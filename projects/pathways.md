@@ -1,36 +1,77 @@
 # Pathways370
-## AI-Accompanied Hyperlocalized, Community-Centered Audio Walks
-Sana Alimojamed, Rebeca Arens, Mei Buzzell, Maitreyi Nandhakumar, Ashish Noble
+###### AI-Accompanied Hyperlocalized, Community-Centered Audio Walks
+Sana Alimohamed, Rebeca Arens, Mei Buzzell, Maitreyi Nandhakumar, Ashish Noble
 
----
-### Working Prototype
-https://6293a0b574ed4b49a3e41e0484656989-main.projects.builder.my/welcome
+## Table of Contents
+[Abstract](#abstract)
+[Introduction](#introduction)
+[System Design] (#system-design)
+[Prototype] (#prototype)
+[Evaluation](#evaluation)
+[Findings](#findings)
+[Ethical Implications](#ethical-implications)
+[Future Work] (#future-work)
+[References](#references)
+
+## Abstract
+
+*need to write*
+
+## Introduction
 
 ### Target Audience
 Any digital literate individual interested in sharing and archiving local community knowledge (ex. Place-based history). 
 
+### Problem Statement
+How might we design with AI to transform archival data into an embodied and interactive lived experience?
+
 ### Identified Learning Need
 As physical third spaces fade and online ones take their place, the sense of community has moved into the digital realm, eroding our capacity to feel grounded and connected in the spaces we physically inhabit. Having a solid and stable connection to the space around them allows people to participate in a diversity of rich experiences, helping them form a strong local identity in their community of practice (Wenger 1999). Research has shown that a sense of community and identity fosters a deeper sense of interconnectedness (Pei et al., 2023), and the feedback and dialogue that emerges from extended interactions between community members encourages inquiry-based experiential learning (Dewey, 1938). Shared experience through interpersonal relationships and interactions, such as discussions, storytelling, and games, are key to developing critical skills such as communication and collaborative problem-solving (Panqueva, 2000). Building a community through shared immersive experiences can help cultivate a deeper sense of belonging and learning.
+
+- There is a need to **strengthen people’s connection to their surroundings** to support participation in diverse and meaningful experiences that shape identity within a community of practice (Wenger, 1999).
+- There is a need to **foster a strong sense of community** and identity to enhance interconnectedness and support deeper learning (Pei et al., 2023).
+- There is a need to **encourage continuous feedback and dialogue among community** members to promote inquiry-based experiential learning (Dewey, 1938).
+- There is a need to **create opportunities for shared interpersonal experiences**, such as discussions, storytelling, and games, to develop essential skills like communication and collaborative problem-solving for learning (Panqueva, 2000).
 
 ### Rationale for AI Assistance
 A physical audio walk immerses learners in the authentic spaces of the history they are exploring, fostering both situated and embodied cognition to enrich understanding and retention (Bruner, 1991). While traditional audio walks rely on pre-existing narratives, incorporating AI allows learners to actively contribute to content creation by submitting archival knowledge, personal stories, or other resources about a place. The AI synthesizes these inputs into a coherent, immersive narrative, dynamically structuring content, guiding transitions between sites, and linking stories to physical locations. This process not only personalizes the learning experience but also preserves learner autonomy, prompting reflection, exploration, and socially mediated engagement through discussion prompts or challenges (Jian, 2023).
 
 Incorporating AI into the audio walk experience allows learners to personalize their journey by submitting archival knowledge and preferences. This personalization enables the AI to curate content that aligns with individual interests and prior knowledge, thereby optimizing cognitive load and enhancing learning outcomes (Sun & Yu, 2018). Furthermore, situating curated content within physical spaces reinforces experiential and inquiry-based learning, enabling learners to construct knowledge actively while developing a sense of belonging within the community they are exploring (Dewey, 1938). In this way, AI transforms the traditional audio walk into a personalized, interactive, and reflective learning experience that bridges archival knowledge, learner input, and embodied engagement with the environment. (Originally drafted by Beca, revised by Sana, final draft via ChatGPT)
 
+### Prototype Design
 
+### Findings in Brief
 
----
+## System Design
 
+### Design Features
 
+| # | Needs Identified | Design Features | Change in Status Quo | AI Role (If Any) | Data Needed to Prototype | How Prototyped | Ethical / Societal Implications | Measuring Effectiveness | Utopian Outcome |
+|---|------------------|----------------|-----------------------|------------------|---------------------------|----------------|-------------------------------|--------------------------|------------------|
+| 1 | Encouraging veracity and reliability of resources | Fact-checking layer for user-uploaded resources (especially PDFs); potential flagging of adult/inappropriate topics | Users reflect on and evaluate reliability of their sources | LLM-based reliability check | 3–5 resources on a place | Google Notebook LM | AI may misjudge cultural documents or mislabel unfamiliar sources | (1) Human review of AI-flagged items (2) User confirmation that flags are useful | Users remove unreliable sources and enjoy a more accurate experience |
+| 2 | Converting static resources into an immersive audio walk | Text extraction from PDFs; descriptive text generation for images | Users create full audio experiences quickly on any topic | Vision API for text/image extraction | 3–5 resources on a place | Vision API experiments | Possible privacy issues depending on image content | (1) Human check of generated text (2) Users confirm accuracy | Users feel confident uploading mixed media knowing the platform extracts information accurately |
+| 3 | Enabling anyone to learn more about their community | Audio-sharing database for user-generated walks | Users can listen to new community-based audio experiences that didn’t exist before | N/A | Website mock-up | Building site in Figma | Inaccurate or inappropriate user-generated content may be shared | User self-reports on uniqueness, learning, and enjoyment | Users feel excited and connected to their local community |
+| 4 | Turning static resources into personalized, bespoke content | Personalized audio walks based on tone, audience, and style (e.g., kids vs. experts) | Previously would require voice actors, research, and new scripts; now fast and accessible | LLM-based script adaptation | Practice script | Prompting via ChatGPT | Bias in tone/voice requests; culturally fraught accent requests; inaccurate developmental-level modeling | (1) User delight with tone/development accuracy (2) Human check of tone + developmental appropriateness | Users feel personally engaged because the content feels tailored to them |
+| 5 | Narrating a transcript | Conversion of generated transcript into audio | Enables rapid transformation of text into audio | Text-to-audio AI | Practice script | Text-to-voice experiments | Certain voices/inflections may carry ethnospecific bias | Users report stronger engagement with audio compared to text | Users feel excited to share community stories in an accessible audio format |
+| 6 | Sharing resources across people | Users can mark resources as public/private, anonymous/sourced | Fine-grained data-sharing control that was otherwise difficult | Possibly none | Different users inputting 3–5 resources | Team members testing | Data-sharing risks; environmental cost of storage | (1) Positive experiences from users accessing others’ resources (2) Gratification for credited users (3) Privacy confidence for anonymous users | Users feel safe with privacy settings and excited to share or use shared resources |
 
-## Needfinding
+### Early Prototypes
 
-### Identified Learner Needs
+### Design Process
 
-- There is a need to **strengthen people’s connection to their surroundings** to support participation in diverse and meaningful experiences that shape identity within a community of practice (Wenger, 1999).
-- There is a need to **foster a strong sense of community** and identity to enhance interconnectedness and support deeper learning (Pei et al., 2023).
-- There is a need to **encourage continuous feedback and dialogue among community** members to promote inquiry-based experiential learning (Dewey, 1938).
-- There is a need to **create opportunities for shared interpersonal experiences**, such as discussions, storytelling, and games, to develop essential skills like communication and collaborative problem-solving for learning (Panqueva, 2000).
+## Prototype
+
+### Description
+
+### All Features
+
+## Findings
+
+## Ethical Implications
+
+## Future Work
+
+## Other Content
 
 ### Secondary Research
 
