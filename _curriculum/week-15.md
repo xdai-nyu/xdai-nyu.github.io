@@ -10,6 +10,11 @@ Students will use the rest of their time working on their projects, and working 
 
 *No pre-class readings.*
 
+## Pre-class Todos: 
+1. Complete your self and peer reviews: [Peer Review Form](https://forms.gle/ToZ1UVuLHHQv8Aie7)
+1. Make any recommended changes to your project report. 
+1. Add any evaluations from the last week to your project report. 
+
 ## List of Resources Discussed in Class: 
 
 ### Tools: 
