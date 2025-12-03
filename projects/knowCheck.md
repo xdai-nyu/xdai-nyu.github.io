@@ -1,40 +1,139 @@
 # KnowCheck
-**KnowCheck: An AI-Powered Knowledge Mastery Tool for Adult Learners**
+**KnowCheck: An AI-Powered Mastery Assessment Tool for Adult Learners in AI**
 
----
+## Abstract
 
-## Problem Statement
-Many adult learners studying AI concepts rely on scattered resources (online courses, podcasts, articles, and workplace training). While they may feel confident, research shows that self-assessment often fails to match actual ability—especially when it comes to applying or transferring knowledge.  
+KnowCheck is an AI-powered assessment tool designed to help young and adult learners accurately measure their understanding of artificial intelligence concepts beyond memorization. Many learners rely on fragmented resources and AI tools that often create an illusion of knowledge mastery. KnowCheck addresses this by offering systematic, diagnostic and scenario-based assessments that emphasize conceptual understanding, application, and transfer of knowledge towards the users. Instead of serving as another learning content platform, KnowCheck positions itself as an independent mastery-check layer that evaluates whether learners can reason, apply, and adapt knowledge in real-world contexts. Through personalized difficulty levels, diagnostic feedback, and calibration of user confidence against performance, KnowCheck aims to improve learners’ self-awareness, learning efficiency, and confidence accuracy.
 
-Most current assessments focus on memorization, not on mastery. Learners need a reliable way to measure true understanding and practical transfer of knowledge, not just recall.
 
----
+## 1. Introduction
 
-## Target Learning Audience
-KnowCheck is designed for young and mid-career adult learners, typically between **18–45 years old**, who are adapting to the rapid changes brought by AI.  
+### 1.1 Target Audience
 
-This group includes professionals and lifelong learners who are often self-studying AI topics while balancing work, study, and personal responsibilities.  
+KnowCheck target both young and adult learners age 18 to 45 years learning the AI concepts outsidde formal academic programs. This will cover professionals, students, and career switchers who depend on fragmented sources of learning like online courses, podcasts, articles, and job-based resources to develop AI literacy. These students tend to be self-directed, time-pressed, and practice-oriented as opposed to meticulously testing mastery of concepts. Without structured programs or consistent feedback, many struggle to determine whether they truly understand what they are learning.
 
-Unlike traditional students, they rarely have access to structured programs or consistent mentorship. They self-study topics such as **LLM principles**, **prompt engineering**, and **applied AI use in business settings**, pulling resources from fragmented sources like online courses, podcasts, and in-house trainings.  
+KnowCheck provides a structured way to help them verify mastery and build confidence through real-world, scenario-based assessment.
 
-Their learning is often fragmented and pragmatic—focused on “making it work” rather than deeply verifying understanding.  
+### 1.2 Identified Learning Need
+
+Research consistently demonstrates that individuals tend to overestimate their own competence, especially in unstructured learning environments. This is what is referred to as the Dunning-Kruger effect. This miscalibration is also intensified in the context of AI-assisted learning since the chat-based AI systems suggest instant responses, and they may give an illusion of comprehension without meaningful engagement.
+
+The majority of conventional evaluation systems:
+
+- Focus on memorization as opposed to applied reasoning.
+
+- Lack feedback about how answers are produced
+
+- Offer little to no information on the confidence of learners.
+
+As a result, learners mat progress with misplacedd confidence before they are faced with a challenging or real-world problems that they are unable to solve indpendently.
+
+### 1.3 Problem Statement
+
+How can AI be used to provide systematic, diagnostic assessment that helps learners accurately measure and reflect on their understanding rather than merely test recall?
+
+### 1.4 Research Motivation
+
+KnowCheck is motivated by three educational challenges:
+
+1. Widespread overconfidence in self-directed learning
+
+2. Limited access to diagnostic feedback
+
+3. Overreliance on recall-based assessments
+
+The system is designed to shift learning evaluation from content coverage to mastery detection.
+
+### 1.5 Design Approach andd System Philosophy
+
+KnowCheck addresses this challenge by changing the assessment pattern from content mastery to reasoning mastery. KnowCheck does not act as an additional learning platform or tutor but rather positioins itself as an independent evaluation layer in the process of learning. The system assesses the understanding of learners by using dynamic, scenario based questions that are used to test comprehension, application, and transfer. Onboarding occurs briefly before the user is presented with questions to diffuse in line with their context (age, role and self-assessed level of knowledge). During the evaluation process, the users get real time feedback and a diagnostic report which provides their performance summaries, calibration analysis and learning recommendations.
+
+### 1.6 Preliminary Findings and Observations
+
+Preliminary classroom testing and peer feedback surfaced several early findings. The first impression of the users was often overestimated and and were surprised by gaps revealed through scenario-based questions. Feedback explaining reasoning errors was valued more than correctness alone. The calibration report also helped them to understand the strengths and weaknesses of the users, which is why the users noted that the calibration report made them more aware of themselves in the sense that they needed to conduct reflective self-assessment and not passive testing.
 
 **KnowCheck** provides a clear, context-independent way to check mastery and build confidence in applying knowledge in real-world scenarios.
 
+## 2. System Design
+
+This section describes KnowCheck’s core features, early prototypes, and the design process that led to the final system.
+
+### 2.1 Design Features
+
+KnowCheck is designed as a **diagnostic assessment system** rather than a tutoring or content platform. Its features are organized into three functional layers:
+
+**1. Personalization & Calibration**
+Used to tailor the assessment experience and establish confidence baseline.
+- Age input
+- Identity role selection (student, professional, educator, etc.)
+- Self-rated knowledge level (1–5)
+- Initial difficulty setting based on user profile
+
+**2. Assessment Engine**
+Delivers adaptive, scenario-based questions to test understanding.
+- Question types: MCQ, True/False, Matching, Bucket (drag-and-drop), Short Answer
+- Dynamic question generation via AI
+- Real-time feedback (correct / partial / incorrect)
+- Progress indicator (e.g., “3/6”)
+- Background preloading to reduce wait time
+
+**3. Diagnostic Reporting**
+Generates a personalized mastery report at the end of the session.
+- Calibration analysis (confidence vs. performance)
+- Skill breakdown by topic (0–100 scale)
+- Visual indicators (low / medium / high proficiency)
+- Strengths and improvement areas
+- Recommended learning resources (video, article, course, blog)
+- Retake option for reflection and iteration
+
 ---
 
-## Identified Learning Need
-For adults trying to learn AI on their own, it can be surprisingly difficult to know whether they’ve really mastered the material.  
+### 2.2 Early Prototypes
 
-Research shows that learners often **misjudge their own abilities**; in particular, low performers tend to overestimate their competence—a pattern described by the **Dunning–Kruger effect** (Kruger & Dunning, 1999).  
+Initial prototypes focused on basic quiz-style interactions.  
+These were quickly rejected after it became clear they encouraged recall rather than reasoning.
 
-This issue is amplified in **fragmented, informal learning environments**, where adults rely on scattered resources such as online tutorials, podcasts, or in-house training.  
+Early wireframes explored:
+- Onboarding flow
+- Knowledge-level selection
+- Question navigation
+- Result summary
 
-In these settings, learners may feel confident, but their performance often falls short when tested in real-world scenarios (Mahmood, 2016).  
+After feedback, prototypes evolved to emphasize:
+- Scenario-based questioning
+- Diagnostic feedback
+- Confidence calibration
+- Visual reporting
 
-Most current assessments are limited to **recall**, while professional contexts demand **application** and **transfer**. Without clear benchmarks or feedback, learners often mistake **recognition for mastery**.  
+Final interfaces were built in Figma with interactive flows, simulated AI output, and report visualizations.
 
-An **objective tool** with **targeted feedback** can help adults better calibrate their self-assessment and guide future learning (Lu et al., 2021).
+---
+
+### 2.3 Design Process
+
+**1. Problem Discovery**
+Research highlighted:
+- Overconfidence in self-directed learning
+- The Dunning–Kruger effect
+- AI’s tendency to create illusion of mastery
+
+This shifted the project away from content delivery and toward diagnosis.
+
+**2. Design Pivot**
+The original direction (tool recommendations and learning content) was replaced with:
+- Assessment-first design
+- Calibration-based reporting
+- Reflection-driven feedback
+
+**3. Refinement**
+The final system prioritizes:
+- Short assessment sessions (5–7 minutes)
+- Minimal onboarding friction
+- Scenario-driven questions
+- Visual insight over raw scoring
+- Learning resources as support, not instructio
+
+KnowCheck demonstrates how AI can function as a **diagnostic evaluator** rather than a tutor by helping learners understand what they truly know.
 
 ---
 
