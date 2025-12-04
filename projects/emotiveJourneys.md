@@ -144,7 +144,7 @@ Overall, I think this research provides a solid foundation for positioning AI no
 | Ethical Principle   |      Key Questions       |  How are you considering this ethical principle in your work?  |
 |----------|:-------------:|------:|
 | Privacy  | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? |
-| Responsibility | If a negative outcome results from using this tool, who is responsible?  | The user will be responsible for negative outcomes. However, these outcomes will be evaluated to determine what caused the negative outcome and modified on an as needed basis.|
+| Responsibility | If a negative outcome results from using this tool, who is responsible? | The user will be responsible for negative outcomes. However, these outcomes will be evaluated to determine what caused the negative outcome and modified on an as needed basis.|
 | Beneficence | What benefits might result from using this tool?|The intent for this tool is that users will be able to monitor their emotions and identify triggers that are causing them to have negative feelings.|
 
 
