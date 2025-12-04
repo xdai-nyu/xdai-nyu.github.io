@@ -9,6 +9,7 @@
 2. Latisha: Research, creative arts therapy, UI/UX design and project management.
    
 **Link to Pre-Activity Prototype:** https://oculus-outer-07751739.figma.site/
+
 **Link to Prototype:** https://grain-luxury-01901327.figma.site
 
 
@@ -121,21 +122,12 @@ This study explores ChatGPT’s role as an emotional support tool, identifying b
 Researchers found that ChatGPT’s empathetic language and immediate feedback enhanced users’ ability to articulate emotions and reflect on their thoughts. However, the study also noted the lack of emotional persistence and relational trust.
 These insights inform our project’s design: building a system that remembers emotional context, responds consistently with empathy, and promotes emotional continuity.
 
-[Design Feature Map](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?gid=1099077105#gid=1099077105)
 
 
-| Ethical Principle   |      Key Questions       |  How are you considering this ethical principle in your work?  |
-|----------|:-------------:|------:|
-| Privacy  | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? |
-| Responsibility | If a negative outcome results from using this tool, who is responsible?  | The user will be responsible for negative outcomes. However, these outcomes will be evaluated to determine what caused the negative outcome and modified on an as needed basis.|
-| Beneficence | What benefits might result from using this tool?|The intent for this tool is that users will be able to monitor their emotions and identify triggers that are causing them to have negative feelings.|
-
-
- 
 ### Pain Points Identified:
-	1.	Lack of emotional continuity — short-term empathy but no long-term memory of emotional context.
-	2.	Limited trust-building — users hesitate to open up repeatedly without relational consistency.
-	3.	Surface-level understanding — AI struggles with complex emotional nuances.
+1.	Lack of emotional continuity — short-term empathy but no long-term memory of emotional context.
+2.	Limited trust-building — users hesitate to open up repeatedly without relational consistency.
+3.	Surface-level understanding — AI struggles with complex emotional nuances.
 
 ### Relevance to Our Project:
 I think this literature directly supports our project’s focus on AI-assisted emotional expression and poetic creation.
@@ -144,7 +136,16 @@ It also points out that AI lacks emotional persistence and relational depth, rei
 Overall, I think this research provides a solid foundation for positioning AI not just as a tool, but as an emotional collaborator that co-creates meaning with users through dialogue, reflection, and shared creativity.
 
 
+[Design Feature Map](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?gid=1099077105#gid=1099077105)
 
+
+## Ethics Chart
+----------------
+| Ethical Principle   |      Key Questions       |  How are you considering this ethical principle in your work?  |
+|----------|:-------------:|------:|
+| Privacy  | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? |
+| Responsibility | If a negative outcome results from using this tool, who is responsible?  | The user will be responsible for negative outcomes. However, these outcomes will be evaluated to determine what caused the negative outcome and modified on an as needed basis.|
+| Beneficence | What benefits might result from using this tool?|The intent for this tool is that users will be able to monitor their emotions and identify triggers that are causing them to have negative feelings.|
 
 
 ## Early Prototypes
