@@ -34,8 +34,6 @@ They will use the colors that they chose during the drawing session with the AI 
 The AI chat companion will also provide an description on the meaning of the colors they selected and ask the user questions (ex. Why did you choose this color?)  about the colors they selected. This will be done to help cultivate an opportunity to exchange open dialogue and create a safe space for emotional tracking and journaling as part of the therapeutic process.
 
 
-![image alt text](https://img.notionusercontent.com/s3/prod-files-secure%2F45596513-58aa-4f72-b8c8-046c63319ab0%2Ff0890b0c-2b73-412f-9d14-cdee23bbe65e%2FScreenshot_2025-11-10_at_17.28.57.png/size/w=2000?exp=1764784743&sig=CdHWgZa5wf21Ac69FOSMKJRiZKd5xTUpqCQwgCjmdSE&id=2a7151cd-651d-808f-9355-f8c88f800f6c&table=block&userId=0ffd872b-594c-81e1-a537-00020aa03019)
-
 **3. Emotional Visualization**
 
 The system maps the selected color and emotion into a 2D emotion model (Pleasure–Arousal grid or color emotion wheel).
@@ -213,7 +211,8 @@ This iterative prompting process improved the AI's ability to provide contextual
 
 
 ## 4. PROTOTYPE
-============
+
+[![Watch the video](https://img.youtube.com/vi/lOoT7RMkckI/0.jpg)](https://youtu.be/lOoT7RMkckI)
 
 Final Prototype Description
 ----------------------------
