@@ -135,7 +135,8 @@ It shows how ChatGPT helps users verbalize and externalize emotions, aligning wi
 It also points out that AI lacks emotional persistence and relational depth, reinforcing our design direction to build a system that remembers emotional context and responds with consistent empathy.
 Overall, I think this research provides a solid foundation for positioning AI not just as a tool, but as an emotional collaborator that co-creates meaning with users through dialogue, reflection, and shared creativity.
 
-
+## Link for Design Feature Map:
+----------------
 [Design Feature Map](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?gid=1099077105#gid=1099077105)
 
 
