@@ -15,7 +15,8 @@
 ![Emoji Emotional Tracker](https://raw.githubusercontent.com/Latisha-NYU/hosted-images/refs/heads/main/img1.jpg)
 ![Color Wheel](https://raw.githubusercontent.com/Latisha-NYU/hosted-images/refs/heads/main/img2.jpg)
 
-
+**Pre-Activity Prototype Design Process:**
+From the image to design, I developed a personalized emotional color palette by first guiding users to select an emoji that best represents their current mood, followed by choosing colors from the color wheel that reflect those feelings. These inputs are then mapped onto a 2D emotional model, allowing the system to interpret emotional tone through color psychology. Based on this combined emoji-and-color analysis, the prototype generates a customized palette that visually captures the user’s emotional state and supports deeper self-awareness through intentional color selection.
 
 **Experience Steps**
 
@@ -119,6 +120,17 @@ Similar to this study, our project uses AI as a tool for emotional regulation, h
 This study explores ChatGPT’s role as an emotional support tool, identifying both its potential and limitations.
 Researchers found that ChatGPT’s empathetic language and immediate feedback enhanced users’ ability to articulate emotions and reflect on their thoughts. However, the study also noted the lack of emotional persistence and relational trust.
 These insights inform our project’s design: building a system that remembers emotional context, responds consistently with empathy, and promotes emotional continuity.
+
+[Design Feature Map](https://docs.google.com/spreadsheets/d/1IGY4QCPGbmT0puzAwr7rS8kd7DShKc5UKLdoyJtSbjc/edit?gid=1099077105#gid=1099077105)
+
+
+| Ethical Principle   |      Key Questions       |  How are you considering this ethical principle in your work?  |
+|----------|:-------------:|------:|
+| Privacy  | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? | If the users talk about their private stories with AI, how can we analyze their feelings without keeping the data and learning it? |
+| Responsibility | If a negative outcome results from using this tool, who is responsible?  | The user will be responsible for negative outcomes. However, these outcomes will be evaluated to determine what caused the negative outcome and modified on an as needed basis.|
+| Beneficence | What benefits might result from using this tool?|The intent for this tool is that users will be able to monitor their emotions and identify triggers that are causing them to have negative feelings.|
+
+
  
 ### Pain Points Identified:
 	1.	Lack of emotional continuity — short-term empathy but no long-term memory of emotional context.
