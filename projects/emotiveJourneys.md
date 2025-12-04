@@ -7,14 +7,15 @@
 **Team contributions** 
 1. Jenn: UI/UX Design, Prototyping, Frontend Development, Emotion-driven Interaction Design, System Architecture
 2. Latisha: Research, creative arts therapy, UI/UX design and project management.
-
+   
+**Link to Pre-Activity Prototype:** https://oculus-outer-07751739.figma.site/
 **Link to Prototype:** https://grain-luxury-01901327.figma.site
 
 
-## Progress update November 12th
+![Emoji Emotional Tracker](https://raw.githubusercontent.com/Latisha-NYU/hosted-images/refs/heads/main/img1.jpg)
+![Color Wheel](https://raw.githubusercontent.com/Latisha-NYU/hosted-images/refs/heads/main/img2.jpg)
 
 
-![image alt text](https://deeply-family-b5f.notion.site/image/attachment%3A0337f142-d688-4d14-a943-52f9e8d22efd%3AScreenshot_2025-11-10_at_21.23.16.png?table=block&id=2a8151cd-651d-80c8-9ae6-d25ab80e73a3&spaceId=45596513-58aa-4f72-b8c8-046c63319ab0&width=1420&userId=&cache=v2)
 
 **Experience Steps**
 
