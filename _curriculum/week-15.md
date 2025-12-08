@@ -4,10 +4,14 @@ week: 15 [Online]
 date: 2025-12-10
 ---
 
-Instructor will discuss some advances in Creative AI applications and algorithms. 
+Instructor will discuss some advances in Creative AI applications and algorithms.
 
-Students will use the rest of their time working on their projects, and working with the instructor to remove any roadblocks. 
+Instructor will share some useful resources for the future.  
 
+The class will debrief on the  semester. 
+
+<!-- Students will use the rest of their time working on their projects, and working with the instructor to remove any roadblocks. 
+ -->
 *No pre-class readings.*
 
 ## Pre-class Todos: 
