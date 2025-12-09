@@ -6,7 +6,7 @@
 
 **Team contributions** 
 1. Jenn: UI/UX Design, Prototyping, Frontend Development, Emotion-driven Interaction Design, System Architecture
-2. Latisha: Research, creative arts therapy, UI/UX design and project management.
+2. Latisha: Research, Creative Arts Therapy, UI/UX Design and Project Management.
    
 **Link to Pre-Activity Prototype:** https://oculus-outer-07751739.figma.site/
 
