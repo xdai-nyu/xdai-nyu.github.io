@@ -40,6 +40,7 @@ Toolkits:
 Notebooks: 
 1. [Vision notebook](https://colab.research.google.com/drive/1PSrNYNf4iemAhoffa9_pWjVrlzrEXjFX?usp=sharing)
 1. [Tensorflow notebook](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb)
+1. [Prompt structuring notebook](https://colab.research.google.com/drive/1_1Ryo5GlIPtXeW8Asx10WiETZHsDrMxn?usp=sharing)
 
 Cool Datasets: 
 1. [Kaggle](https://www.kaggle.com/datasets)
