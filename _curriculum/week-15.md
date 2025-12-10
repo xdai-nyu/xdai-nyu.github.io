@@ -22,7 +22,7 @@ The class will debrief on the  semester.
 ## List of Resources Discussed in Class: 
 
 ### Tools: 
-1. [Exploring Art](https://explore-art-204c2f2aab0f.herokuapp.com/)  
+1. [Exploring Art](https://exploring-art-ecbd49498bff.herokuapp.com/)  
 1. [SketchRNN](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html) 
 1. [Magic sketches](https://magic-sketchpad.glitch.me/) 
 1. [Visual anagrams](https://dangeng.github.io/visual_anagrams/)
