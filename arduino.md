@@ -22,6 +22,11 @@ This website serves as a collection of code samples for the Grove Arduino Beginn
 
 Every project will have a set of sensors, actuators, and one microcontroller. 
 
+Let's first look at our base board. This is what your hardware should look like: 
+
+![Grove Arduino Board](./assets/images/grove.png)
+
+
 ## Components 
 
 - Microcontroller - Arduino Uno
