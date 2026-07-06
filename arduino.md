@@ -57,6 +57,9 @@ You need:
 - Control: Seeeduino
 - Output: LED module
 
+![LED](./assets/images/LED.png)
+
+
 ```
 //LED Blink
 //The LED will turn on for one second and then turn off for one second
@@ -78,6 +81,8 @@ You need:
 - Input: Button
 - Control: Seeeduino
 - Output: LED module
+
+![Button](./assets/images/Button.png)
 
 ```
 //Button to turn ON/OFF LED
@@ -110,5 +115,63 @@ void loop() {
 }
 ```
 
-### 
+### Controlling the Frequency of the Blink with a Potentiometer
+
+You need: 
+- Input: Potentiometer
+- Control: Seeeduino
+- Output: LED module
+
+![Potentiometer](./assets/images/rotary.png)
+
+```
+//Rotary controls LED
+int rotaryPin = A0;    // select the input pin for the rotary
+int ledPin = 4;      // select the pin for the LED
+int rotaryValue = 0;  // variable to store the value coming from the rotary
+
+void setup() {
+  // declare the ledPin as an OUTPUT:
+  pinMode(ledPin, OUTPUT);
+  pinMode(rotaryPin, INPUT);
+}
+
+void loop() {
+  // read the value from the sensor:
+  rotaryValue = analogRead(rotaryPin);
+  // turn the ledPin on
+  digitalWrite(ledPin, HIGH);
+  // stop the program for <sensorValue> milliseconds:
+  delay(rotaryValue);
+  // turn the ledPin off:
+  digitalWrite(ledPin, LOW);
+  // stop the program for for <sensorValue> milliseconds:
+  delay(rotaryValue);
+}
+```
+
+### Making the Buzzer go BEEP
+
+You need: 
+- Control: Seeeduino
+- Output: LED Buzzer
+
+![Buzzer](./assets/images/Buzzer.png)
+
+```
+int BuzzerPin = 5;
+
+void setup() {
+  pinMode(BuzzerPin, OUTPUT);
+}
+
+void loop() {
+  analogWrite(BuzzerPin, 128);
+  delay(1000);
+  analogWrite(BuzzerPin, 0);
+  delay(0);
+}
+```
+
+*Challenge: Can you make the buzzer go beep when the button is pressed?*
 
