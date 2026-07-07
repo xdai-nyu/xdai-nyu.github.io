@@ -154,7 +154,7 @@ void loop() {
 
 You need: 
 - Control: Seeeduino
-- Output: LED Buzzer
+- Output: Buzzer
 
 ![Buzzer](./assets/images/Buzzer.png)
 
@@ -180,7 +180,7 @@ void loop() {
 
 You need: 
 - Control: Seeeduino
-- Output: LED Buzzer
+- Output: Buzzer
 
 Your current code is just outputting a constant PWM signal, which creates a simple (albeit annoying) buzz. To play a tune, it's better to use Arduino's tone() function, which generates specific musical notes.
 
@@ -223,6 +223,181 @@ void loop() {
 ```
 
 *Challenge: Try out some different notes, and see what happens.*
+
+### Sound Sensitive LED Light
+
+
+You need: 
+- Control: Seeeduino
+- Input: Sound Sensor
+- Output: LED Module
+
+
+![Sound](./assets/images/Sound.png)
+
+```
+//Sound Control Light
+int soundPin = A2; // Analog sound sensor is to be attached to analog
+int ledPin = 4; // Digital LED is to be attached to digital
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(soundPin, INPUT);
+  Serial.begin(9600);
+}
+void loop(){
+  int soundState = analogRead(soundPin); // Read sound sensor’s value
+  Serial.println(soundState);
+  // if the sound sensor’s value is greater than 400, the light will be on.
+  //Otherwise, the light will be turned off
+  if (soundState > 400) {
+    digitalWrite(ledPin, HIGH);
+    delay(100);
+  }else{
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
+*Challenge: Now can you use the light sensor to adjust the LED?*
+
+### Sreen time!!
+
+For the OLED screen, we will be using an Arduino Library. 
+
+#### Install the U8g2 library: 
+Navigate to Sketch -> Include Library -> Manage Libraries... and Search for the keyword "U8g2" in the Library Manager. It's the u8g2 library by oliver, and click then install.
+
+![U8g2-lib](./assets/images/U8g2-lib.png)
+
+You need: 
+- Seeeduino Lotus
+- OLED screen 
+
+![OLED](./assets/images/OLED.png)
+
+```
+#include <Arduino.h>
+#include <U8x8lib.h>
+
+ U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE);
+
+// U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);   // OLEDs without Reset of the Display
+
+void setup(void) {
+  //u8x8.setBusClock(100000);  // If you breakout other modules, please enable this line
+  u8x8.begin();
+  u8x8.setFlipMode(1);
+}
+
+void loop(void) {
+  u8x8.setFont(u8x8_font_chroma48medium8_r);
+  u8x8.setCursor(0, 0);
+  u8x8.print("Hello World!");
+}
+```
+
+What if we want to control the screen using the Potentiometer? 
+
+### OLED Control using Potentiometer
+
+Let's try a fun project, where the OLED display disentegrates when you rotate the potentiometer. 
+
+Project Plan: 
+- Pot at minimum → clean "HELLO WORLD!"
+- Rotate slowly → letters begin glitching into symbols.
+- Rotate further → more letters corrupt.
+- Near maximum → random debris appears across the screen, creating a digital disintegration look.
+
+
+```
+#include <Arduino.h>
+#include <U8g2lib.h>
+#include <Wire.h>
+
+int rotaryPin = A0;
+
+// Full framebuffer mode
+U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R2, U8X8_PIN_NONE);
+
+// Fast deterministic pseudo-random function
+uint8_t noise8(uint16_t x, uint16_t y)
+{
+  uint32_t n = x * 1973UL + y * 9277UL + 89173UL;
+  n = (n << 13) ^ n;
+  return (n * (n * n * 15731UL + 789221UL) + 1376312589UL) >> 24;
+}
+
+void setup()
+{
+  u8g2.begin();
+}
+
+void loop()
+{
+  int pot = analogRead(rotaryPin);
+
+  // 0 = intact, 255 = completely dissolved
+  uint8_t dissolveAmount = map(pot, 0, 1023, 0, 255);
+
+  // Draw text to framebuffer
+  u8g2.clearBuffer();
+
+  u8g2.setFont(u8g2_font_logisoso24_tf);
+
+  const char *text = "HELLO";
+  int x = 5;
+  int y = 40;
+
+  u8g2.drawStr(x, y, text);
+
+  // Apply dissolve effect directly to framebuffer
+  uint8_t *buf = u8g2.getBufferPtr();
+
+  for (int py = 0; py < 64; py++)
+  {
+    for (int px = 0; px < 128; px++)
+    {
+      uint8_t rnd = noise8(px, py);
+
+      if (rnd < dissolveAmount)
+      {
+        u8g2.setDrawColor(0);
+        u8g2.drawPixel(px, py);
+      }
+    }
+  }
+
+  // Optional: add "dust" particles drifting away
+  if (dissolveAmount > 100)
+  {
+    int particles = map(dissolveAmount, 100, 255, 0, 80);
+
+    u8g2.setDrawColor(1);
+
+    for (int i = 0; i < particles; i++)
+    {
+      int px = random(128);
+      int py = random(64);
+
+      if (noise8(px, py) < dissolveAmount)
+      {
+        // Drift right as dissolution increases
+        int drift = map(dissolveAmount, 100, 255, 0, 25);
+
+        u8g2.drawPixel(
+          min(127, px + random(drift + 1)),
+          py + random(-2, 3)
+        );
+      }
+    }
+  }
+
+  u8g2.sendBuffer();
+
+  delay(20);
+}
+```
+
 
 
 
