@@ -176,5 +176,55 @@ void loop() {
 *Challenge: Can you make the buzzer go beep when the button is pressed?*
 
 
+### Making the Buzzer be more pleasant! 
+
+You need: 
+- Control: Seeeduino
+- Output: LED Buzzer
+
+Your current code is just outputting a constant PWM signal, which creates a simple (albeit annoying) buzz. To play a tune, it's better to use Arduino's tone() function, which generates specific musical notes.
+
+![Buzzer](./assets/images/Buzzer.png)
+
+```
+int BuzzerPin = 5;
+
+void setup() {
+}
+
+void loop() {
+  // Melody notes (Hz)
+  int melody[] = {
+    262, 330, 392, 523,   // C4 E4 G4 C5
+    392, 523, 659,        // G4 C5 E5
+    784, 659, 523, 392,   // G5 E5 C5 G4
+    523
+  };
+
+  // Note durations (ms)
+  int duration[] = {
+    150, 150, 150, 300,
+    150, 150, 300,
+    200, 200, 200, 200,
+    500
+  };
+
+  int notes = sizeof(melody) / sizeof(melody[0]);
+
+  for (int i = 0; i < notes; i++) {
+    tone(BuzzerPin, melody[i], duration[i]);
+    delay(duration[i] * 1.3);
+  }
+
+  noTone(BuzzerPin);
+
+  delay(2000);  // Pause before repeating
+}
+```
+
+*Challenge: Try out some different notes, and see what happens.*
+
+
+
 
 
