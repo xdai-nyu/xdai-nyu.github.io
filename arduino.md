@@ -685,6 +685,38 @@ void loop()
 ```
 
 
+### Get Moving - Servo Motors 
+
+What if you want moving parts. We will use the Servo motors. Attach your Servos to desirable parts that you want to move using the connectors. 
+
+You need: 
+- Control: Seeeduino
+- Output: A servo motor connected to pin D5. 
+- Connectors: Servo motor connectors to attach physical parts to them. 
+
+```
+#include <Servo.h>
+
+Servo myServo;  // Create servo object to control a servo
+int pos = 0;    // Variable to store the servo position
+
+void setup() {
+  myServo.attach(5);  // Attaches the servo on digital pin 5 to the servo object
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    myServo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(5);                       // waits 15ms for the servo to reach the position
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myServo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(5);                       // waits 15ms for the servo to reach the position
+  }
+}
+```
+
+
 
 
 
