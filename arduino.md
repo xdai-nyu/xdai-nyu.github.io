@@ -114,6 +114,42 @@ void loop() {
   }
 }
 ```
+### Controlling the LED with a button toggle
+
+This code makes the button a toggle -- pressing it once turns the light on, pressing it again turns it off.
+
+You need:
+- Input: Button
+- Control: Seeeduino
+- Output: LED module
+
+![Button](./assets/images/Button.png)
+
+```
+const int buttonPin = 6;
+const int ledPin = 4;
+
+bool ledState = false;       // current state of the LED
+bool lastButtonState = HIGH; // button is HIGH when NOT pressed (pull-up)
+
+void setup() {
+  pinMode(buttonPin, INPUT);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  bool currentButtonState = digitalRead(buttonPin);
+
+  // Detect the moment the button goes from not-pressed to pressed
+  if (currentButtonState == LOW && lastButtonState == HIGH) {
+    ledState = !ledState;              // flip the LED state
+    digitalWrite(ledPin, ledState);
+    delay(200);                         // simple debounce
+  }
+
+  lastButtonState = currentButtonState;
+}
+```
 
 ### Controlling the Frequency of the Blink with a Potentiometer
 
